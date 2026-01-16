@@ -1,5 +1,4 @@
 let currentJob = null;
-let currentLang = 'en';
 
 document.addEventListener('DOMContentLoaded', async () => {
     currentLang = localStorage.getItem('language') || 'en';
@@ -43,6 +42,7 @@ async function loadJobDetails(id) {
 }
 
 function getLocalized(job, field) {
+    currentLang = localStorage.getItem('language') || 'en';
     if (job[field] && typeof job[field] === 'object') {
         return job[field][currentLang] || job[field]['en'] || '';
     }
@@ -54,7 +54,7 @@ function renderJobDetails(job) {
     document.getElementById('job-detail-breadcrumb').innerText = getLocalized(job, 'title');
     document.getElementById('job-detail-title').innerText = getLocalized(job, 'title');
 
-    // Meta Row (Contract, Salary, Location, Start, Mode, Posted)
+    // Meta Row
     const metaContainer = document.getElementById('job-detail-meta');
     const compensation = job.salary || job.rate || "N/A";
     metaContainer.innerHTML = `
@@ -100,16 +100,16 @@ function renderJobDetails(job) {
 
     // Tags
     const tagsContainer = document.getElementById('job-detail-tags');
-    tagsContainer.innerHTML = job.tags && job.tags.length 
-        ? job.tags.map(tag => `<span class="badge bg-primary bg-opacity-10 text-primary me-2 mb-2 p-2 border border-primary">${tag}</span>`).join('') 
-        : '<span class="text-muted">No tags</span>';
+    tagsContainer.innerHTML = job.tags.map(tag => 
+        `<span class="badge bg-primary bg-opacity-10 text-primary me-2 mb-2 p-2 border border-primary">${tag}</span>`
+    ).join('');
 
     // Content HTML
     document.getElementById('job-detail-description').innerHTML = getLocalized(job, 'description');
     document.getElementById('job-detail-requirements').innerHTML = getLocalized(job, 'requirements');
     document.getElementById('job-detail-benefits').innerHTML = getLocalized(job, 'benefits');
 
-    // Handle Nationality Logic (2.2)
+    // Handle Nationality Logic
     const natGroup = document.getElementById('nationalityQuestionGroup');
     if (job.nationalityRequired === 'Yes') {
         natGroup.classList.remove('d-none');
@@ -145,7 +145,7 @@ function submitApplication() {
     // Cover Letter Validation (50 chars min)
     const cover = document.getElementById('applyCoverLetter').value;
     if (cover.length < 50) {
-        alert('Please provide at least 50 characters explaining why you are the best fit.');
+        alert('Please provide at least 50 characters explaining why you are best fit.');
         return;
     }
 
@@ -167,46 +167,56 @@ function submitApplication() {
     form.reset();
 }
 
-// Share Logic (2.3)
+// Share Logic
 function openShareModal(platform) {
     if (!currentJob) return;
 
-    const url = window.location.href;
-    const title = getLocalized(currentJob, 'title');
-    const compensation = currentJob.salary || currentJob.rate;
-
-    // Share Content Generator
-    const generateContent = () => {
-        const tagsAsHashtags = currentJob.tags.map(t => `#${t.replace(/\s+/g, '')}`).join(' ');
-        
-        return `${title}\n\n` +
-               `Type: ${getLocalized(currentJob, 'type')}\n` +
-               `Salary/Rate: ${compensation}\n` +
-               `Location: ${getLocalized(currentJob, 'location')}\n` +
-               `Start Date: ${getLocalized(currentJob, 'start')}\n` +
-               `Mode: ${getLocalized(currentJob, 'mode')}\n` +
-               `Posted: ${getLocalized(currentJob, 'posted')}\n\n` +
-               `Apply Here: ${url}\n\n` +
-               `${tagsAsHashtags}`;
-    };
-
     if (platform === 'linkedin') {
-        // Prefill Modal for LinkedIn
-        document.getElementById('shareContent').value = generateContent();
+        // Populate Modal Form for LinkedIn
+        const tagsAsHashtags = currentJob.tags.map(t => `#${t.replace(/\s+/g, '')}`).join(' ');
+        const compensation = currentJob.salary || currentJob.rate;
+        
+        const text = `Check out this opportunity: ${getLocalized(currentJob, 'title')}\n\n` +
+                     `Type: ${getLocalized(currentJob, 'type')}\n` +
+                     `Salary/Rate: ${compensation}\n` +
+                     `Location: ${getLocalized(currentJob, 'location')}\n` +
+                     `Start Date: ${getLocalized(currentJob, 'start')}\n` +
+                     `Mode: ${getLocalized(currentJob, 'mode')}\n` +
+                     `Posted: ${getLocalized(currentJob, 'posted')}\n` +
+                     `Apply Here: ${window.location.href}\n\n` +
+                     `${tagsAsHashtags}`;
+
+        document.getElementById('shareContent').value = text;
         const modal = new bootstrap.Modal(document.getElementById('shareModal'));
         modal.show();
     } else {
         // Direct Share for others
+        const url = encodeURIComponent(window.location.href);
+        const text = encodeURIComponent(`Check out this job: ${getLocalized(currentJob, 'title')}`);
+        
         let shareUrl = '';
-        const text = encodeURIComponent(`Check out this job: ${title}`);
-        const encodedUrl = encodeURIComponent(url);
-
-        if (platform === 'twitter') shareUrl = `https://twitter.com/intent/tweet?text=${text}&url=${encodedUrl}`;
-        if (platform === 'facebook') shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
-        if (platform === 'email') shareUrl = `mailto:?subject=Job Opportunity&body=${text} ${encodedUrl}`;
+        if (platform === 'twitter') shareUrl = `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
+        if (platform === 'facebook') shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+        if (platform === 'whatsapp') shareUrl = `https://api.whatsapp.com/send?text=${text} ${url}`;
+        if (platform === 'email') shareUrl = `mailto:?subject=Job Opportunity&body=${text} ${url}`;
         
         if (shareUrl) window.open(shareUrl, '_blank');
     }
+}
+
+function shareToLinkedIn() {
+    const url = encodeURIComponent(window.location.href);
+    const title = encodeURIComponent(getLocalized(currentJob, 'title'));
+    
+    // LinkedIn Share URL
+    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}&title=${title}`;
+    
+    window.open(linkedInUrl, '_blank');
+    
+    // Optional: Close the modal after opening
+    const modalEl = document.getElementById('shareModal');
+    const modal = bootstrap.Modal.getInstance(modalEl);
+    modal.hide();
 }
 
 function copyShareContent() {
