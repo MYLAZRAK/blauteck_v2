@@ -1,79 +1,293 @@
 [
-  {
-    "id": "J-001",
-    "titleFr": "Consultant SAP FI/CO",
-    "titleEn": "SAP FI/CO Consultant",
-    "contractTypeFr": "CDI",
-    "contractTypeEn": "Permanent",
-    "salary": "€550/day",
-    "locationFr": "Paris, France",
-    "locationEn": "Paris, France",
-    "startDate": "2026-02-10",
-    "workModeFr": "Hybride",
-    "workModeEn": "Hybrid",
-    "publishedDate": "2026-01-10",
-    "lastDateToApply": "2026-02-05",
-    "status": "",
-    "descriptionFr": "Vous interviendrez sur des projets d’implémentation et de support FI/CO, conception des processus, intégration, tests et formation.",
-    "descriptionEn": "You will work on FI/CO implementation and support projects, process design, integration, testing, and training.",
-    "nationalityRequired": "No"
-  },
-  {
-    "id": "J-002",
-    "titleFr": "Architecte Cloud SAP",
-    "titleEn": "SAP Cloud Architect",
-    "contractTypeFr": "CDD",
-    "contractTypeEn": "Fixed-term",
-    "salary": "€700/day",
-    "locationFr": "Lyon, France",
-    "locationEn": "Lyon, France",
-    "startDate": "2026-03-01",
-    "workModeFr": "Télétravail",
-    "workModeEn": "Remote",
-    "publishedDate": "2026-01-12",
-    "lastDateToApply": "2026-02-20",
-    "status": "",
-    "descriptionFr": "Responsable de l’architecture cloud pour SAP, migration, sécurité, optimisation des coûts et stratégie multi-cloud.",
-    "descriptionEn": "Responsible for SAP cloud architecture, migration, security, cost optimization, and multi-cloud strategy.",
-    "nationalityRequired": "Yes"
-  },
-  {
-    "id": "J-003",
-    "titleFr": "Ingénieur DevOps",
-    "titleEn": "DevOps Engineer",
-    "contractTypeFr": "CDI",
-    "contractTypeEn": "Permanent",
-    "salary": "€65k/year",
-    "locationFr": "Remote, EU",
-    "locationEn": "Remote, EU",
-    "startDate": "2026-02-20",
-    "workModeFr": "Télétravail",
-    "workModeEn": "Remote",
-    "publishedDate": "2026-01-14",
-    "lastDateToApply": "2026-03-01",
-    "status": "",
-    "descriptionFr": "Mise en place CI/CD, conteneurs, IaC, monitoring et automatisation pour des environnements SAP et IT.",
-    "descriptionEn": "Implement CI/CD, containers, IaC, monitoring, and automation for SAP and IT environments.",
-    "nationalityRequired": "No"
-  },
-  {
-    "id": "J-004",
-    "titleFr": "SAP consultant",
-    "titleEn": "SAP consultant",
-    "contractTypeFr": "freelance",
-    "contractTypeEn": "freelance",
-    "rate": "600",
-    "locationFr": "Remote, EU",
-    "locationEn": "Remote, EU",
-    "startDate": "2026-01-014",
-    "workModeFr": "Télétravail",
-    "workModeEn": "Remote",
-    "publishedDate": "2026-01-01",
-    "lastDateToApply": "2026-01-10",
-    "status": "",
-    "descriptionFr": "MCO SAP ECC",
-    "descriptionEn": "MCO SAP ECC",
-    "nationalityRequired": "Yes"
-  }
-  
+	{
+		"jobId": "J01012026-01",
+		"title": {
+			"en": "Senior SAP FICO Consultant",
+			"fr": "Consultant SAP FICO Senior"
+		},
+		"type": {
+			"en": "Permanent",
+			"fr": "CDI"
+		},
+		"salary": "60-80K €",
+		"location": {
+			"en": "Paris, France",
+			"fr": "Paris, France"
+		},
+		"start": {
+			"en": "February 2026",
+			"fr": "Février 2026"
+		},
+		"mode": {
+			"en": "Hybrid",
+			"fr": "Hybride"
+		},
+		"posted": {
+			"en": "January 01, 2026",
+			"fr": "01 Janvier 2026"
+		},
+		"tags": [
+			"SAP FICO",
+			"S/4HANA",
+			"Finance"
+		],
+		"description": {
+			"en": "<p>We are looking for an experienced SAP FICO Consultant to join our growing team. You will be responsible for implementation and support tasks.</p>",
+			"fr": "<p>Nous recherchons un Consultant SAP FICO expérimenté pour rejoindre notre équipe. Vous serez responsable des tâches d'implémentation et de support.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>5+ years of experience in SAP FICO consulting</li><li>Experience with S/4HANA migration</li></ul>",
+			"fr": "<ul><li>5+ ans d'expérience en conseil SAP FICO</li><li>Expérience en migration S/4HANA</li></ul>"
+		},
+		"benefits": {
+			"en": "<ul><li>Competitive salary package with performance bonuses</li><li>Health insurance</li></ul>",
+			"fr": "<ul><li>Package salarial compétitif avec bonus de performance</li><li>Assurance maladie</li></ul>"
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-02-01",
+		"status": ""
+	},
+	{
+		"jobId": "J08012026-01",
+		"title": {
+			"en": "SAP SD/MM Consultant",
+			"fr": "Consultant SAP SD/MM"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"rate": "500-650 €/day",
+		"location": {
+			"en": "Lyon, France",
+			"fr": "Lyon, France"
+		},
+		"start": {
+			"en": "March 2026",
+			"fr": "Mars 2026"
+		},
+		"mode": {
+			"en": "Remote",
+			"fr": "Télétravail"
+		},
+		"posted": {
+			"en": "January 8, 2026",
+			"fr": "8 Janvier 2026"
+		},
+		"tags": [
+			"SAP SD",
+			"SAP MM",
+			"Logistics"
+		],
+		"description": {
+			"en": "<p>Join our team as a SAP SD/MM Consultant for a 12-month mission. Focus on optimizing logistics flows.</p>",
+			"fr": "<p>Rejoignez notre équipe en tant que Consultant SAP SD/MM pour une mission de 12 mois. Focus sur l'optimisation des flux logistiques.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>4+ years of experience with SAP SD/MM</li><li>Fluent in French</li></ul>",
+			"fr": "<ul><li>4+ ans d'expérience avec SAP SD/MM</li><li>Fluide en français</li></ul>"
+		},
+		"benefits": {
+			"en": "<ul><li>Competitive daily rate</li><li>Remote work flexibility</li></ul>",
+			"fr": "<ul><li>Taux journalier compétitif</li><li>Flexibilité télétravail</li></ul>"
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-02-15",
+		"status": ""
+	},
+	{
+		"jobId": "J05012026-01",
+		"title": {
+			"en": "Cloud Solutions Architect",
+			"fr": "Architecte Solutions Cloud"
+		},
+		"type": {
+			"en": "Permanent",
+			"fr": "CDI"
+		},
+		"salary": "70-90K €",
+		"location": {
+			"en": "Paris, France",
+			"fr": "Paris, France"
+		},
+		"start": {
+			"en": "ASAP",
+			"fr": "Dès que possible"
+		},
+		"mode": {
+			"en": "Hybrid",
+			"fr": "Hybride"
+		},
+		"posted": {
+			"en": "January 5, 2026",
+			"fr": "5 Janvier 2026"
+		},
+		"tags": [
+			"AWS",
+			"Azure",
+			"GCP",
+			"Architecture"
+		],
+		"description": {
+			"en": "<p>We are seeking a talented Cloud Solutions Architect to design scalable systems.</p>",
+			"fr": "<p>Nous recherchons un Architecte Solutions Cloud talentueux pour concevoir des systèmes évolutifs.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>5+ years of experience in cloud architecture</li><li>Certification in AWS or Azure</li></ul>",
+			"fr": "<ul><li>5+ ans d'expérience en architecture cloud</li><li>Certification AWS ou Azure</li></ul>"
+		},
+		"benefits": {
+			"en": "<ul><li>Competitive salary with benefits</li><li>Training budget</li></ul>",
+			"fr": "<ul><li>Salaire compétitif avec avantages</li><li>Budget formation</li></ul>"
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-02-20",
+		"status": ""
+	},
+	{
+		"jobId": "J12012026-01",
+		"title": {
+			"en": "DevOps Engineer",
+			"fr": "Ingénieur DevOps"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"rate": "450-550 €/day",
+		"location": {
+			"en": "France",
+			"fr": "France"
+		},
+		"start": {
+			"en": "February 2026",
+			"fr": "Février 2026"
+		},
+		"mode": {
+			"en": "Remote",
+			"fr": "Télétravail"
+		},
+		"posted": {
+			"en": "January 12, 2026",
+			"fr": "12 Janvier 2026"
+		},
+		"tags": [
+			"Kubernetes",
+			"Docker",
+			"CI/CD",
+			"Terraform"
+		],
+		"description": {
+			"en": "<p>Looking for an experienced DevOps Engineer to automate our infrastructure.</p>",
+			"fr": "<p>Nous recherchons un Ingénieur DevOps expérimenté pour automatiser notre infrastructure.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>4+ years of DevOps experience</li><li>Scripting skills (Python/Bash)</li></ul>",
+			"fr": "<ul><li>4+ ans d'expérience DevOps</li><li>Compétences en scripting (Python/Bash)</li></ul>"
+		},
+		"benefits": {
+			"en": "<ul><li>Competitive daily rate</li><li>Long term contract</li></ul>",
+			"fr": "<ul><li>Taux journalier compétitif</li><li>Contrat long terme</li></ul>"
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-02-25",
+		"status": ""
+	},
+	{
+		"jobId": "J03012026-01",
+		"title": {
+			"en": "Cybersecurity Analyst",
+			"fr": "Analyste Cybersécurité"
+		},
+		"type": {
+			"en": "Fixed-term (18 months)",
+			"fr": "CDD (18 mois)"
+		},
+		"salary": "50-65K €",
+		"location": {
+			"en": "Lyon, France",
+			"fr": "Lyon, France"
+		},
+		"start": {
+			"en": "April 2026",
+			"fr": "Avril 2026"
+		},
+		"mode": {
+			"en": "On-site",
+			"fr": "Sur site"
+		},
+		"posted": {
+			"en": "January 3, 2026",
+			"fr": "3 Janvier 2026"
+		},
+		"tags": [
+			"Security",
+			"SIEM",
+			"Penetration Testing"
+		],
+		"description": {
+			"en": "<p>Join our security team to help protect digital assets and conduct audits.</p>",
+			"fr": "<p>Rejoignez notre équipe sécurité pour protéger les actifs numériques et effectuer des audits.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>3+ years of cybersecurity experience</li><li>CISSP or similar certification is a plus</li></ul>",
+			"fr": "<ul><li>3+ ans d'expérience en cybersécurité</li><li>Certification CISSP ou similaire est un plus</li></ul>"
+		},
+		"benefits": {
+			"en": "<ul><li>Competitive salary</li><li>Mercedes plan</li></ul>",
+			"fr": "<ul><li>Salaire compétitif</li><li>Plan Mercedes</li></ul>"
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-02-10",
+		"status": ""
+	},
+	{
+		"jobId": "J07012026-01",
+		"title": {
+			"en": "AI/ML Engineer",
+			"fr": "Ingénieur IA/ML"
+		},
+		"type": {
+			"en": "Permanent",
+			"fr": "CDI"
+		},
+		"salary": "65-85K €",
+		"location": {
+			"en": "Paris, France",
+			"fr": "Paris, France"
+		},
+		"start": {
+			"en": "March 2026",
+			"fr": "Mars 2026"
+		},
+		"mode": {
+			"en": "Hybrid",
+			"fr": "Hybride"
+		},
+		"posted": {
+			"en": "January 7, 2026",
+			"fr": "7 Janvier 2026"
+		},
+		"tags": [
+			"Python",
+			"TensorFlow",
+			"Machine Learning",
+			"NLP"
+		],
+		"description": {
+			"en": "<p>We're looking for a passionate AI/ML Engineer to build predictive models.</p>",
+			"fr": "<p>Nous recherchons un Ingénieur IA/ML passionné pour construire des modèles prédictifs.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>3+ years of experience in ML/AI</li><li>Strong math background</li></ul>",
+			"fr": "<ul><li>3+ ans d'expérience en ML/IA</li><li>Forte base en mathématiques</li></ul>"
+		},
+		"benefits": {
+			"en": "<ul><li>Competitive salary package</li><li>Equity options</li></ul>",
+			"fr": "<ul><li>Package salarial compétitif</li><li>Options sur actions</li></ul>"
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-02-28",
+		"status": ""
+	}
 ]
