@@ -1,6 +1,5 @@
 // State management
 let allJobs = [];
-let currentLanguage = 'en'; // Default, synced with localStorage in init
 
 document.addEventListener('DOMContentLoaded', async () => {
     // Sync language with storage
@@ -176,3 +175,4 @@ function renderJobs(jobs) {
         `;
     }).join('');
 }
+
