@@ -1,5 +1,4 @@
 let currentJob = null;
-let currentLang = 'en';
 
 document.addEventListener('DOMContentLoaded', async () => {
     currentLang = localStorage.getItem('language') || 'en';
@@ -43,6 +42,7 @@ async function loadJobDetails(id) {
 }
 
 function getLocalized(job, field) {
+    currentLang = localStorage.getItem('language') || 'en';
     if (job[field] && typeof job[field] === 'object') {
         return job[field][currentLang] || job[field]['en'] || '';
     }
