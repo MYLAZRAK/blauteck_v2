@@ -43,6 +43,7 @@ function calculateJobStatus(job) {
 function formatDate(dateString) {
     if (!dateString) return '';
     const date = new Date(dateString);
+    currentLanguage = localStorage.getItem('language') || 'en';
     
     // Basic formatting based on language preference
     if (currentLanguage === 'fr') {
@@ -54,6 +55,7 @@ function formatDate(dateString) {
 
 // Helper to get localized text for a job field
 function getLocalizedField(job, fieldBase) {
+    currentLanguage = localStorage.getItem('language') || 'en';
     return job[`${fieldBase}${currentLanguage === 'en' ? 'En' : 'Fr'}`] || job[`${fieldBase}En`];
 }
 
@@ -123,6 +125,7 @@ function filterJobs() {
 function renderJobs(jobs) {
     const container = document.getElementById('job-listings');
     const noResults = document.getElementById('no-results');
+    currentLanguage = localStorage.getItem('language') || 'en';
 
     if (jobs.length === 0) {
         container.innerHTML = '';
@@ -175,4 +178,5 @@ function renderJobs(jobs) {
         `;
     }).join('');
 }
+
 
