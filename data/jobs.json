@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Senior SAP Consultant",
+        "location": "Paris, France",
+        "type": "Full-time",
+        "posted": "2 days ago",
+        "tags": ["SAP", "S/4HANA", "Consulting"],
+        "description": "We are looking for an experienced Senior SAP Consultant to join our dynamic team and lead implementation projects."
+    },
+    {
+        "id": 2,
+        "title": "Cloud Architect",
+        "location": "Remote",
+        "type": "Full-time",
+        "posted": "1 week ago",
+        "tags": ["AWS", "Azure", "Architecture"],
+        "description": "Join us to design and implement robust cloud solutions for our enterprise clients using AWS and Azure."
+    },
+    {
+        "id": 3,
+        "title": "Cybersecurity Analyst",
+        "location": "Paris, France",
+        "type": "Contract",
+        "posted": "3 days ago",
+        "tags": ["Security", "Audit", "Compliance"],
+        "description": "Looking for a detail-oriented analyst to conduct security audits and ensure compliance with industry standards."
+    },
+    {
+        "id": 4,
+        "title": "Frontend Developer",
+        "location": "Lyon, France",
+        "type": "Full-time",
+        "posted": "Just now",
+        "tags": ["React", "JavaScript", "UI/UX"],
+        "description": "We need a creative frontend developer to build intuitive user interfaces for our internal tools."
+    }
+]
