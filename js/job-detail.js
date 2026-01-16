@@ -1,14 +1,4 @@
-
-
-The issue is likely caused by a trailing semicolon (`;`) in the URL construction for LinkedIn, making the link invalid.
-
-Here is the fixed `js/job-detail.js` with the syntax error corrected and added some debugging `console.log` statements to help troubleshoot if the issue persists.
-
-### `js/job-detail.js`
-
-```javascript
 let currentJob = null;
-let currentLang = 'en';
 let currentSharePlatform = 'linkedin'; // Default share platform
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -53,6 +43,7 @@ async function loadJobDetails(id) {
 }
 
 function getLocalized(job, field) {
+    currentLang = localStorage.getItem('language') || 'en';
     if (job[field] && typeof job[field] === 'object') {
         return job[field][currentLang] || job[field]['en'] || '';
     }
