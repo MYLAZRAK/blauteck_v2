@@ -483,7 +483,7 @@ function shareOnLinkedIn() {
     
     // LinkedIn sharing URL
     //const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
-    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}&title=${title}&summary=${summary}`;
+    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?title=${title}&summary=${summary}&url=${url}`;
     
     window.open(linkedInUrl, '_blank', 'width=600,height=600');
 }
