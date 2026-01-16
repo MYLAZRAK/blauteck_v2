@@ -1,38 +1,59 @@
 [
-    {
-        "id": 1,
-        "title": "Senior SAP Consultant",
-        "location": "Paris, France",
-        "type": "Full-time",
-        "posted": "2 days ago",
-        "tags": ["SAP", "S/4HANA", "Consulting"],
-        "description": "We are looking for an experienced Senior SAP Consultant to join our dynamic team and lead implementation projects."
-    },
-    {
-        "id": 2,
-        "title": "Cloud Architect",
-        "location": "Remote",
-        "type": "Full-time",
-        "posted": "1 week ago",
-        "tags": ["AWS", "Azure", "Architecture"],
-        "description": "Join us to design and implement robust cloud solutions for our enterprise clients using AWS and Azure."
-    },
-    {
-        "id": 3,
-        "title": "Cybersecurity Analyst",
-        "location": "Paris, France",
-        "type": "Contract",
-        "posted": "3 days ago",
-        "tags": ["Security", "Audit", "Compliance"],
-        "description": "Looking for a detail-oriented analyst to conduct security audits and ensure compliance with industry standards."
-    },
-    {
-        "id": 4,
-        "title": "Frontend Developer",
-        "location": "Lyon, France",
-        "type": "Full-time",
-        "posted": "Just now",
-        "tags": ["React", "JavaScript", "UI/UX"],
-        "description": "We need a creative frontend developer to build intuitive user interfaces for our internal tools."
-    }
+  {
+    "id": "J-001",
+    "titleFr": "Consultant SAP FI/CO",
+    "titleEn": "SAP FI/CO Consultant",
+    "contractTypeFr": "CDI",
+    "contractTypeEn": "Permanent",
+    "salary": "€550/day",
+    "locationFr": "Paris, France",
+    "locationEn": "Paris, France",
+    "startDate": "2026-02-10",
+    "workModeFr": "Hybride",
+    "workModeEn": "Hybrid",
+    "publishedDate": "2026-01-10",
+    "lastDateToApply": "2026-02-05",
+    "status": "",
+    "descriptionFr": "Vous interviendrez sur des projets d’implémentation et de support FI/CO, conception des processus, intégration, tests et formation.",
+    "descriptionEn": "You will work on FI/CO implementation and support projects, process design, integration, testing, and training.",
+    "nationalityRequired": "No"
+  },
+  {
+    "id": "J-002",
+    "titleFr": "Architecte Cloud SAP",
+    "titleEn": "SAP Cloud Architect",
+    "contractTypeFr": "CDD",
+    "contractTypeEn": "Fixed-term",
+    "salary": "€700/day",
+    "locationFr": "Lyon, France",
+    "locationEn": "Lyon, France",
+    "startDate": "2026-03-01",
+    "workModeFr": "Télétravail",
+    "workModeEn": "Remote",
+    "publishedDate": "2026-01-12",
+    "lastDateToApply": "2026-02-20",
+    "status": "",
+    "descriptionFr": "Responsable de l’architecture cloud pour SAP, migration, sécurité, optimisation des coûts et stratégie multi-cloud.",
+    "descriptionEn": "Responsible for SAP cloud architecture, migration, security, cost optimization, and multi-cloud strategy.",
+    "nationalityRequired": "Yes"
+  },
+  {
+    "id": "J-003",
+    "titleFr": "Ingénieur DevOps",
+    "titleEn": "DevOps Engineer",
+    "contractTypeFr": "CDI",
+    "contractTypeEn": "Permanent",
+    "salary": "€65k/year",
+    "locationFr": "Remote, EU",
+    "locationEn": "Remote, EU",
+    "startDate": "2026-02-20",
+    "workModeFr": "Télétravail",
+    "workModeEn": "Remote",
+    "publishedDate": "2026-01-14",
+    "lastDateToApply": "2026-03-01",
+    "status": "",
+    "descriptionFr": "Mise en place CI/CD, conteneurs, IaC, monitoring et automatisation pour des environnements SAP et IT.",
+    "descriptionEn": "Implement CI/CD, containers, IaC, monitoring, and automation for SAP and IT environments.",
+    "nationalityRequired": "No"
+  }
 ]
