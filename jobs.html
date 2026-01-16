@@ -50,25 +50,33 @@
             <!-- Filter Section -->
             <div class="filter-section mb-5">
                 <div class="row g-3">
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-4 col-sm-6">
                         <label class="form-label small text-muted" data-en="Contract Type" data-fr="Type de Contrat">Contract Type</label>
                         <select id="filterContractType" class="filter-select">
                             <option value="all" data-en="All Types" data-fr="Tous les Types">All Types</option>
                         </select>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-4 col-sm-6">
                         <label class="form-label small text-muted" data-en="Location" data-fr="Lieu">Location</label>
                         <select id="filterLocation" class="filter-select">
                             <option value="all" data-en="All Locations" data-fr="Tous les Lieux">All Locations</option>
                         </select>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-4 col-sm-6">
                         <label class="form-label small text-muted" data-en="Work Mode" data-fr="Mode de Travail">Work Mode</label>
                         <select id="filterWorkMode" class="filter-select">
                             <option value="all" data-en="All Modes" data-fr="Tous les Modes">All Modes</option>
                         </select>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-4 col-sm-6">
+                        <label class="form-label small text-muted" data-en="Nationality Required" data-fr="Nationalité Requise">Nationality Required</label>
+                        <select id="filterNationality" class="filter-select">
+                            <option value="all" data-en="All" data-fr="Tous">All</option>
+                            <option value="Yes" data-en="Yes" data-fr="Oui">Yes</option>
+                            <option value="No" data-en="No" data-fr="Non">No</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
                         <label class="form-label small text-muted" data-en="Status" data-fr="Statut">Status</label>
                         <select id="filterStatus" class="filter-select">
                             <option value="all" data-en="All Statuses" data-fr="Tous les Statuts">All Statuses</option>
@@ -81,7 +89,6 @@
 
             <!-- Job Listings Container -->
             <div id="job-listings" class="row">
-                <!-- Javascript will populate this -->
                 <div class="col-12 text-center py-5">
                     <div class="spinner-border text-primary" role="status">
                         <span class="visually-hidden">Loading...</span>
@@ -102,9 +109,7 @@
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <a class="navbar-brand text-white mb-3 d-block" href="index.html">BLAU<span>TECK</span></a>
-                    <p style="opacity: 0.8;">Innovative IT Solutions & SAP Consulting partner dedicated to your success.</p>
                 </div>
-                <!-- Simplified footer for brevity, same as index -->
                 <div class="col-lg-2 col-6 mb-4">
                     <h5>Quick Links</h5>
                     <ul class="footer-links">
@@ -121,14 +126,6 @@
                         <li><a href="services.html">Cloud Solutions</a></li>
                         <li><a href="services.html">Cybersecurity</a></li>
                         <li><a href="contact.html">Support</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 mb-4">
-                    <h5>Contact Us</h5>
-                    <ul class="footer-links">
-                        <li><i class="bi bi-geo-alt me-2"></i> Paris, France</li>
-                        <li><i class="bi bi-envelope me-2"></i> contact@blauteck.com</li>
-                        <li><i class="bi bi-telephone me-2"></i> +33 1 23 45 67 89</li>
                     </ul>
                 </div>
             </div>
