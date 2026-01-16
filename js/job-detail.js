@@ -474,7 +474,7 @@ function generateShareText() {
     }
 }
 
-function shareOnLinkedIn() {
+/*function shareOnLinkedIn() {
     const lang = localStorage.getItem('language') || 'en';
     const shareText = document.getElementById('shareText')?.value || generateShareText();
     const url = encodeURIComponent(window.location.href);
@@ -485,6 +485,41 @@ function shareOnLinkedIn() {
     //const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
     const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?title=${title}&summary=${summary}&url=${url}`;
     
+    window.open(linkedInUrl, '_blank', 'width=600,height=600');
+}*/
+
+function updateMetaTags(job) {
+    const lang = localStorage.getItem('language') || 'en';
+    
+    const setMeta = (property, content) => {
+        let meta = document.querySelector(`meta[property="${property}"]`);
+        if (!meta) {
+            meta = document.createElement('meta');
+            meta.setAttribute('property', property);
+            document.head.appendChild(meta);
+        }
+        meta.setAttribute('content', content);
+    };
+    
+    setMeta('og:title', job.title[lang]);
+    setMeta('og:description', job.description[lang] || generateShareText());
+    setMeta('og:url', window.location.href);
+    //setMeta('og:image', job.image || 'https://yoursite.com/default-job-image.jpg');
+    setMeta('og:type', 'website');
+    
+    // Also update document title
+    document.title = job.title[lang];
+}
+
+function shareOnLinkedIn() {
+    const lang = localStorage.getItem('language') || 'en';
+    const shareText = document.getElementById('shareText')?.value || generateShareText();
+    const url = window.location.href;
+    
+    // Update meta tags before sharing
+    updateMetaTags(currentJob);
+    // Open LinkedIn
+    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`;
     window.open(linkedInUrl, '_blank', 'width=600,height=600');
 }
 
