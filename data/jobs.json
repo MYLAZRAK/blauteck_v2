@@ -55,5 +55,25 @@
     "descriptionFr": "Mise en place CI/CD, conteneurs, IaC, monitoring et automatisation pour des environnements SAP et IT.",
     "descriptionEn": "Implement CI/CD, containers, IaC, monitoring, and automation for SAP and IT environments.",
     "nationalityRequired": "No"
+  },
+  {
+    "id": "J-004",
+    "titleFr": "SAP consultant",
+    "titleEn": "SAP consultant",
+    "contractTypeFr": "freelance",
+    "contractTypeEn": "freelance",
+    "rate": "600",
+    "locationFr": "Remote, EU",
+    "locationEn": "Remote, EU",
+    "startDate": "2026-01-014",
+    "workModeFr": "Télétravail",
+    "workModeEn": "Remote",
+    "publishedDate": "2026-01-01",
+    "lastDateToApply": "2026-01-10",
+    "status": "",
+    "descriptionFr": "MCO SAP ECC",
+    "descriptionEn": "MCO SAP ECC",
+    "nationalityRequired": "Yes"
   }
+  
 ]
