@@ -1,5 +1,5 @@
 let currentJob = null;
-let currentSharePlatform = 'linkedin'; // Default share platform
+let currentLang = 'en';
 
 document.addEventListener('DOMContentLoaded', async () => {
     currentLang = localStorage.getItem('language') || 'en';
@@ -43,7 +43,6 @@ async function loadJobDetails(id) {
 }
 
 function getLocalized(job, field) {
-    currentLang = localStorage.getItem('language') || 'en';
     if (job[field] && typeof job[field] === 'object') {
         return job[field][currentLang] || job[field]['en'] || '';
     }
@@ -171,13 +170,13 @@ function submitApplication() {
 // Share Logic
 function openShareModal(platform) {
     if (!currentJob) return;
-    currentSharePlatform = platform; // Store current platform state
 
-    // Generate Summary Text (Same for all platforms)
-    const tagsAsHashtags = currentJob.tags.map(t => `#${t.replace(/\s+/g, '')}`).join(' ');
-    const compensation = currentJob.salary || currentJob.rate;
-    
-    const summaryText = `Check out this opportunity: ${getLocalized(currentJob, 'title')}\n\n` +
+    if (platform === 'linkedin') {
+        // Populate Modal Form for LinkedIn
+        const tagsAsHashtags = currentJob.tags.map(t => `#${t.replace(/\s+/g, '')}`).join(' ');
+        const compensation = currentJob.salary || currentJob.rate;
+        
+        const text = `Check out this opportunity: ${getLocalized(currentJob, 'title')}\n\n` +
                      `Type: ${getLocalized(currentJob, 'type')}\n` +
                      `Salary/Rate: ${compensation}\n` +
                      `Location: ${getLocalized(currentJob, 'location')}\n` +
@@ -187,62 +186,28 @@ function openShareModal(platform) {
                      `Apply Here: ${window.location.href}\n\n` +
                      `${tagsAsHashtags}`;
 
-    // Populate Textarea
-    const shareContentArea = document.getElementById('shareContent');
-    shareContentArea.value = summaryText;
-    shareContentArea.readOnly = false; // Allow editing if user wants
-
-    // Update Modal Title and Action Button based on Platform
-    const modalTitle = document.getElementById('shareModalTitle');
-    const actionBtn = document.getElementById('shareActionBtn');
-    const actionText = document.getElementById('shareActionText');
-
-    const platformLabels = {
-        'linkedin': { title: 'Share on LinkedIn', label: 'Post on LinkedIn', icon: 'bi-linkedin' },
-        'twitter': { title: 'Share on Twitter', label: 'Share Now', icon: 'bi-twitter-x' },
-        'facebook': { title: 'Share on Facebook', label: 'Share Now', icon: 'bi-facebook' },
-        'whatsapp': { title: 'Share on WhatsApp', label: 'Send Message', icon: 'bi-whatsapp' },
-        'email': { title: 'Share via Email', label: 'Send Email', icon: 'bi-envelope' }
-    };
-
-    const config = platformLabels[platform];
-    if(config) {
-        modalTitle.innerText = config.title;
-        actionText.innerText = config.label;
-        actionBtn.innerHTML = `<i class="bi ${config.icon} me-2"></i> ${config.label}`;
+        document.getElementById('shareContent').value = text;
+        const modal = new bootstrap.Modal(document.getElementById('shareModal'));
+        modal.show();
+    } else {
+        // Direct Share for others
+        const url = encodeURIComponent(window.location.href);
+        const text = encodeURIComponent(`Check out this job: ${getLocalized(currentJob, 'title')}`);
         
-        // Set Click Handler
-        actionBtn.onclick = platform === 'linkedin' ? shareToLinkedIn : shareToCurrentPlatform;
-    }
-
-    const modal = new bootstrap.Modal(document.getElementById('shareModal'));
-    modal.show();
-}
-
-// Direct Share to Other Platforms
-function shareToCurrentPlatform() {
-    // Get the text from the textarea (which the user might have edited)
-    const text = document.getElementById('shareContent').value;
-    const url = encodeURIComponent(window.location.href);
-    const encodedText = encodeURIComponent(text);
-    
-    let shareUrl = '';
-    if (currentSharePlatform === 'twitter') shareUrl = `https://twitter.com/intent/tweet?text=${encodedText}&url=${url}`;
-    if (currentSharePlatform === 'facebook') shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${encodedText}`;
-    if (currentSharePlatform === 'whatsapp') shareUrl = `https://api.whatsapp.com/send?text=${encodedText} ${url}`;
-    if (currentSharePlatform === 'email') shareUrl = `mailto:?subject=Job Opportunity&body=${encodedText} ${url}`;
-    
-    if (shareUrl) {
-        window.open(shareUrl, '_blank');
-        // Close modal after opening
-        const modalEl = document.getElementById('shareModal');
-        const modal = bootstrap.Modal.getInstance(modalEl);
-        modal.hide();
+        let shareUrl = '';
+        if (platform === 'twitter') shareUrl = `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
+        if (platform === 'facebook') shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+        if (platform === 'whatsapp') shareUrl = `https://api.whatsapp.com/send?text=${text} ${url}`;
+        if (platform === 'email') shareUrl = `mailto:?subject=Job Opportunity&body=${text} ${url}`;
+        
+        if (shareUrl) window.open(shareUrl, '_blank');
     }
 }
 
-// Specific LinkedIn Share
+// Updated to include prefilled text (summary) for LinkedIn
 function shareToLinkedIn() {
+    if (!currentJob) return;
+
     const url = encodeURIComponent(window.location.href);
     const title = encodeURIComponent(getLocalized(currentJob, 'title'));
     
@@ -255,7 +220,7 @@ function shareToLinkedIn() {
     
     window.open(linkedInUrl, '_blank');
     
-    // Optional: Close modal after opening
+    // Optional: Close the modal after opening
     const modalEl = document.getElementById('shareModal');
     const modal = bootstrap.Modal.getInstance(modalEl);
     modal.hide();
