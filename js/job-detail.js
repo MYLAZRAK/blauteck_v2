@@ -47,7 +47,7 @@ async function initializePage() {
 
 async function loadJobsData() {
     try {
-        const response = await fetch('jobs.json');
+        const response = await fetch('data/jobs.json');
         if (!response.ok) {
             throw new Error('Failed to load jobs data');
         }
