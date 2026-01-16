@@ -37,7 +37,7 @@
                     <h1 class="text-white mb-2" id="detail-title">Loading...</h1>
                     <div class="job-meta text-white-50">
                         <span class="job-meta-item text-white"><i class="bi bi-geo-alt"></i> <span id="detail-location">---</span></span>
-                        <span class="job-meta-item text-white"><i class="bi bi-briefcase"></i> <span id="detail-contract">---</span></span>
+                        <span class="job-meta-item text-white"><i class="bi bi-briefcase"></i> <span id="detail-type">---</span></span>
                         <span class="job-meta-item text-white"><i class="bi bi-cash-coin"></i> <span id="detail-salary">---</span></span>
                         <span class="job-meta-item text-white"><i class="bi bi-info-circle"></i> <span id="detail-status">---</span></span>
                     </div>
@@ -55,19 +55,25 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <h3 class="section-title mb-4" data-en="Job Description" data-fr="Description du Poste">Job Description</h3>
-                        <p id="detail-description" class="lead mb-4">...</p>
+                        <div id="detail-description" class="lead mb-4">...</div>
+                        
+                        <h4 class="mb-3" data-en="Requirements" data-fr="Exigences">Requirements</h4>
+                        <div id="detail-requirements" class="mb-5">...</div>
+
+                        <h4 class="mb-3" data-en="Benefits" data-fr="Avantages">Benefits</h4>
+                        <div id="detail-benefits" class="mb-5">...</div>
                         
                         <div class="row g-4 mb-5">
                             <div class="col-md-6">
                                 <div class="p-3 bg-light rounded">
                                     <h6 class="text-muted mb-1" data-en="Work Mode" data-fr="Mode de travail">Work Mode</h6>
-                                    <span class="fw-bold" id="detail-workmode">---</span>
+                                    <span class="fw-bold" id="detail-mode">---</span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="p-3 bg-light rounded">
                                     <h6 class="text-muted mb-1" data-en="Start Date" data-fr="Date de début">Start Date</h6>
-                                    <span class="fw-bold" id="detail-startdate">---</span>
+                                    <span class="fw-bold" id="detail-start">---</span>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -82,10 +88,16 @@
                                     <span class="fw-bold" id="detail-nationality">---</span>
                                 </div>
                             </div>
+                            <div class="col-md-6">
+                                <div class="p-3 bg-light rounded">
+                                    <h6 class="text-muted mb-1" data-en="Published" data-fr="Publié">Published</h6>
+                                    <span class="fw-bold" id="detail-posted">---</span>
+                                </div>
+                            </div>
                             <div class="col-md-12">
                                 <div class="p-3 bg-light rounded">
-                                    <h6 class="text-muted mb-1" data-en="Published Date" data-fr="Date de publication">Published Date</h6>
-                                    <span class="fw-bold" id="detail-published">---</span>
+                                    <h6 class="text-muted mb-1" data-en="Tags" data-fr="Mots-clés">Tags</h6>
+                                    <div id="detail-tags" class="d-flex flex-wrap gap-2"></div>
                                 </div>
                             </div>
                         </div>
@@ -182,16 +194,17 @@
     
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
-            const jobId = getUrlParameter('id');
+            const jobIdParam = getUrlParameter('jobId');
             let currentLang = localStorage.getItem('language') || 'en';
 
+            // Listen for language changes
             window.addEventListener('languageChanged', () => {
                 currentLang = localStorage.getItem('language') || 'en';
-                loadAndRenderJob(jobId);
+                loadAndRenderJob(jobIdParam);
             });
 
-            if (jobId) {
-                await loadAndRenderJob(jobId);
+            if (jobIdParam) {
+                await loadAndRenderJob(jobIdParam);
             } else {
                 document.getElementById('detail-title').innerText = "Job not found";
                 document.querySelector('.job-detail-content').innerHTML = '<p class="text-center">Please select a valid job from the careers page.</p>';
@@ -212,15 +225,21 @@
             try {
                 const response = await fetch('data/jobs.json');
                 const jobs = await response.json();
-                const job = jobs.find(j => j.id === id);
-                const currentLang = localStorage.getItem('language') || 'en';
+                const job = jobs.find(j => j.jobId === id); // Note: jobId key
+                const lang = localStorage.getItem('language') || 'en';
 
                 if (!job) {
                     document.getElementById('detail-title').innerText = "Job not found";
                     return;
                 }
 
-                const get = (base) => job[`${base}${currentLang === 'en' ? 'En' : 'Fr'}`] || job[`${base}En`];
+                // Helper to get localized field
+                const get = (key) => {
+                    if (job[key] && typeof job[key] === 'object') {
+                        return job[key][lang] || job[key]['en'] || '';
+                    }
+                    return job[key] || '';
+                };
 
                 // Status Logic
                 let status = job.status;
@@ -231,33 +250,33 @@
                 }
                 const statusColor = status === "Open" ? "text-success" : "text-danger";
 
-                // Compensation Logic (Salary OR Rate)
-                const compensation = job.salary || job.rate || "N/A";
-
-                // Date Formatting
-                const fmtDate = (d) => {
-                    if(!d) return '';
-                    const date = new Date(d);
-                    return isNaN(date.getTime()) ? d : (currentLang === 'fr' ? date.toLocaleDateString('fr-FR') : date.toLocaleDateString('en-US'));
-                };
-
                 // Populate DOM
-                document.getElementById('detail-id').innerText = `ID: ${job.id}`;
+                document.getElementById('detail-id').innerText = `ID: ${job.jobId}`;
                 document.getElementById('detail-title').innerText = get('title');
                 document.getElementById('detail-location').innerText = get('location');
-                document.getElementById('detail-contract').innerText = get('contractType');
-                document.getElementById('detail-salary').innerText = compensation;
+                document.getElementById('detail-type').innerText = get('type');
+                document.getElementById('detail-salary').innerText = job.salary || job.rate || "N/A";
                 document.getElementById('detail-status').innerHTML = `<span class="${statusColor} fw-bold">${status}</span>`;
                 
-                document.getElementById('detail-description').innerText = get('description');
-                document.getElementById('detail-workmode').innerText = get('workMode');
-                document.getElementById('detail-startdate').innerText = fmtDate(job.startDate);
-                document.getElementById('detail-deadline').innerText = fmtDate(job.lastDateToApply);
-                document.getElementById('detail-published').innerText = fmtDate(job.publishedDate);
+                // HTML Content
+                document.getElementById('detail-description').innerHTML = get('description');
+                document.getElementById('detail-requirements').innerHTML = get('requirements');
+                document.getElementById('detail-benefits').innerHTML = get('benefits');
+
+                document.getElementById('detail-mode').innerText = get('mode');
+                document.getElementById('detail-start').innerText = get('start');
+                document.getElementById('detail-posted').innerText = get('posted');
+                document.getElementById('detail-deadline').innerText = job.lastDateToApply || "N/A";
                 
                 const natEl = document.getElementById('detail-nationality');
                 natEl.innerText = job.nationalityRequired;
                 natEl.className = `fw-bold ${job.nationalityRequired === 'Yes' ? 'text-danger' : 'text-success'}`;
+
+                // Tags
+                const tagsContainer = document.getElementById('detail-tags');
+                tagsContainer.innerHTML = job.tags && job.tags.length 
+                    ? job.tags.map(tag => `<span class="badge bg-secondary text-white">${tag}</span>`).join('') 
+                    : '<span class="text-muted">No tags</span>';
 
             } catch (error) {
                 console.error('Error loading job details:', error);
