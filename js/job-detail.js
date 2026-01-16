@@ -4,7 +4,6 @@
 
 // Global Variables
 let currentJob = null;
-let currentLanguage = localStorage.getItem('language') || 'en';
 let allJobs = [];
 
 // ==========================================
