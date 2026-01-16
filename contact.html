@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BLAUTECK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">BLAU<span>TECK</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="jobs.html">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                    <li class="nav-item ms-3"><button class="lang-switch" onclick="toggleLanguage()">FR</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <div class="container">
+            <h1 data-en="Contact Us" data-fr="Contactez-nous">Contact Us</h1>
+            <div class="breadcrumb-custom">
+                <a href="index.html">Home</a> <span>/</span> <span data-en="Contact" data-fr="Contact">Contact</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="section contact-section">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <h2 class="section-title" data-en="Get In Touch" data-fr="Prenez Contact">Get In Touch</h2>
+                    <p class="section-subtitle" data-en="Let's discuss how we can help transform your business" data-fr="Discutons de la façon dont nous pouvons transformer votre entreprise">Let's discuss how we can help transform your business</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-5">
+                    <div class="contact-info-box">
+                        <h4 class="mb-4" data-en="Contact Information" data-fr="Informations de Contact">Contact Information</h4>
+                        
+                        <div class="contact-info-item">
+                            <i class="bi bi-building"></i>
+                            <div>
+                                <h6 data-en="Head Office" data-fr="Siège Social">Head Office</h6>
+                                <p>Paris, France</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="bi bi-envelope"></i>
+                            <div>
+                                <h6>Email</h6>
+                                <p>contact@blauteck.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="bi bi-telephone"></i>
+                            <div>
+                                <h6 data-en="Phone" data-fr="Téléphone">Phone</h6>
+                                <p>+33 6 26 66 39 53</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="bi bi-clock"></i>
+                            <div>
+                                <h6 data-en="Business Hours" data-fr="Heures d'Ouverture">Business Hours</h6>
+                                <p data-en="Monday - Friday: 9:00 AM - 6:00 PM&lt;br&gt;Saturday - Sunday: Closed" data-fr="Lundi - Vendredi: 9h00 - 18h00&lt;br&gt;Samedi - Dimanche: Fermé">Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday - Sunday: Closed</p>
+                            </div>
+                        </div>
+                        <div class="social-icons mt-4">
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="#"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-form">
+                        <h4 class="mb-4" data-en="Send Us a Message" data-fr="Envoyez-nous un Message">Send Us a Message</h4>
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Full Name / Nom Complet *" required="">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Subject / Sujet *" required="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control" placeholder="Phone Number / Téléphone *" required="">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="Email Address / Adresse Email *" required="">
+                                </div>
+                            </div>
+                            <textarea class="form-control" rows="5" placeholder="Message *" required=""></textarea>
+                            <button type="submit" class="btn btn-primary-custom" data-en="Send Message" data-fr="Envoyer le Message">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- ... Footer Content ... -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <a class="navbar-brand text-white mb-3 d-block" href="index.html">BLAU<span>TECK</span></a>
+                    <p style="opacity: 0.8;">Innovative IT Solutions & SAP Consulting partner dedicated to your success.</p>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="jobs.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h5>Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html">SAP Consulting</a></li>
+                        <li><a href="services.html">Cloud Solutions</a></li>
+                        <li><a href="services.html">Cybersecurity</a></li>
+                        <li><a href="contact.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <ul class="footer-links">
+                        <li><i class="bi bi-geo-alt me-2"></i> Paris, France</li>
+                        <li><i class="bi bi-envelope me-2"></i> contact@blauteck.com</li>
+                        <li><i class="bi bi-telephone me-2"></i> +33 6 26 66 39 53</li>
+                    </ul>
+                    <div class="social-icons mt-3">
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0">&copy; 2020 BLAUTECK. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <a href="#" class="text-white me-3">Privacy Policy</a>
+                        <a href="#" class="text-white">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+</html>

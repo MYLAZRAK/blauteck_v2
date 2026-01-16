@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BLAUTECK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">BLAU<span>TECK</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" data-en="Home" data-fr="Accueil">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html" data-en="About" data-fr="À Propos">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html" data-en="Services" data-fr="Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jobs.html" data-en="Careers" data-fr="Carrières">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" data-en="Contact" data-fr="Contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <button class="lang-switch" onclick="toggleLanguage()">FR</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1 data-en="About BLAUTECK" data-fr="À Propos de BLAUTECK">About BLAUTECK</h1>
+            <div class="breadcrumb-custom">
+                <a href="index.html" data-en="Home" data-fr="Accueil">Home</a>
+                <span>/</span>
+                <span data-en="About Us" data-fr="À Propos">About Us</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6">
+                    <h2 class="section-title" data-en="About BLAUTECK SAS And Its Innovative IT Solutions &amp; Services" data-fr="À Propos de BLAUTECK SAS et Ses Solutions &amp; Services IT Innovants">About BLAUTECK SAS And Its Innovative IT Solutions &amp; Services</h2>
+                    <p data-en="At Blauteck, we are more than just an SAP consulting firm; we are your partners in innovation, excellence and success. Our identity is forged from a combination of experience, expertise, and unwavering commitment to our clients." data-fr="Chez Blauteck, nous sommes plus qu'une simple société de conseil SAP ; nous sommes vos partenaires en innovation, excellence et succès. Notre identité est forgée par une combinaison d'expérience, d'expertise et d'engagement sans faille envers nos clients.">At Blauteck, we are more than just an SAP consulting firm; we are your partners in innovation, excellence and success. Our identity is forged from a combination of experience, expertise, and unwavering commitment to our clients.</p>
+                    <p data-en="Founded by industry veterans, Blauteck brings a legacy of SAP excellence to the table. With years of experience in SAP solutions and technology, our founders established this firm with a vision of providing businesses with a trusted ally in their SAP journey." data-fr="Fondée par des vétérans de l'industrie, Blauteck apporte un héritage d'excellence SAP. Avec des années d'expérience dans les solutions et technologies SAP, nos fondateurs ont établi cette entreprise avec la vision de fournir aux entreprises un allié de confiance dans leur parcours SAP.">Founded by industry veterans, Blauteck brings a legacy of SAP excellence to the table. With years of experience in SAP solutions and technology, our founders established this firm with a vision of providing businesses with a trusted ally in their SAP journey.</p>
+                </div>
+                <div class="col-lg-6">
+                    <svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0a2463"></stop>
+                                <stop offset="100%" style="stop-color:#3e92cc"></stop>
+                            </linearGradient>
+                        </defs>
+                        <rect x="50" y="50" width="180" height="140" rx="10" fill="url(#aboutGrad)" opacity="0.9"></rect>
+                        <rect x="270" y="50" width="180" height="140" rx="10" fill="url(#aboutGrad)" opacity="0.7"></rect>
+                        <rect x="50" y="210" width="180" height="140" rx="10" fill="url(#aboutGrad)" opacity="0.7"></rect>
+                        <rect x="270" y="210" width="180" height="140" rx="10" fill="url(#aboutGrad)" opacity="0.9"></rect>
+                        <text x="140" y="130" fill="white" font-size="40" font-weight="bold" text-anchor="middle">SAP</text>
+                        <text x="360" y="130" fill="white" font-size="30" font-weight="bold" text-anchor="middle">CLOUD</text>
+                        <text x="140" y="290" fill="white" font-size="24" font-weight="bold" text-anchor="middle">SECURITY</text>
+                        <text x="360" y="290" fill="white" font-size="30" font-weight="bold" text-anchor="middle">AI</text>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4 data-en="Our People" data-fr="Nos Collaborateurs">Our People</h4>
+                            <p data-en="Our strength lies in our people. Blauteck is home to a team of dedicated SAP consultants and professionals who are not only passionate about SAP but are also experts in their respective domains. They are the driving force behind the success stories we create for our clients." data-fr="Notre force réside dans nos collaborateurs. Blauteck abrite une équipe de consultants et professionnels SAP dévoués qui sont non seulement passionnés par SAP mais sont également experts dans leurs domaines respectifs. Ils sont la force motrice derrière les histoires de succès que nous créons pour nos clients.">Our strength lies in our people. Blauteck is home to a team of dedicated SAP consultants and professionals who are not only passionate about SAP but are also experts in their respective domains. They are the driving force behind the success stories we create for our clients.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 data-en="Customization" data-fr="Personnalisation">Customization</h4>
+                            <p data-en="One size does not fit all. We understand that every business has unique needs and challenges. That's why we don't offer generic solutions. At Blauteck, our commitment to customization means that your SAP solution is as unique as your business." data-fr="Une taille unique ne convient pas à tous. Nous comprenons que chaque entreprise a des besoins et défis uniques. C'est pourquoi nous n'offrons pas de solutions génériques. Chez Blauteck, notre engagement envers la personnalisation signifie que votre solution SAP est aussi unique que votre entreprise.">One size does not fit all. We understand that every business has unique needs and challenges. That's why we don't offer generic solutions. At Blauteck, our commitment to customization means that your SAP solution is as unique as your business.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 data-en="Client-Centric Approach" data-fr="Approche Centrée Client">Client-Centric Approach</h4>
+                            <p data-en="Our clients are at the core of everything we do. We believe that our success is measured by the success of the businesses we serve. Our approach is client-centric, ensuring your SAP projects are executed flawlessly, on time, and within budget." data-fr="Nos clients sont au cœur de tout ce que nous faisons. Nous croyons que notre succès se mesure au succès des entreprises que nous servons. Notre approche est centrée sur le client, garantissant que vos projets SAP sont exécutés parfaitement, dans les délais et le budget.">Our clients are at the core of everything we do. We believe that our success is measured by the success of the businesses we serve. Our approach is client-centric, ensuring your SAP projects are executed flawlessly, on time, and within budget.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 data-en="Staying Ahead" data-fr="Garder une Longueur d'Avance">Staying Ahead</h4>
+                            <p data-en="The SAP world is constantly evolving. At Blauteck, we stay ahead of the curve. We keep our fingers on the pulse of the latest SAP trends and technologies, ensuring that your business is always in a position to leverage the latest innovations." data-fr="Le monde SAP évolue constamment. Chez Blauteck, nous gardons une longueur d'avance. Nous restons à l'écoute des dernières tendances et technologies SAP, garantissant que votre entreprise est toujours en mesure de tirer parti des dernières innovations.">The SAP world is constantly evolving. At Blauteck, we stay ahead of the curve. We keep our fingers on the pulse of the latest SAP trends and technologies, ensuring that your business is always in a position to leverage the latest innovations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission, Vision, Values -->
+    <section class="section" style="background: var(--light-bg);">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="bi bi-bullseye"></i>
+                        </div>
+                        <h4 data-en="Our Mission" data-fr="Notre Mission">Our Mission</h4>
+                        <p data-en="To deliver exceptional IT solutions that empower businesses to thrive in the digital age." data-fr="Fournir des solutions IT exceptionnelles qui permettent aux entreprises de prospérer à l'ère numérique.">To deliver exceptional IT solutions that empower businesses to thrive in the digital age.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                        <h4 data-en="Our Vision" data-fr="Notre Vision">Our Vision</h4>
+                        <p data-en="To be the most trusted IT consulting partner, known for innovation and client success." data-fr="Être le partenaire de conseil IT le plus fiable, reconnu pour l'innovation et le succès client.">To be the most trusted IT consulting partner, known for innovation and client success.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                        <h4 data-en="Our Values" data-fr="Nos Valeurs">Our Values</h4>
+                        <p data-en="Excellence, Integrity, Innovation, and Client-Centricity guide everything we do." data-fr="Excellence, Intégrité, Innovation et Orientation Client guident tout ce que nous faisons.">Excellence, Integrity, Innovation, and Client-Centricity guide everything we do.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <a class="navbar-brand text-white mb-3 d-block" href="index.html">BLAU<span>TECK</span></a>
+                    <p style="opacity: 0.8;">Innovative IT Solutions & SAP Consulting partner dedicated to your success.</p>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="jobs.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h5>Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html">SAP Consulting</a></li>
+                        <li><a href="services.html">Cloud Solutions</a></li>
+                        <li><a href="services.html">Cybersecurity</a></li>
+                        <li><a href="contact.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <ul class="footer-links">
+                        <li><i class="bi bi-geo-alt me-2"></i> Paris, France</li>
+                        <li><i class="bi bi-envelope me-2"></i> contact@blauteck.com</li>
+                        <li><i class="bi bi-telephone me-2"></i> +33 6 26 66 39 53</li>
+                    </ul>
+                    <div class="social-icons mt-3">
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0">&copy; 2020 BLAUTECK. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <a href="#" class="text-white me-3">Privacy Policy</a>
+                        <a href="#" class="text-white">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="back-to-top" onclick="scrollToTop()">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

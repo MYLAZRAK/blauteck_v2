@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLAUTECK - Innovative IT Solutions &amp; SAP Consulting</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">BLAU<span>TECK</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" data-en="Home" data-fr="Accueil">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" data-en="About" data-fr="À Propos">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html" data-en="Services" data-fr="Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jobs.html" data-en="Careers" data-fr="Carrières">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" data-en="Contact" data-fr="Contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <button class="lang-switch" onclick="toggleLanguage()">FR</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 hero-content">
+                    <h1 data-en="Innovative IT Solutions &amp; SAP Consulting" data-fr="Solutions IT Innovantes &amp; Conseil SAP">Innovative IT Solutions &amp; SAP Consulting</h1>
+                    <p data-en="At Blauteck, we don't just meet your expectations; we set our sights higher, we are dedicated to consistently surpassing them and delivering exceptional results." data-fr="Chez Blauteck, nous ne nous contentons pas de répondre à vos attentes ; nous visons plus haut, nous nous engageons à les dépasser constamment et à fournir des résultats exceptionnels.">At Blauteck, we don't just meet your expectations; we set our sights higher, we are dedicated to consistently surpassing them and delivering exceptional results.</p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="services.html" class="btn btn-primary-custom" data-en="Our Services" data-fr="Nos Services">Our Services</a>
+                        <a href="contact.html" class="btn btn-outline-custom" data-en="Get in Touch" data-fr="Nous Contacter">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                    <svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:rgba(255,255,255,0.2)"></stop>
+                                <stop offset="100%" style="stop-color:rgba(255,255,255,0.05)"></stop>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="250" cy="200" r="150" fill="url(#grad1)" stroke="rgba(255,255,255,0.3)" stroke-width="2"></circle>
+                        <circle cx="250" cy="200" r="100" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"></circle>
+                        <circle cx="250" cy="200" r="50" fill="rgba(255,255,255,0.1)"></circle>
+                        <g fill="rgba(255,255,255,0.8)">
+                            <circle cx="250" cy="100" r="8"></circle>
+                            <circle cx="350" cy="200" r="8"></circle>
+                            <circle cx="250" cy="300" r="8"></circle>
+                            <circle cx="150" cy="200" r="8"></circle>
+                        </g>
+                        <line x1="250" y1="100" x2="350" y2="200" stroke="rgba(255,255,255,0.3)" stroke-width="2"></line>
+                        <line x1="350" y1="200" x2="250" y2="300" stroke="rgba(255,255,255,0.3)" stroke-width="2"></line>
+                        <line x1="250" y1="300" x2="150" y2="200" stroke="rgba(255,255,255,0.3)" stroke-width="2"></line>
+                        <line x1="150" y1="200" x2="250" y2="100" stroke="rgba(255,255,255,0.3)" stroke-width="2"></line>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="section about-preview">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <h2 class="section-title" data-en="About BLAUTECK" data-fr="À Propos de BLAUTECK">About BLAUTECK</h2>
+                    <p class="section-subtitle" data-en="Discover the heart and soul of our company" data-fr="Découvrez le cœur et l'âme de notre entreprise">Discover the heart and soul of our company</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="bi bi-bullseye"></i>
+                        </div>
+                        <h4 data-en="Our Mission" data-fr="Notre Mission">Our Mission</h4>
+                        <p data-en="To deliver exceptional IT solutions that empower businesses to thrive in the digital age." data-fr="Fournir des solutions IT exceptionnelles qui permettent aux entreprises de prospérer à l'ère numérique.">To deliver exceptional IT solutions that empower businesses to thrive in the digital age.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                        <h4 data-en="Our Vision" data-fr="Notre Vision">Our Vision</h4>
+                        <p data-en="To be the most trusted IT consulting partner, known for innovation and client success." data-fr="Être le partenaire de conseil IT le plus fiable, reconnu pour l'innovation et le succès client.">To be the most trusted IT consulting partner, known for innovation and client success.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                        <h4 data-en="Our Values" data-fr="Nos Valeurs">Our Values</h4>
+                        <p data-en="Excellence, Integrity, Innovation, and Client-Centricity guide everything we do." data-fr="Excellence, Intégrité, Innovation et Orientation Client guident tout ce que nous faisons.">Excellence, Integrity, Innovation, and Client-Centricity guide everything we do.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="about.html" class="btn btn-primary-custom" data-en="Learn More About Us" data-fr="En Savoir Plus Sur Nous">Learn More About Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <div class="stat-number">150+</div>
+                        <div class="stat-label" data-en="Projects Completed" data-fr="Projets Réalisés">Projects Completed</div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label" data-en="Expert Consultants" data-fr="Consultants Experts">Expert Consultants</div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label" data-en="Client Satisfaction" data-fr="Satisfaction Client">Client Satisfaction</div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label" data-en="Support Available" data-fr="Support Disponible">Support Available</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <h2 class="section-title" data-en="Our Services" data-fr="Nos Services">Our Services</h2>
+                    <p class="section-subtitle" data-en="Comprehensive IT Solutions Tailored to Your Business Needs" data-fr="Solutions IT Complètes Adaptées aux Besoins de Votre Entreprise">Comprehensive IT Solutions Tailored to Your Business Needs</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <h4 data-en="SAP Consulting" data-fr="Conseil SAP">SAP Consulting</h4>
+                        <p data-en="Comprehensive SAP implementation, customization, and support services to maximize your business potential." data-fr="Services complets d'implémentation, de personnalisation et de support SAP pour maximiser le potentiel de votre entreprise.">Comprehensive SAP implementation, customization, and support services to maximize your business potential.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-cloud"></i>
+                        </div>
+                        <h4 data-en="Cloud Solutions" data-fr="Solutions Cloud">Cloud Solutions</h4>
+                        <p data-en="Cloud migration, optimization, and management services leveraging AWS, Azure, and Google Cloud Platform." data-fr="Services de migration, d'optimisation et de gestion cloud utilisant AWS, Azure et Google Cloud Platform.">Cloud migration, optimization, and management services leveraging AWS, Azure, and Google Cloud Platform.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h4 data-en="Cybersecurity" data-fr="Cybersécurité">Cybersecurity</h4>
+                        <p data-en="Comprehensive security services including audits, penetration testing, and compliance management." data-fr="Services de sécurité complets incluant audits, tests de pénétration et gestion de la conformité.">Comprehensive security services including audits, penetration testing, and compliance management.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="services.html" class="btn btn-primary-custom" data-en="View All Services" data-fr="Voir Tous les Services">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section" style="background: var(--light-bg);">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <h2 class="section-title" data-en="Why Choose Blauteck?" data-fr="Pourquoi Choisir Blauteck ?">Why Choose Blauteck?</h2>
+                    <p class="section-subtitle" data-en="What Sets Us Apart from the Competition" data-fr="Ce Qui Nous Distingue de la Concurrence">What Sets Us Apart from the Competition</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-award"></i>
+                        </div>
+                        <h4 data-en="Proven Expertise" data-fr="Expertise Prouvée">Proven Expertise</h4>
+                        <p data-en="Our team consists of certified professionals with extensive experience across various industries and technologies." data-fr="Notre équipe est composée de professionnels certifiés avec une vaste expérience dans diverses industries et technologies.">Our team consists of certified professionals with extensive experience across various industries and technologies.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h4 data-en="Client-Centric Approach" data-fr="Approche Centrée Client">Client-Centric Approach</h4>
+                        <p data-en="We prioritize understanding your business needs and delivering solutions that drive real value." data-fr="Nous priorisons la compréhension de vos besoins et fournissons des solutions qui créent une vraie valeur.">We prioritize understanding your business needs and delivering solutions that drive real value.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-lightbulb"></i>
+                        </div>
+                        <h4 data-en="Innovation Focus" data-fr="Focus Innovation">Innovation Focus</h4>
+                        <p data-en="We stay ahead of technology trends to provide cutting-edge solutions that give you a competitive advantage." data-fr="Nous restons à la pointe des tendances technologiques pour vous offrir un avantage compétitif.">We stay ahead of technology trends to provide cutting-edge solutions that give you a competitive advantage.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-headset"></i>
+                        </div>
+                        <h4 data-en="24/7 Support" data-fr="Support 24/7">24/7 Support</h4>
+                        <p data-en="Round-the-clock support ensures your systems are always running smoothly with minimal downtime." data-fr="Un support permanent assure que vos systèmes fonctionnent toujours parfaitement avec un temps d'arrêt minimal.">Round-the-clock support ensures your systems are always running smoothly with minimal downtime.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+                        <h4 data-en="Scalable Solutions" data-fr="Solutions Évolutives">Scalable Solutions</h4>
+                        <p data-en="Our solutions grow with your business, ensuring long-term sustainability and flexibility." data-fr="Nos solutions évoluent avec votre entreprise, assurant durabilité et flexibilité à long terme.">Our solutions grow with your business, ensuring long-term sustainability and flexibility.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-shield-lock"></i>
+                        </div>
+                        <h4 data-en="Security First" data-fr="Sécurité d'Abord">Security First</h4>
+                        <p data-en="We implement industry-leading security practices to protect your data and maintain compliance." data-fr="Nous mettons en œuvre les meilleures pratiques de sécurité pour protéger vos données et assurer la conformité.">We implement industry-leading security practices to protect your data and maintain compliance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="stats-section">
+        <div class="container text-center">
+            <h2 class="text-white mb-4" data-en="Ready to Transform Your Business?" data-fr="Prêt à Transformer Votre Entreprise ?">Ready to Transform Your Business?</h2>
+            <p class="text-white mb-4" style="opacity: 0.9;" data-en="Let's discuss how we can help you achieve your goals" data-fr="Discutons de la façon dont nous pouvons vous aider à atteindre vos objectifs">Let's discuss how we can help you achieve your goals</p>
+            <a href="contact.html" class="btn btn-outline-custom" data-en="Contact Us Today" data-fr="Contactez-nous Aujourd'hui">Contact Us Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <a class="navbar-brand text-white mb-3 d-block" href="index.html">BLAU<span>TECK</span></a>
+                    <p style="opacity: 0.8;">Innovative IT Solutions & SAP Consulting partner dedicated to your success.</p>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="jobs.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h5>Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html">SAP Consulting</a></li>
+                        <li><a href="services.html">Cloud Solutions</a></li>
+                        <li><a href="services.html">Cybersecurity</a></li>
+                        <li><a href="contact.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <ul class="footer-links">
+                        <li><i class="bi bi-geo-alt me-2"></i> Paris, France</li>
+                        <li><i class="bi bi-envelope me-2"></i> contact@blauteck.com</li>
+                        <li><i class="bi bi-telephone me-2"></i> +33 6 26 66 39 53</li>
+                    </ul>
+                    <div class="social-icons mt-3">
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0">&copy; 2020 BLAUTECK. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <a href="#" class="text-white me-3">Privacy Policy</a>
+                        <a href="#" class="text-white">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="back-to-top" onclick="scrollToTop()">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
