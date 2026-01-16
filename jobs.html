@@ -50,18 +50,30 @@
             <!-- Filter Section -->
             <div class="filter-section mb-5">
                 <div class="row g-3">
-                    <div class="col-md-4">
-                        <select class="filter-select">
-                            <option value="all" data-en="All Departments" data-fr="Tous les Départements">All Departments</option>
-                            <option value="consulting" data-en="Consulting" data-fr="Conseil">Consulting</option>
-                            <option value="development" data-en="Development" data-fr="Développement">Development</option>
+                    <div class="col-md-3 col-sm-6">
+                        <label class="form-label small text-muted" data-en="Contract Type" data-fr="Type de Contrat">Contract Type</label>
+                        <select id="filterContractType" class="filter-select">
+                            <option value="all" data-en="All Types" data-fr="Tous les Types">All Types</option>
                         </select>
                     </div>
-                    <div class="col-md-4">
-                        <select class="filter-select">
+                    <div class="col-md-3 col-sm-6">
+                        <label class="form-label small text-muted" data-en="Location" data-fr="Lieu">Location</label>
+                        <select id="filterLocation" class="filter-select">
                             <option value="all" data-en="All Locations" data-fr="Tous les Lieux">All Locations</option>
-                            <option value="paris">Paris</option>
-                            <option value="remote">Remote</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <label class="form-label small text-muted" data-en="Work Mode" data-fr="Mode de Travail">Work Mode</label>
+                        <select id="filterWorkMode" class="filter-select">
+                            <option value="all" data-en="All Modes" data-fr="Tous les Modes">All Modes</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <label class="form-label small text-muted" data-en="Status" data-fr="Statut">Status</label>
+                        <select id="filterStatus" class="filter-select">
+                            <option value="all" data-en="All Statuses" data-fr="Tous les Statuts">All Statuses</option>
+                            <option value="Open">Open</option>
+                            <option value="Closed">Closed</option>
                         </select>
                     </div>
                 </div>
@@ -70,19 +82,29 @@
             <!-- Job Listings Container -->
             <div id="job-listings" class="row">
                 <!-- Javascript will populate this -->
+                <div class="col-12 text-center py-5">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="no-results" class="text-center py-5 d-none">
+                <i class="bi bi-search fs-1 text-muted mb-3"></i>
+                <h4 class="text-muted" data-en="No jobs found matching your criteria" data-fr="Aucune offre trouvée correspondant à vos critères">No jobs found matching your criteria</h4>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <!-- ... Footer Content ... -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <a class="navbar-brand text-white mb-3 d-block" href="index.html">BLAU<span>TECK</span></a>
                     <p style="opacity: 0.8;">Innovative IT Solutions & SAP Consulting partner dedicated to your success.</p>
                 </div>
+                <!-- Simplified footer for brevity, same as index -->
                 <div class="col-lg-2 col-6 mb-4">
                     <h5>Quick Links</h5>
                     <ul class="footer-links">
@@ -106,23 +128,14 @@
                     <ul class="footer-links">
                         <li><i class="bi bi-geo-alt me-2"></i> Paris, France</li>
                         <li><i class="bi bi-envelope me-2"></i> contact@blauteck.com</li>
-                        <li><i class="bi bi-telephone me-2"></i> +33 6 26 66 39 53</li>
+                        <li><i class="bi bi-telephone me-2"></i> +33 1 23 45 67 89</li>
                     </ul>
-                    <div class="social-icons mt-3">
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                        <a href="#"><i class="bi bi-twitter"></i></a>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <div class="row align-items-center">
                     <div class="col-md-6 text-center text-md-start">
-                        <p class="mb-0">&copy; 2020 BLAUTECK. All rights reserved.</p>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <a href="#" class="text-white me-3">Privacy Policy</a>
-                        <a href="#" class="text-white">Terms of Service</a>
+                        <p class="mb-0">&copy; 2023 BLAUTECK. All rights reserved.</p>
                     </div>
                 </div>
             </div>
