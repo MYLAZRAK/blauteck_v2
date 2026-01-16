@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
-                    <a href="#apply-section" class="btn btn-outline-custom">Apply Now</a>
+                    <a href="#apply-section" class="btn btn-outline-custom" data-en="Apply Now" data-fr="Postuler Maintenant">Apply Now</a>
                 </div>
             </div>
         </div>
@@ -82,11 +82,17 @@
                                     <span class="fw-bold" id="detail-nationality">---</span>
                                 </div>
                             </div>
+                            <div class="col-md-12">
+                                <div class="p-3 bg-light rounded">
+                                    <h6 class="text-muted mb-1" data-en="Published Date" data-fr="Date de publication">Published Date</h6>
+                                    <span class="fw-bold" id="detail-published">---</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="col-lg-4">
-                        <div class="card bg-primary text-white h-100">
+                        <div class="card bg-primary text-white h-100" id="apply-section">
                             <div class="card-body p-4">
                                 <h4 class="card-title mb-4" data-en="Apply for this Job" data-fr="Postuler à ce poste">Apply for this Job</h4>
                                 <p class="mb-4" data-en="Send your CV to our recruitment team." data-fr="Envoyez votre CV à notre équipe de recrutement.">Send your CV to our recruitment team.</p>
@@ -122,6 +128,7 @@
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <a class="navbar-brand text-white mb-3 d-block" href="index.html">BLAU<span>TECK</span></a>
+                    <p style="opacity: 0.8;">Innovative IT Solutions & SAP Consulting partner dedicated to your success.</p>
                 </div>
                 <div class="col-lg-2 col-6 mb-4">
                     <h5>Quick Links</h5>
@@ -141,11 +148,28 @@
                         <li><a href="contact.html">Support</a></li>
                     </ul>
                 </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <ul class="footer-links">
+                        <li><i class="bi bi-geo-alt me-2"></i> Paris, France</li>
+                        <li><i class="bi bi-envelope me-2"></i> contact@blauteck.com</li>
+                        <li><i class="bi bi-telephone me-2"></i> +33 6 26 66 39 53</li>
+                    </ul>
+                    <div class="social-icons mt-3">
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
             </div>
             <div class="footer-bottom">
                 <div class="row align-items-center">
                     <div class="col-md-6 text-center text-md-start">
-                        <p class="mb-0">&copy; 2023 BLAUTECK. All rights reserved.</p>
+                        <p class="mb-0">&copy; 2020 BLAUTECK. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <a href="#" class="text-white me-3">Privacy Policy</a>
+                        <a href="#" class="text-white">Terms of Service</a>
                     </div>
                 </div>
             </div>
@@ -156,13 +180,11 @@
     <script src="js/language.js"></script>
     <script src="js/animations.js"></script>
     
-    <!-- Specific script for Job Detail Logic -->
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
             const jobId = getUrlParameter('id');
             let currentLang = localStorage.getItem('language') || 'en';
 
-            // Listen for language changes to update UI
             window.addEventListener('languageChanged', () => {
                 currentLang = localStorage.getItem('language') || 'en';
                 loadAndRenderJob(jobId);
@@ -198,23 +220,25 @@
                     return;
                 }
 
-                // Helper to get localized field
                 const get = (base) => job[`${base}${currentLang === 'en' ? 'En' : 'Fr'}`] || job[`${base}En`];
 
-                // Calculate Status
+                // Status Logic
                 let status = job.status;
                 if (!status || status.trim() === "") {
                     const today = new Date(); today.setHours(0,0,0,0);
                     const deadline = new Date(job.lastDateToApply);
-                    status = today < deadline ? "Open" : "Closed";
+                    status = (today < deadline && !isNaN(deadline)) ? "Open" : "Closed";
                 }
                 const statusColor = status === "Open" ? "text-success" : "text-danger";
 
-                // Format Dates
+                // Compensation Logic (Salary OR Rate)
+                const compensation = job.salary || job.rate || "N/A";
+
+                // Date Formatting
                 const fmtDate = (d) => {
                     if(!d) return '';
                     const date = new Date(d);
-                    return currentLang === 'fr' ? date.toLocaleDateString('fr-FR') : date.toLocaleDateString('en-US');
+                    return isNaN(date.getTime()) ? d : (currentLang === 'fr' ? date.toLocaleDateString('fr-FR') : date.toLocaleDateString('en-US'));
                 };
 
                 // Populate DOM
@@ -222,14 +246,18 @@
                 document.getElementById('detail-title').innerText = get('title');
                 document.getElementById('detail-location').innerText = get('location');
                 document.getElementById('detail-contract').innerText = get('contractType');
-                document.getElementById('detail-salary').innerText = job.salary;
+                document.getElementById('detail-salary').innerText = compensation;
                 document.getElementById('detail-status').innerHTML = `<span class="${statusColor} fw-bold">${status}</span>`;
                 
                 document.getElementById('detail-description').innerText = get('description');
                 document.getElementById('detail-workmode').innerText = get('workMode');
                 document.getElementById('detail-startdate').innerText = fmtDate(job.startDate);
                 document.getElementById('detail-deadline').innerText = fmtDate(job.lastDateToApply);
-                document.getElementById('detail-nationality').innerText = job.nationalityRequired;
+                document.getElementById('detail-published').innerText = fmtDate(job.publishedDate);
+                
+                const natEl = document.getElementById('detail-nationality');
+                natEl.innerText = job.nationalityRequired;
+                natEl.className = `fw-bold ${job.nationalityRequired === 'Yes' ? 'text-danger' : 'text-success'}`;
 
             } catch (error) {
                 console.error('Error loading job details:', error);
