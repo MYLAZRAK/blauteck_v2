@@ -60,7 +60,7 @@ async function loadJobsData() {
 
 function getJobIdFromURL() {
     const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get('id');
+    return urlParams.get('jobId');
 }
 
 function loadJobDetails(jobId) {
