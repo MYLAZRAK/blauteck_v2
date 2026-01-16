@@ -1,8 +1,9 @@
 // State management
 let allJobs = [];
+let currentLang = 'en'; // Default
 
 document.addEventListener('DOMContentLoaded', async () => {
-    currentLanguage = localStorage.getItem('language') || 'en';
+    currentLang = localStorage.getItem('language') || 'en';
     
     await loadJobs();
     setupEventListeners();
@@ -22,6 +23,14 @@ async function loadJobs() {
     }
 }
 
+// Helper to get localized field from nested object { en: ..., fr: ... }
+function getLocalized(job, field) {
+    if (job[field] && typeof job[field] === 'object') {
+        return job[field][currentLang] || job[field]['en'] || '';
+    }
+    return job[field] || '';
+}
+
 // Calculate status based on logic
 function calculateJobStatus(job) {
     if (job.status && job.status.trim() !== "") {
@@ -31,9 +40,10 @@ function calculateJobStatus(job) {
     const today = new Date();
     today.setHours(0, 0, 0, 0); 
     
+    // Note: In the JSON provided, I added 'lastDateToApply'. 
+    // Assuming format "YYYY-MM-DD"
     const deadline = new Date(job.lastDateToApply);
     
-    // Check if date is invalid
     if (isNaN(deadline.getTime())) return "Unknown";
 
     return today < deadline ? "Open" : "Closed";
@@ -44,30 +54,11 @@ function getCompensation(job) {
     return job.salary || job.rate || "N/A";
 }
 
-// Helper to format date
-function formatDate(dateString) {
-    if (!dateString) return '';
-    const date = new Date(dateString);
-    currentLanguage = localStorage.getItem('language') || 'en';
-    
-    if (isNaN(date.getTime())) return dateString; // Return raw string if invalid
-
-    if (currentLanguage === 'fr') {
-        return date.toLocaleDateString('fr-FR');
-    } else {
-        return date.toLocaleDateString('en-US');
-    }
-}
-
-// Helper to get localized text
-function getLocalizedField(job, fieldBase) {
-    currentLanguage = localStorage.getItem('language') || 'en';
-    return job[`${fieldBase}${currentLanguage === 'en' ? 'En' : 'Fr'}`] || job[`${fieldBase}En`];
-}
-
 function populateFilters() {
     const extractUnique = (key) => {
-        return [...new Set(allJobs.map(job => job[key]))].filter(Boolean);
+        // Extract unique values based on current language
+        const values = allJobs.map(job => getLocalized(job, key)).filter(Boolean);
+        return [...new Set(values)];
     };
 
     const populateSelect = (elementId, options) => {
@@ -84,46 +75,46 @@ function populateFilters() {
         });
     };
 
-    // Populate using English keys as canonical values for filtering logic
-    populateSelect('filterContractType', extractUnique('contractTypeEn'));
-    populateSelect('filterLocation', extractUnique('locationEn'));
-    populateSelect('filterWorkMode', extractUnique('workModeEn'));
+    // Populate filters dynamically
+    populateSelect('filterType', extractUnique('type'));
+    populateSelect('filterLocation', extractUnique('location'));
+    populateSelect('filterMode', extractUnique('mode'));
     
-    // Nationality filter is static options (Yes/No) in HTML, but we can verify values exist
+    // Nationality filter is static options in HTML
 }
 
 function setupEventListeners() {
-    const filters = ['filterContractType', 'filterLocation', 'filterWorkMode', 'filterNationality', 'filterStatus'];
-    currentLanguage = localStorage.getItem('language') || 'en';
+    const filters = ['filterType', 'filterLocation', 'filterMode', 'filterNationality', 'filterStatus'];
     filters.forEach(id => {
         document.getElementById(id).addEventListener('change', filterJobs);
     });
     
     // Re-render on language change
     window.addEventListener('languageChanged', () => {
-        currentLanguage = localStorage.getItem('language') || 'en';
-        populateFilters();
-        filterJobs();
+        currentLang = localStorage.getItem('language') || 'en';
+        populateFilters(); // Update filter options to new language
+        filterJobs();      // Update displayed cards to new language
     });
 }
 
 function filterJobs() {
-    const contractFilter = document.getElementById('filterContractType').value;
+    const typeFilter = document.getElementById('filterType').value;
     const locationFilter = document.getElementById('filterLocation').value;
-    const workModeFilter = document.getElementById('filterWorkMode').value;
+    const modeFilter = document.getElementById('filterMode').value;
     const nationalityFilter = document.getElementById('filterNationality').value;
     const statusFilter = document.getElementById('filterStatus').value;
 
     const filtered = allJobs.filter(job => {
         const jobStatus = calculateJobStatus(job);
         
-        const matchContract = contractFilter === 'all' || job.contractTypeEn === contractFilter;
-        const matchLocation = locationFilter === 'all' || job.locationEn === locationFilter;
-        const matchWorkMode = workModeFilter === 'all' || job.workModeEn === workModeFilter;
+        // Match logic
+        const matchType = typeFilter === 'all' || getLocalized(job, 'type') === typeFilter;
+        const matchLocation = locationFilter === 'all' || getLocalized(job, 'location') === locationFilter;
+        const matchMode = modeFilter === 'all' || getLocalized(job, 'mode') === modeFilter;
         const matchStatus = statusFilter === 'all' || jobStatus === statusFilter;
         const matchNationality = nationalityFilter === 'all' || job.nationalityRequired === nationalityFilter;
 
-        return matchContract && matchLocation && matchWorkMode && matchStatus && matchNationality;
+        return matchType && matchLocation && matchMode && matchStatus && matchNationality;
     });
 
     renderJobs(filtered);
@@ -132,7 +123,6 @@ function filterJobs() {
 function renderJobs(jobs) {
     const container = document.getElementById('job-listings');
     const noResults = document.getElementById('no-results');
-    currentLanguage = localStorage.getItem('language') || 'en';
 
     if (jobs.length === 0) {
         container.innerHTML = '';
@@ -148,40 +138,55 @@ function renderJobs(jobs) {
             ? `<span class="badge bg-success rounded-pill">${status}</span>` 
             : `<span class="badge bg-secondary rounded-pill">${status}</span>`;
 
-        const natIcon = job.nationalityRequired === 'Yes' ? '<i class="bi bi-pass text-danger" title="Nationality Required"></i>' : '<i class="bi bi-globe text-success" title="Open to all nationalities"></i>';
+        const natIcon = job.nationalityRequired === 'Yes' 
+            ? '<i class="bi bi-pass text-danger" title="Nationality Required"></i>' 
+            : '<i class="bi bi-globe text-success" title="Open to all"></i>';
+
+        // Format Date from nested object or raw string if simple
+        const deadline = job.lastDateToApply || "N/A";
+        
+        // Tags rendering
+        const tagsHtml = job.tags ? job.tags.map(tag => 
+            `<span class="badge bg-light text-secondary border me-1 mb-1">${tag}</span>`
+        ).join('') : '';
 
         return `
             <div class="col-12 mb-3">
-                <div class="job-card" onclick="window.location.href='job-detail.html?id=${job.id}'">
+                <div class="job-card" onclick="window.location.href='job-detail.html?jobId=${job.jobId}'">
                     <div class="row align-items-center">
-                        <!-- Left Column: Main Info -->
+                        <!-- Left Column -->
                         <div class="col-lg-8 mb-3 mb-lg-0">
                             <div class="d-flex align-items-center gap-2 mb-2 flex-wrap">
-                                <h4 class="job-title mb-0 fw-bold">${getLocalizedField(job, 'title')}</h4>
-                                <small class="text-muted">(${job.id})</small>
+                                <h4 class="job-title mb-0 fw-bold text-primary">${getLocalized(job, 'title')}</h4>
+                                <small class="text-muted">(${job.jobId})</small>
                                 ${statusBadge}
                             </div>
                             
                             <!-- Key Details Row -->
                             <div class="job-meta">
-                                <span class="job-meta-item"><i class="bi bi-briefcase"></i> ${getLocalizedField(job, 'contractType')}</span>
-                                <span class="job-meta-item"><i class="bi bi-geo-alt"></i> ${getLocalizedField(job, 'location')}</span>
+                                <span class="job-meta-item"><i class="bi bi-briefcase"></i> ${getLocalized(job, 'type')}</span>
+                                <span class="job-meta-item"><i class="bi bi-geo-alt"></i> ${getLocalized(job, 'location')}</span>
                                 <span class="job-meta-item"><i class="bi bi-cash"></i> <strong>${getCompensation(job)}</strong></span>
                                 <span class="job-meta-item">${natIcon} ${job.nationalityRequired}</span>
                             </div>
                             
                             <!-- Secondary Details Row -->
                             <div class="job-meta mt-2 small">
-                                <span class="job-meta-item text-muted"><i class="bi bi-laptop"></i> ${getLocalizedField(job, 'workMode')}</span>
-                                <span class="job-meta-item text-muted"><i class="bi bi-calendar-check"></i> ${currentLanguage === 'en' ? 'Start:' : 'Début:'} ${formatDate(job.startDate)}</span>
-                                <span class="job-meta-item text-muted"><i class="bi bi-hourglass-split"></i> ${currentLanguage === 'en' ? 'Deadline:' : 'Fin:'} ${formatDate(job.lastDateToApply)}</span>
-                                <span class="job-meta-item text-muted"><i class="bi bi-calendar-event"></i> ${currentLanguage === 'en' ? 'Pub:' : 'Pub:'} ${formatDate(job.publishedDate)}</span>
+                                <span class="job-meta-item text-muted"><i class="bi bi-laptop"></i> ${getLocalized(job, 'mode')}</span>
+                                <span class="job-meta-item text-muted"><i class="bi bi-calendar-check"></i> ${getLocalized(job, 'start')}</span>
+                                <span class="job-meta-item text-muted"><i class="bi bi-hourglass-split"></i> ${currentLang === 'en' ? 'Deadline:' : 'Fin:'} ${deadline}</span>
+                                <span class="job-meta-item text-muted"><i class="bi bi-calendar-event"></i> ${getLocalized(job, 'posted')}</span>
+                            </div>
+
+                            <!-- Tags Row -->
+                            <div class="mt-2">
+                                ${tagsHtml}
                             </div>
                         </div>
                         
-                        <!-- Right Column: Action -->
+                        <!-- Right Column -->
                         <div class="col-lg-4 text-lg-end">
-                            <button class="btn btn-outline-custom w-100">${currentLanguage === 'en' ? 'View Details' : 'Voir Détails'}</button>
+                            <button class="btn btn-outline-custom w-100">${currentLang === 'en' ? 'View Details' : 'Voir Détails'}</button>
                         </div>
                     </div>
                 </div>
