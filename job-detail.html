@@ -33,15 +33,17 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white mb-2" id="detail-title">Senior SAP Consultant</h1>
+                    <small class="text-white-50 d-block mb-2" id="detail-id">ID: ---</small>
+                    <h1 class="text-white mb-2" id="detail-title">Loading...</h1>
                     <div class="job-meta text-white-50">
-                        <span class="job-meta-item text-white"><i class="bi bi-geo-alt"></i> Paris, France</span>
-                        <span class="job-meta-item text-white"><i class="bi bi-briefcase"></i> Full-time</span>
-                        <span class="job-meta-item text-white"><i class="bi bi-cash-coin"></i> Competitive</span>
+                        <span class="job-meta-item text-white"><i class="bi bi-geo-alt"></i> <span id="detail-location">---</span></span>
+                        <span class="job-meta-item text-white"><i class="bi bi-briefcase"></i> <span id="detail-contract">---</span></span>
+                        <span class="job-meta-item text-white"><i class="bi bi-cash-coin"></i> <span id="detail-salary">---</span></span>
+                        <span class="job-meta-item text-white"><i class="bi bi-info-circle"></i> <span id="detail-status">---</span></span>
                     </div>
                 </div>
                 <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
-                    <a href="#" class="btn btn-outline-custom">Apply Now</a>
+                    <a href="#apply-section" class="btn btn-outline-custom">Apply Now</a>
                 </div>
             </div>
         </div>
@@ -50,28 +52,65 @@
     <section class="section">
         <div class="container">
             <div class="job-detail-content">
-                <h3 class="section-title mb-4" data-en="Job Description" data-fr="Description du Poste">Job Description</h3>
-                <p>We are looking for an experienced Senior SAP Consultant to join our dynamic team. You will be responsible for leading implementation projects and providing expert advice to our clients.</p>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h3 class="section-title mb-4" data-en="Job Description" data-fr="Description du Poste">Job Description</h3>
+                        <p id="detail-description" class="lead mb-4">...</p>
+                        
+                        <div class="row g-4 mb-5">
+                            <div class="col-md-6">
+                                <div class="p-3 bg-light rounded">
+                                    <h6 class="text-muted mb-1" data-en="Work Mode" data-fr="Mode de travail">Work Mode</h6>
+                                    <span class="fw-bold" id="detail-workmode">---</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-3 bg-light rounded">
+                                    <h6 class="text-muted mb-1" data-en="Start Date" data-fr="Date de début">Start Date</h6>
+                                    <span class="fw-bold" id="detail-startdate">---</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-3 bg-light rounded">
+                                    <h6 class="text-muted mb-1" data-en="Application Deadline" data-fr="Date limite">Application Deadline</h6>
+                                    <span class="fw-bold" id="detail-deadline">---</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-3 bg-light rounded">
+                                    <h6 class="text-muted mb-1" data-en="Nationality Required" data-fr="Nationalité requise">Nationality Required</h6>
+                                    <span class="fw-bold" id="detail-nationality">---</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <div class="card bg-primary text-white h-100">
+                            <div class="card-body p-4">
+                                <h4 class="card-title mb-4" data-en="Apply for this Job" data-fr="Postuler à ce poste">Apply for this Job</h4>
+                                <p class="mb-4" data-en="Send your CV to our recruitment team." data-fr="Envoyez votre CV à notre équipe de recrutement.">Send your CV to our recruitment team.</p>
+                                <form id="jobApplyForm">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Full Name" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" placeholder="Email Address" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="tel" class="form-control" placeholder="Phone Number">
+                                    </div>
+                                    <button type="submit" class="btn btn-light w-100 text-primary fw-bold">Submit Application</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
-                <h4 class="mt-4 mb-3" data-en="Responsibilities" data-fr="Responsabilités">Responsibilities</h4>
-                <ul>
-                    <li>Lead SAP S/4HANA implementation projects</li>
-                    <li>Gather and analyze business requirements</li>
-                    <li>Configure SAP modules to meet client needs</li>
-                    <li>Provide training and support to end-users</li>
-                </ul>
-
-                <h4 class="mt-4 mb-3" data-en="Requirements" data-fr="Exigences">Requirements</h4>
-                <ul>
-                    <li>5+ years of experience in SAP consulting</li>
-                    <li>Strong knowledge of SAP S/4HANA</li>
-                    <li>Excellent communication and leadership skills</li>
-                    <li>Fluency in English and French</li>
-                </ul>
-                
-                <div class="mt-5">
-                    <button class="btn btn-primary-custom" data-en="Apply for this Position" data-fr="Postuler à ce Poste">Apply for this Position</button>
-                    <a href="jobs.html" class="btn btn-outline-custom ms-2" data-en="Back to Jobs" data-fr="Retour aux Offres">Back to Jobs</a>
+                <div class="mt-5 pt-4 border-top">
+                    <a href="jobs.html" class="text-decoration-none">
+                        <i class="bi bi-arrow-left me-2"></i> <span data-en="Back to Careers" data-fr="Retour aux Offres">Back to Careers</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -79,12 +118,10 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <!-- ... Footer Content ... -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <a class="navbar-brand text-white mb-3 d-block" href="index.html">BLAU<span>TECK</span></a>
-                    <p style="opacity: 0.8;">Innovative IT Solutions & SAP Consulting partner dedicated to your success.</p>
                 </div>
                 <div class="col-lg-2 col-6 mb-4">
                     <h5>Quick Links</h5>
@@ -104,28 +141,11 @@
                         <li><a href="contact.html">Support</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4 mb-4">
-                    <h5>Contact Us</h5>
-                    <ul class="footer-links">
-                        <li><i class="bi bi-geo-alt me-2"></i> Paris, France</li>
-                        <li><i class="bi bi-envelope me-2"></i> contact@blauteck.com</li>
-                        <li><i class="bi bi-telephone me-2"></i> +33 6 26 66 39 53</li>
-                    </ul>
-                    <div class="social-icons mt-3">
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                        <a href="#"><i class="bi bi-twitter"></i></a>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                    </div>
-                </div>
             </div>
             <div class="footer-bottom">
                 <div class="row align-items-center">
                     <div class="col-md-6 text-center text-md-start">
-                        <p class="mb-0">&copy; 2020 BLAUTECK. All rights reserved.</p>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <a href="#" class="text-white me-3">Privacy Policy</a>
-                        <a href="#" class="text-white">Terms of Service</a>
+                        <p class="mb-0">&copy; 2023 BLAUTECK. All rights reserved.</p>
                     </div>
                 </div>
             </div>
@@ -135,5 +155,86 @@
     <script src="js/utils.js"></script>
     <script src="js/language.js"></script>
     <script src="js/animations.js"></script>
+    
+    <!-- Specific script for Job Detail Logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const jobId = getUrlParameter('id');
+            let currentLang = localStorage.getItem('language') || 'en';
+
+            // Listen for language changes to update UI
+            window.addEventListener('languageChanged', () => {
+                currentLang = localStorage.getItem('language') || 'en';
+                loadAndRenderJob(jobId);
+            });
+
+            if (jobId) {
+                await loadAndRenderJob(jobId);
+            } else {
+                document.getElementById('detail-title').innerText = "Job not found";
+                document.querySelector('.job-detail-content').innerHTML = '<p class="text-center">Please select a valid job from the careers page.</p>';
+            }
+
+            // Form Handling
+            const form = document.getElementById('jobApplyForm');
+            if(form){
+                form.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    alert('Application submitted successfully!');
+                    form.reset();
+                });
+            }
+        });
+
+        async function loadAndRenderJob(id) {
+            try {
+                const response = await fetch('data/jobs.json');
+                const jobs = await response.json();
+                const job = jobs.find(j => j.id === id);
+                const currentLang = localStorage.getItem('language') || 'en';
+
+                if (!job) {
+                    document.getElementById('detail-title').innerText = "Job not found";
+                    return;
+                }
+
+                // Helper to get localized field
+                const get = (base) => job[`${base}${currentLang === 'en' ? 'En' : 'Fr'}`] || job[`${base}En`];
+
+                // Calculate Status
+                let status = job.status;
+                if (!status || status.trim() === "") {
+                    const today = new Date(); today.setHours(0,0,0,0);
+                    const deadline = new Date(job.lastDateToApply);
+                    status = today < deadline ? "Open" : "Closed";
+                }
+                const statusColor = status === "Open" ? "text-success" : "text-danger";
+
+                // Format Dates
+                const fmtDate = (d) => {
+                    if(!d) return '';
+                    const date = new Date(d);
+                    return currentLang === 'fr' ? date.toLocaleDateString('fr-FR') : date.toLocaleDateString('en-US');
+                };
+
+                // Populate DOM
+                document.getElementById('detail-id').innerText = `ID: ${job.id}`;
+                document.getElementById('detail-title').innerText = get('title');
+                document.getElementById('detail-location').innerText = get('location');
+                document.getElementById('detail-contract').innerText = get('contractType');
+                document.getElementById('detail-salary').innerText = job.salary;
+                document.getElementById('detail-status').innerHTML = `<span class="${statusColor} fw-bold">${status}</span>`;
+                
+                document.getElementById('detail-description').innerText = get('description');
+                document.getElementById('detail-workmode').innerText = get('workMode');
+                document.getElementById('detail-startdate').innerText = fmtDate(job.startDate);
+                document.getElementById('detail-deadline').innerText = fmtDate(job.lastDateToApply);
+                document.getElementById('detail-nationality').innerText = job.nationalityRequired;
+
+            } catch (error) {
+                console.error('Error loading job details:', error);
+            }
+        }
+    </script>
 </body>
 </html>
