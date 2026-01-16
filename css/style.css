@@ -349,6 +349,7 @@ body {
     background: var(--gradient-primary);
     padding: 120px 0 80px;
     color: #fff;
+    margin-bottom: 120px;
 }
 
 .job-detail-content {
