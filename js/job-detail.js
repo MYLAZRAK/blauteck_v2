@@ -80,7 +80,7 @@ function loadJobDetails(jobId) {
 // ==========================================
 
 function populateJobDetails() {
-    const lang = currentLanguage;
+    const lang = localStorage.getItem('language') || 'en';
     
     // Update page title
     document.title = `${currentJob.title[lang]} - TechRecruit`;
@@ -118,7 +118,7 @@ function populateJobDetails() {
 }
 
 function populateJobMeta() {
-    const lang = currentLanguage;
+    const lang = localStorage.getItem('language') || 'en';
     const metaContainer = document.getElementById('job-detail-meta');
     
     const salaryOrRate = currentJob.salary || currentJob.rate;
@@ -162,7 +162,7 @@ function populateTags() {
 }
 
 function populateSidebarInfo() {
-    const lang = currentLanguage;
+    const lang = localStorage.getItem('language') || 'en';
     const infoContainer = document.getElementById('job-info-list');
     
     const salaryOrRate = currentJob.salary || currentJob.rate;
@@ -241,6 +241,7 @@ function checkDeadline() {
     const deadlineDate = new Date(currentJob.lastDateToApply);
     const today = new Date();
     const daysRemaining = Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
+    const lang = localStorage.getItem('language') || 'en';
     
     const warningContainer = document.getElementById('deadline-warning-container');
     const applyBtn = document.getElementById('applyBtn');
@@ -250,18 +251,18 @@ function checkDeadline() {
         warningContainer.innerHTML = `
             <div class="deadline-warning" style="background: linear-gradient(135deg, #6c757d 0%, #495057 100%);">
                 <i class="bi bi-x-circle"></i>
-                <span data-en="Applications Closed" data-fr="Candidatures Fermées">${currentLanguage === 'en' ? 'Applications Closed' : 'Candidatures Fermées'}</span>
+                <span data-en="Applications Closed" data-fr="Candidatures Fermées">${lang === 'en' ? 'Applications Closed' : 'Candidatures Fermées'}</span>
             </div>
         `;
         applyBtn.disabled = true;
-        applyBtn.innerHTML = `<i class="bi bi-x-circle me-2"></i><span>${currentLanguage === 'en' ? 'Applications Closed' : 'Candidatures Fermées'}</span>`;
+        applyBtn.innerHTML = `<i class="bi bi-x-circle me-2"></i><span>${lang === 'en' ? 'Applications Closed' : 'Candidatures Fermées'}</span>`;
         applyBtn.style.opacity = '0.6';
     } else if (daysRemaining <= 7) {
         // Less than a week remaining
         warningContainer.innerHTML = `
             <div class="deadline-warning">
                 <i class="bi bi-exclamation-triangle"></i>
-                <span>${currentLanguage === 'en' ? `Only ${daysRemaining} days left to apply!` : `Plus que ${daysRemaining} jours pour postuler !`}</span>
+                <span>${lang === 'en' ? `Only ${daysRemaining} days left to apply!` : `Plus que ${daysRemaining} jours pour postuler !`}</span>
             </div>
         `;
     } else {
@@ -287,9 +288,10 @@ function openApplyModal() {
     // Check if applications are closed
     const deadlineDate = new Date(currentJob.lastDateToApply);
     const today = new Date();
+    const lang = localStorage.getItem('language') || 'en';
     
     if (deadlineDate < today) {
-        alert(currentLanguage === 'en' ? 
+        alert(lang === 'en' ? 
             'Sorry, applications for this position are now closed.' : 
             'Désolé, les candidatures pour ce poste sont maintenant fermées.');
         return;
@@ -307,6 +309,7 @@ function openApplyModal() {
 
 function submitApplication() {
     const form = document.getElementById('applicationForm');
+    const lang = localStorage.getItem('language') || 'en';
     
     // Custom validation
     let isValid = true;
@@ -349,7 +352,7 @@ function submitApplication() {
         // Collect form data
         const formData = {
             jobId: currentJob.jobId,
-            jobTitle: currentJob.title[currentLanguage],
+            jobTitle: currentJob.title[lang],
             firstName: document.getElementById('firstName').value,
             lastName: document.getElementById('lastName').value,
             email: document.getElementById('email').value,
@@ -415,7 +418,7 @@ function openShareModal() {
 }
 
 function updateShareContent() {
-    const lang = currentLanguage;
+    const lang = localStorage.getItem('language') || 'en';
     const salaryOrRate = currentJob.salary || currentJob.rate;
     const jobUrl = window.location.href;
     
@@ -445,7 +448,7 @@ function updateShareContent() {
 }
 
 function generateShareText() {
-    const lang = currentLanguage;
+    const lang = localStorage.getItem('language') || 'en';
     const salaryOrRate = currentJob.salary || currentJob.rate;
     const hashtags = currentJob.tags.map(tag => `#${tag.replace(/[^a-zA-Z0-9]/g, '')}`).join(' ');
     
@@ -473,9 +476,10 @@ function generateShareText() {
 }
 
 function shareOnLinkedIn() {
+    const lang = localStorage.getItem('language') || 'en';
     const shareText = document.getElementById('shareText')?.value || generateShareText();
     const url = encodeURIComponent(window.location.href);
-    const title = encodeURIComponent(currentJob.title[currentLanguage]);
+    const title = encodeURIComponent(currentJob.title[lang]);
     const summary = encodeURIComponent(shareText);
     
     // LinkedIn sharing URL
@@ -511,7 +515,7 @@ function shareOnWhatsApp() {
 }
 
 function shareViaEmail() {
-    const lang = currentLanguage;
+    const lang = localStorage.getItem('language') || 'en';
     const shareText = document.getElementById('shareText')?.value || generateShareText();
     
     const subject = encodeURIComponent(
@@ -545,8 +549,8 @@ function copyJobLink() {
 // ==========================================
 
 function toggleLanguage() {
-    currentLanguage = currentLanguage === 'en' ? 'fr' : 'en';
-    localStorage.setItem('language', currentLanguage);
+    const lang = localStorage.getItem('language') || 'en';
+    localStorage.setItem('language', lang);
     updateLanguage();
     updateLangButton();
     
@@ -558,9 +562,10 @@ function toggleLanguage() {
 }
 
 function updateLanguage() {
+    const lang = localStorage.getItem('language') || 'en';
     const elements = document.querySelectorAll('[data-en][data-fr]');
     elements.forEach(el => {
-        const text = el.getAttribute(`data-${currentLanguage}`);
+        const text = el.getAttribute(`data-${lang}`);
         if (text) {
             el.textContent = text;
         }
@@ -569,20 +574,21 @@ function updateLanguage() {
     // Update placeholders
     const placeholderElements = document.querySelectorAll('[data-en-placeholder][data-fr-placeholder]');
     placeholderElements.forEach(el => {
-        const placeholder = el.getAttribute(`data-${currentLanguage}-placeholder`);
+        const placeholder = el.getAttribute(`data-${lang}-placeholder`);
         if (placeholder) {
             el.placeholder = placeholder;
         }
     });
     
     // Update HTML lang attribute
-    document.documentElement.lang = currentLanguage;
+    document.documentElement.lang = lang;
 }
 
 function updateLangButton() {
     const langBtn = document.querySelector('.lang-switch');
+    const lang = localStorage.getItem('language') || 'en';
     if (langBtn) {
-        langBtn.textContent = currentLanguage === 'en' ? 'FR' : 'EN';
+        langBtn.textContent = lang === 'en' ? 'FR' : 'EN';
     }
 }
 
@@ -591,24 +597,25 @@ function updateLangButton() {
 // ==========================================
 
 function showJobNotFound() {
+    const lang = localStorage.getItem('language') || 'en';
     const container = document.querySelector('.container[style*="margin-top: -50px"]');
     container.innerHTML = `
         <div class="job-detail-content text-center" style="padding: 80px 40px;">
             <i class="bi bi-exclamation-circle" style="font-size: 4rem; color: var(--secondary-color);"></i>
-            <h2 class="mt-4" data-en="Job Not Found" data-fr="Offre Non Trouvée">${currentLanguage === 'en' ? 'Job Not Found' : 'Offre Non Trouvée'}</h2>
+            <h2 class="mt-4" data-en="Job Not Found" data-fr="Offre Non Trouvée">${lang === 'en' ? 'Job Not Found' : 'Offre Non Trouvée'}</h2>
             <p class="text-muted mt-3" data-en="The job you're looking for doesn't exist or has been removed." data-fr="L'offre que vous recherchez n'existe pas ou a été supprimée.">
-                ${currentLanguage === 'en' ? "The job you're looking for doesn't exist or has been removed." : "L'offre que vous recherchez n'existe pas ou a été supprimée."}
+                ${lang === 'en' ? "The job you're looking for doesn't exist or has been removed." : "L'offre que vous recherchez n'existe pas ou a été supprimée."}
             </p>
             <a href="jobs.html" class="btn btn-primary-custom mt-4">
                 <i class="bi bi-arrow-left me-2"></i>
-                <span data-en="Back to Jobs" data-fr="Retour aux Offres">${currentLanguage === 'en' ? 'Back to Jobs' : 'Retour aux Offres'}</span>
+                <span data-en="Back to Jobs" data-fr="Retour aux Offres">${lang === 'en' ? 'Back to Jobs' : 'Retour aux Offres'}</span>
             </a>
         </div>
     `;
     
     // Update header
-    document.getElementById('job-detail-title').textContent = currentLanguage === 'en' ? 'Job Not Found' : 'Offre Non Trouvée';
-    document.getElementById('job-detail-breadcrumb').textContent = currentLanguage === 'en' ? 'Not Found' : 'Non Trouvée';
+    document.getElementById('job-detail-title').textContent = lang === 'en' ? 'Job Not Found' : 'Offre Non Trouvée';
+    document.getElementById('job-detail-breadcrumb').textContent = lang === 'en' ? 'Not Found' : 'Non Trouvée';
 }
 
 function showError(message) {
