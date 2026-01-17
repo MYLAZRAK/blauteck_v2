@@ -425,6 +425,12 @@ function submitApplication() {
     form.classList.add('was-validated');
     
     if (form.checkValidity() && isValid) {
+        // Show loading state
+        const submitBtn = document.querySelector('#applyModal .btn-primary-custom');
+        const originalBtnText = submitBtn.innerHTML;
+        submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Sending...';
+        submitBtn.disabled = true;
+        
         // Collect form data
         const formData = {
             jobId: currentJob.jobId,
@@ -432,24 +438,90 @@ function submitApplication() {
             firstName: document.getElementById('firstName').value,
             lastName: document.getElementById('lastName').value,
             email: document.getElementById('email').value,
-            phone: document.getElementById('phone').value,
-            linkedin: document.getElementById('linkedin').value,
+            phone: document.getElementById('phone').value || 'Not provided',
+            linkedin: document.getElementById('linkedin').value || 'Not provided',
             motivation: document.getElementById('motivation').value,
             nationality: document.querySelector('input[name="nationality"]:checked')?.value || 'N/A',
-            submittedAt: new Date().toISOString()
+            submittedAt: new Date().toLocaleString()
         };
         
-        console.log('Application submitted:', formData);
+        // EmailJS template parameters
+        const templateParams = {
+            to_email: 'contact@blauteck.com',
+            from_name: `${formData.firstName} ${formData.lastName}`,
+            from_email: formData.email,
+            phone: formData.phone,
+            linkedin: formData.linkedin,
+            job_id: formData.jobId,
+            job_title: formData.jobTitle,
+            motivation: formData.motivation,
+            nationality_required: formData.nationality,
+            submitted_at: formData.submittedAt,
+            // Full message for email body
+            message: `
+New Job Application Received
+
+Job Details:
+- Job ID: ${formData.jobId}
+- Position: ${formData.jobTitle}
+
+Candidate Information:
+- Name: ${formData.firstName} ${formData.lastName}
+- Email: ${formData.email}
+- Phone: ${formData.phone}
+- LinkedIn: ${formData.linkedin}
+
+Nationality Requirement Met: ${formData.nationality}
+
+Motivation:
+${formData.motivation}
+
+Submitted: ${formData.submittedAt}
+            `
+        };
         
-        // Close apply modal
-        const applyModal = bootstrap.Modal.getInstance(document.getElementById('applyModal'));
-        applyModal.hide();
-        
-        // Show success modal
-        setTimeout(() => {
-            const successModal = new bootstrap.Modal(document.getElementById('successModal'));
-            successModal.show();
-        }, 300);
+        // Send email using EmailJS
+        emailjs.send(
+            'YOUR_SERVICE_ID',    // Replace with your EmailJS service ID
+            'YOUR_TEMPLATE_ID',   // Replace with your EmailJS template ID
+            templateParams
+        )
+        .then(function(response) {
+            console.log('Email sent successfully:', response);
+            
+            // Reset button
+            submitBtn.innerHTML = originalBtnText;
+            submitBtn.disabled = false;
+            
+            // Close apply modal
+            const applyModal = bootstrap.Modal.getInstance(document.getElementById('applyModal'));
+            applyModal.hide();
+            
+            // Show success modal
+            setTimeout(() => {
+                const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+                successModal.show();
+            }, 300);
+            
+            // Reset form
+            form.reset();
+            form.classList.remove('was-validated');
+            resetCharCounter();
+            
+        })
+        .catch(function(error) {
+            console.error('Email sending failed:', error);
+            
+            // Reset button
+            submitBtn.innerHTML = originalBtnText;
+            submitBtn.disabled = false;
+            
+            // Show error message
+            alert(lang === 'en' ? 
+                'Failed to submit application. Please try again or email us directly at contact@blauteck.com' : 
+                'Échec de l\'envoi de la candidature. Veuillez réessayer ou nous contacter directement à contact@blauteck.com'
+            );
+        });
     }
 }
 
