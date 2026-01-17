@@ -482,8 +482,8 @@ Submitted: ${formData.submittedAt}
         
         // Send email using EmailJS
         emailjs.send(
-            'YOUR_SERVICE_ID',    // Replace with your EmailJS service ID
-            'YOUR_TEMPLATE_ID',   // Replace with your EmailJS template ID
+            'service_7lj1z3g',    // Replace with your EmailJS service ID
+            'template_dt5lof2',   // Replace with your EmailJS template ID
             templateParams
         )
         .then(function(response) {
