@@ -1,6 +1,267 @@
 [
 	{
-		"jobId": "J01012026-01",
+		"jobId": "",
+		"title": {
+			"en": "SAP ECC Level 3 Support Consultant (SD / MM / FI)",
+			"fr": "Consultant SAP Support Niveau 3 ECC (SD / MM / FI)"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"salary": "",
+		"location": {
+			"en": "Île-de-France (91)",
+			"fr": "Île-de-France (91)"
+		},
+		"start": {
+			"en": "ASAP",
+			"fr": "Urgent"
+		},
+		"mode": {
+			"en": "Hybrid",
+			"fr": "Hybride"
+		},
+		"posted": {
+			"en": "January 01, 2026",
+			"fr": "01 Janvier 2026"
+		},
+		"tags": [
+			"SAP ECC",
+			"SAP SD",
+			"SAP MM",
+			"SAP FI",
+			"Level 3 Support",
+			"TMA",
+			"MCO",
+			"Customizing",
+			"SPRO",
+			"Industrial",
+			"Defense"
+		],
+		"description": {
+			"en": "<p>As part of SAP ECC maintenance in operational condition (MCO) and advanced support, the client is seeking a Level 3 SAP Support Consultant with strong functional expertise to handle complex incidents involving integrated Logistics–Finance flows.</p><p>The role is set in a demanding industrial environment where stakeholders expect deep SAP ECC expertise, going beyond business processes to include detailed knowledge of fields, account determination logic, transactions, and SAP configuration (SPRO). The consultant will act as a key functional reference for SD, MM, and FI integration.</p>",
+			"fr": "<p>Dans le cadre du MCO et du support avancé de son système SAP ECC, le client recherche un Consultant SAP Support Niveau 3 disposant d’une expertise fonctionnelle approfondie, capable d’intervenir sur des incidents complexes impliquant des flux intégrés Logistique–Finance.</p><p>Le poste s’inscrit dans un environnement exigeant, nécessitant une maîtrise détaillée du fonctionnement SAP ECC, au-delà des processus métiers, incluant la connaissance précise des champs, critères de détermination, transactions et logiques de paramétrage (SPRO).</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>Proven Level 3 support expertise on SAP ECC</li><li>Strong functional mastery of SD, MM, and FI modules</li><li>End-to-end understanding of SD–FI and MM–FI integrations</li><li>Ability to analyze and resolve complex incidents escalated from L1/L2 support</li><li>Hands-on experience with SAP customizing (SPRO): account determination, pricing, release strategies</li><li>Deep knowledge of master data structures (Customers, Vendors, Materials) and accounting impact</li><li>Expertise in advanced business processes: pricing, consignment, release strategy</li><li>System-oriented mindset with strong understanding of SAP ECC internal logic</li><li>Ability to clearly explain how configuration and master data generate FI postings</li><li>Excellent analytical skills, rigor, and precision</li><li>Strong communication skills with expert and demanding stakeholders</li><li>Pedagogical approach to support and upskill L1/L2 teams</li><li>High resilience to stress and demanding environments</li><li>SAP ECC mandatory (S/4HANA knowledge is a plus)</li></ul>",
+			"fr": "<ul><li>Expertise confirmée en support SAP ECC Niveau 3</li><li>Maîtrise fonctionnelle approfondie des modules SD, MM et FI</li><li>Très bonne connaissance de l’intégration SD–FI et MM–FI</li><li>Capacité à analyser et résoudre des incidents complexes escaladés par le support N1/N2</li><li>Expérience concrète en customizing SAP (SPRO) : détermination des comptes, pricing, stratégies de libération</li><li>Maîtrise de la structure des données de base (Clients, Fournisseurs, Articles) et de leur impact comptable</li><li>Expertise sur des processus métiers avancés : pricing, consignation, release strategy</li><li>Approche orientée système et compréhension du fonctionnement interne de SAP ECC</li><li>Capacité à expliquer les liens entre configuration, données de base et écritures comptables</li><li>Très forte capacité d’analyse, rigueur et précision</li><li>Aisance dans les échanges avec des interlocuteurs experts et challengers</li><li>Pédagogie pour accompagner les équipes N1/N2</li><li>Résistance au stress et aux environnements exigeants</li><li>Environnement SAP ECC obligatoire (S/4 apprécié mais non requis)</li></ul>"
+		},
+		"benefits": {
+			"en": "",
+			"fr": ""
+		},
+		"nationalityRequired": "Yes",
+		"lastDateToApply": "2026-01-31",
+		"status": ""
+	},
+	{
+		"jobId": "",
+		"title": {
+			"en": "SAP IS Utilities (IS-U) Consultant",
+			"fr": "Consultant SAP IS Utilities (IS-U)"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"salary": "850",
+		"location": {
+			"en": "Dakar, Senegal",
+			"fr": "Dakar, Sénégal"
+		},
+		"start": {
+			"en": "March 2026",
+			"fr": "Mars 2026"
+		},
+		"mode": {
+			"en": "Hybrid",
+			"fr": "Hybride"
+		},
+		"posted": {
+			"en": "January 01, 2026",
+			"fr": "01 Janvier 2026"
+		},
+		"tags": [
+			"SAP IS-U",
+			"SAP ECC 6.0",
+			"H2MC",
+			"Utilities",
+			"Energy",
+			"Audit",
+			"Customizing",
+			"Deployment"
+		],
+		"description": {
+			"en": "<p>The project takes place in a SAP ERP ECC 6.0 IS-U / H2MC environment within the energy sector. The objective is to audit the existing platform, define and present optimization recommendations, and then implement these recommendations end-to-end.</p><p>The SAP IS-U Consultant will support the audit phase, contribute to the system optimization strategy, and lead the implementation phase including workshops, configuration, testing, deployment, and post-go-live support. The assignment starts in March 2026 and runs for 9 months, with partial on-site presence in Dakar (Senegal) and the remainder delivered remotely.</p>",
+			"fr": "<p>Le projet s’inscrit dans un environnement SAP ERP ECC 6.0 IS-U / H2MC dans le secteur de l’énergie. Il vise à auditer la plateforme existante, formuler et présenter des recommandations d’optimisation, puis à les mettre en œuvre de bout en bout.</p><p>Le Consultant SAP IS-U interviendra sur la phase d’audit, la définition de la stratégie d’optimisation du système, puis sur la mise en œuvre complète : animation d’ateliers, paramétrage, tests, déploiement et support post-mise en production. La mission débute en mars 2026 pour une durée de 9 mois, avec une présence partielle sur site à Dakar (Sénégal) et le reste en télétravail.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>Minimum 5 years of hands-on experience as a techno-functional SAP IS-U consultant</li><li>Proven experience across the full SAP IS-U deployment lifecycle (workshops, customizing, testing, data migration, go-live, support)</li><li>Participation in at least three SAP IS-U implementation projects</li><li>Strong experience in the utilities / energy sector</li><li>Ability to conduct system audits and define optimization strategies</li><li>Experience with SAP ECC 6.0 IS-U / H2MC environments</li><li>French is the working language of the project</li><li>Availability for on-site work in Dakar during key project phases</li></ul>",
+			"fr": "<ul><li>Profil technico-fonctionnel avec au minimum 5 ans d’expérience sur SAP IS-U (CV et références concrètes)</li><li>Expérience opérationnelle sur l’ensemble du cycle de déploiement SAP IS-U (ateliers, customizing, tests, reprise de données, mise en production, support)</li><li>Participation à au moins trois projets d’implémentation SAP IS-U</li><li>Expérience dans le secteur de l’énergie</li><li>Capacité à réaliser des audits de système et à définir des stratégies d’optimisation</li><li>Maîtrise de l’environnement SAP ECC 6.0 IS-U / H2MC</li><li>Langue du projet : français</li><li>Disponibilité pour des missions sur site à Dakar lors des phases clés</li></ul>"
+		},
+		"benefits": {
+			"en": "",
+			"fr": ""
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-01-31",
+		"status": ""
+	},
+	{
+		"jobId": "J05122025-01",
+		"title": {
+			"en": "Order to Cash Work Stream Leader – SAP S/4HANA",
+			"fr": "Work Stream Leader Order to Cash – SAP S/4HANA"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"salary": "850",
+		"location": {
+			"en": "Suresnes, France",
+			"fr": "Suresnes, France"
+		},
+		"start": {
+			"en": "ASAP",
+			"fr": "Dès que possible"
+		},
+		"mode": {
+			"en": "Hybrid",
+			"fr": "Hybride"
+		},
+		"posted": {
+			"en": "December 05, 2025",
+			"fr": "05 Decembre 2025"
+		},
+		"tags": [
+			"Order to Cash",
+			"OTC",
+			"SAP S/4HANA",
+			"Supply Chain",
+			"ERP",
+			"APS",
+			"Stream Lead",
+			"Pharmaceutical"
+		],
+		"description": {
+			"en": "<p>Servier is leading a major global digital transformation program, including the deployment of a new ERP (SAP S/4HANA) and an Advanced Planning System (APS). The program, named Morphe’US, aims to modernize the entire Supply Chain across manufacturing sites, chemical sites, CMOs, and international affiliates.</p><p>The Order to Cash Work Stream Leader is responsible for defining and operationally implementing the OTC Core Model, in close collaboration with the Business Process Owner and under the responsibility of the Industry Lead. The role involves leading design workshops, coordinating stakeholders, overseeing configuration activities, and preparing deployments across the group’s entities.</p>",
+			"fr": "<p>Servier mène une transformation digitale majeure à l’échelle mondiale, incluant le déploiement d’un nouvel ERP (SAP S/4HANA) et d’un APS. Ce programme, nommé Morphe’US, vise à moderniser l’ensemble de la Supply Chain (sites de production, sites chimiques, CMO et filiales internationales).</p><p>Le Work Stream Leader Order to Cash est responsable de la définition et de la mise en œuvre opérationnelle du Core Model OTC, en lien avec le Business Process Owner et sous la responsabilité de l’Industry Lead. Il pilote les ateliers de conception, coordonne les parties prenantes, supervise le paramétrage et prépare les déploiements dans les différentes entités du groupe.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>Master’s degree (engineering or business school)</li><li>5 to 10 years of experience in Supply Chain, ideally on ERP and/or APS projects</li><li>Strong knowledge of planning processes (S&OP, forecasting, production, distribution) and execution processes (Order to Cash)</li><li>Experience with tools such as SAP S/4HANA, Kinaxis, OMP, IBP is a plus</li><li>Ability to lead change and support business teams</li><li>Strong workshop facilitation, organizational and communication skills</li><li>Knowledge of EDI</li><li>Leadership skills and ability to engage stakeholders</li><li>Fluent in French and English</li><li>Willingness to travel in France (Orléans, Bolbec) and internationally (Ireland)</li></ul>",
+			"fr": "<ul><li>Bac+5 (école d’ingénieurs ou de commerce)</li><li>5 à 10 ans d’expérience en Supply Chain, idéalement sur des projets ERP et/ou APS</li><li>Connaissance des processus de planification (S&OP, prévisions, production, distribution) et d’exécution (Order to Cash)</li><li>Maîtrise ou connaissance des outils SAP S/4HANA, Kinaxis, OMP, IBP appréciée</li><li>Compétences en conduite du changement et accompagnement des équipes</li><li>Capacité à animer des ateliers, sens de l’organisation et communication transversale</li><li>Connaissance de l’EDI</li><li>Leadership et capacité à fédérer</li><li>Français et anglais courants</li><li>Disponibilité pour des déplacements en France (Orléans, Bolbec) et à l’international (Irlande)</li></ul>"
+		},
+		"benefits": {
+			"en": "",
+			"fr": ""
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2025-12-31",
+		"status": ""
+	},
+	{
+		"jobId": "J11112025-01",
+		"title": {
+			"en": "SAP SD Consultant",
+			"fr": "Consultant SAP SD"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"salary": "",
+		"location": {
+			"en": "Île-de-France",
+			"fr": "Île-de-France"
+		},
+		"start": {
+			"en": "ASAP",
+			"fr": "urgent"
+		},
+		"mode": {
+			"en": "Hybrid",
+			"fr": "Hybride"
+		},
+		"posted": {
+			"en": "Nomvenber 11, 2025",
+			"fr": "11 Nomvenbre 2025"
+		},
+		"tags": [
+			"SAP SD",
+			"SAP MM",
+			"Customizing",
+			"SPRO",
+			"ABAP",
+			"Specifications"
+		],
+		"description": {
+			"en": "<p>For a large corporate client based in the Île-de-France region, we are looking for an SAP SD Consultant for a long-term contract. The consultant will be involved in business requirement gathering, workshop facilitation, system configuration, and the drafting of functional specifications within an SAP SD/MM environment.</p>",
+			"fr": "<p>Pour un client grand compte basé en Île-de-France, nous recherchons un Consultant SAP SD pour une mission de longue durée. Le consultant interviendra sur le recueil des besoins, l’animation d’ateliers, le paramétrage SAP ainsi que la rédaction des spécifications fonctionnelles dans un environnement SAP SD/MM.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>Full mastery of SAP MM/SD transactions and processes</li><li>Experience in requirements gathering, workshop facilitation, and specification writing</li><li>Strong skills in SAP configuration (Customizing) using SPRO</li><li>Good understanding of SAP tables and their functional relationships</li><li>Basic ability to read and debug ABAP code for analysis purposes</li></ul>",
+			"fr": "<ul><li>Maîtrise complète des transactions et processus SAP MM/SD</li><li>Expérience en recueil du besoin, animation d’ateliers et rédaction de spécifications</li><li>Compétences solides en paramétrage SAP (Customizing) via SPRO</li><li>Bonne compréhension des tables SAP et de leurs liens fonctionnels</li><li>Notions de lecture et de debug ABAP pour faciliter l’analyse</li></ul>"
+		},
+		"benefits": {
+			"en": "",
+			"fr": ""
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2025-11-20",
+		"status": ""
+	},
+	{
+		"jobId": "J11112025-02",
+		"title": {
+			"en": "SAP SD Consultant",
+			"fr": "Consultant SAP SD"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"salary": "",
+		"location": {
+			"en": "Île-de-France",
+			"fr": "Île-de-France"
+		},
+		"start": {
+			"en": "ASAP",
+			"fr": "urgent"
+		},
+		"mode": {
+			"en": "Hybrid",
+			"fr": "Hybride"
+		},
+		"posted": {
+			"en": "Nomvenber 11, 2025",
+			"fr": "11 Nomvenbre 2025"
+		},
+		"tags": [
+			"SAP SD",
+			"E-Invoice",
+			"Specifications"
+		],
+		"description": {
+			"en": "<p>We are seeking an SAP SD Consultant for a temporary mission of approximately 40 days. The consultant will support the client by writing functional and technical specifications as part of an e-invoice digitalization system implementation. The working arrangement includes four days of remote work per week, with on-site presence required on Mondays only.</p>",
+			"fr": "<p>Nous recherchons un Consultant SAP SD pour une mission ponctuelle d’environ 40 jours. Le consultant accompagnera le client dans la rédaction des spécifications fonctionnelles et techniques dans le cadre de la mise en place d’un système de digitalisation de la facturation électronique (E-Invoice). L’organisation du travail prévoit quatre jours de télétravail par semaine, avec une présence sur site uniquement le lundi.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>Strong expertise in SAP SD</li><li>Proven experience in writing functional and technical specifications</li><li>Knowledge of e-invoicing and digital invoicing processes</li></ul>",
+			"fr": "<ul><li>Solide expertise en SAP SD</li><li>Expérience confirmée en rédaction de spécifications fonctionnelles et techniques</li><li>Connaissance des processus de facturation électronique (E-Invoice)</li></ul>"
+		},
+		"benefits": {
+			"en": "",
+			"fr": ""
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2025-11-20",
+		"status": ""
+	},
+	{
+		"jobId": "J01012025-01",
 		"title": {
 			"en": "Senior SAP FICO Consultant",
 			"fr": "Consultant SAP FICO Senior"
@@ -15,16 +276,16 @@
 			"fr": "Paris, France"
 		},
 		"start": {
-			"en": "February 2026",
-			"fr": "Février 2026"
+			"en": "February 2025",
+			"fr": "Février 2025"
 		},
 		"mode": {
 			"en": "Hybrid",
 			"fr": "Hybride"
 		},
 		"posted": {
-			"en": "January 01, 2026",
-			"fr": "01 Janvier 2026"
+			"en": "January 01, 2025",
+			"fr": "01 Janvier 2025"
 		},
 		"tags": [
 			"SAP FICO",
@@ -44,11 +305,11 @@
 			"fr": "<ul><li>Package salarial compétitif avec bonus de performance</li><li>Assurance maladie</li></ul>"
 		},
 		"nationalityRequired": "No",
-		"lastDateToApply": "2026-02-01",
+		"lastDateToApply": "2025-02-01",
 		"status": ""
 	},
 	{
-		"jobId": "J08012026-01",
+		"jobId": "J08012025-01",
 		"title": {
 			"en": "SAP SD/MM Consultant",
 			"fr": "Consultant SAP SD/MM"
@@ -63,16 +324,16 @@
 			"fr": "Lyon, France"
 		},
 		"start": {
-			"en": "March 2026",
-			"fr": "Mars 2026"
+			"en": "March 2025",
+			"fr": "Mars 2025"
 		},
 		"mode": {
 			"en": "Remote",
 			"fr": "Télétravail"
 		},
 		"posted": {
-			"en": "January 8, 2026",
-			"fr": "8 Janvier 2026"
+			"en": "January 8, 2025",
+			"fr": "8 Janvier 2025"
 		},
 		"tags": [
 			"SAP SD",
@@ -92,11 +353,11 @@
 			"fr": "<ul><li>Taux journalier compétitif</li><li>Flexibilité télétravail</li></ul>"
 		},
 		"nationalityRequired": "No",
-		"lastDateToApply": "2026-02-15",
+		"lastDateToApply": "2025-02-15",
 		"status": ""
 	},
 	{
-		"jobId": "J05012026-01",
+		"jobId": "J05012025-01",
 		"title": {
 			"en": "Cloud Solutions Architect",
 			"fr": "Architecte Solutions Cloud"
@@ -119,8 +380,8 @@
 			"fr": "Hybride"
 		},
 		"posted": {
-			"en": "January 5, 2026",
-			"fr": "5 Janvier 2026"
+			"en": "January 5, 2025",
+			"fr": "5 Janvier 2025"
 		},
 		"tags": [
 			"AWS",
@@ -141,11 +402,11 @@
 			"fr": "<ul><li>Salaire compétitif avec avantages</li><li>Budget formation</li></ul>"
 		},
 		"nationalityRequired": "No",
-		"lastDateToApply": "2026-02-20",
+		"lastDateToApply": "2025-02-20",
 		"status": ""
 	},
 	{
-		"jobId": "J12012026-01",
+		"jobId": "J12012025-01",
 		"title": {
 			"en": "DevOps Engineer",
 			"fr": "Ingénieur DevOps"
@@ -160,16 +421,16 @@
 			"fr": "France"
 		},
 		"start": {
-			"en": "February 2026",
-			"fr": "Février 2026"
+			"en": "February 2025",
+			"fr": "Février 2025"
 		},
 		"mode": {
 			"en": "Remote",
 			"fr": "Télétravail"
 		},
 		"posted": {
-			"en": "January 12, 2026",
-			"fr": "12 Janvier 2026"
+			"en": "January 12, 2025",
+			"fr": "12 Janvier 2025"
 		},
 		"tags": [
 			"Kubernetes",
@@ -190,11 +451,11 @@
 			"fr": "<ul><li>Taux journalier compétitif</li><li>Contrat long terme</li></ul>"
 		},
 		"nationalityRequired": "No",
-		"lastDateToApply": "2026-02-25",
+		"lastDateToApply": "2025-02-25",
 		"status": ""
 	},
 	{
-		"jobId": "J03012026-01",
+		"jobId": "J03012025-01",
 		"title": {
 			"en": "Cybersecurity Analyst",
 			"fr": "Analyste Cybersécurité"
@@ -209,16 +470,16 @@
 			"fr": "Lyon, France"
 		},
 		"start": {
-			"en": "April 2026",
-			"fr": "Avril 2026"
+			"en": "April 2025",
+			"fr": "Avril 2025"
 		},
 		"mode": {
 			"en": "On-site",
 			"fr": "Sur site"
 		},
 		"posted": {
-			"en": "January 3, 2026",
-			"fr": "3 Janvier 2026"
+			"en": "January 3, 2025",
+			"fr": "3 Janvier 2025"
 		},
 		"tags": [
 			"Security",
@@ -238,11 +499,11 @@
 			"fr": "<ul><li>Salaire compétitif</li><li>Plan Mercedes</li></ul>"
 		},
 		"nationalityRequired": "No",
-		"lastDateToApply": "2026-02-10",
+		"lastDateToApply": "2025-02-10",
 		"status": ""
 	},
 	{
-		"jobId": "J07012026-01",
+		"jobId": "J07012025-01",
 		"title": {
 			"en": "AI/ML Engineer",
 			"fr": "Ingénieur IA/ML"
@@ -257,16 +518,16 @@
 			"fr": "Paris, France"
 		},
 		"start": {
-			"en": "March 2026",
-			"fr": "Mars 2026"
+			"en": "March 2025",
+			"fr": "Mars 2025"
 		},
 		"mode": {
 			"en": "Hybrid",
 			"fr": "Hybride"
 		},
 		"posted": {
-			"en": "January 7, 2026",
-			"fr": "7 Janvier 2026"
+			"en": "January 7, 2025",
+			"fr": "7 Janvier 2025"
 		},
 		"tags": [
 			"Python",
@@ -287,7 +548,7 @@
 			"fr": "<ul><li>Package salarial compétitif</li><li>Options sur actions</li></ul>"
 		},
 		"nationalityRequired": "No",
-		"lastDateToApply": "2026-02-28",
+		"lastDateToApply": "2025-02-28",
 		"status": ""
 	}
 ]
