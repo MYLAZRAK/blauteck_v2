@@ -70,7 +70,7 @@ function loadJobDetails(jobId) {
         updateMetaTags(currentJob);
         addJobSchema(currentJob);
         populateJobDetails();
-        checkDeadline();
+        //checkDeadline();
     } else {
         showJobNotFound();
     }
@@ -706,7 +706,7 @@ function toggleLanguage() {
     // Re-populate job details with new language
     if (currentJob) {
         populateJobDetails();
-        checkDeadline();
+        //checkDeadline();
     }
 }
 
