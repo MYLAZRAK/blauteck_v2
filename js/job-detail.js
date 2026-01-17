@@ -181,7 +181,7 @@ function populateJobDetails() {
     document.getElementById('job-detail-benefits').innerHTML = currentJob.benefits[lang];
     
     // Sidebar Info
-    populateSidebarInfo();
+    //populateSidebarInfo();
     
     // Apply Modal Title
     document.getElementById('apply-modal-job-title').textContent = currentJob.title[lang];
