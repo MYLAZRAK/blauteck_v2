@@ -1,5 +1,61 @@
 [
 	{
+		"jobId": "J02012026-01",
+		"title": {
+			"en": "SAP S/4HANA Service Management Consultant",
+			"fr": "Consultant SAP S/4HANA Service Management"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"salary": "",
+		"location": {
+			"en": "Paris Area",
+			"fr": "Région parisienne"
+		},
+		"start": {
+			"en": "ASAP",
+			"fr": "Démarrage ASAP"
+		},
+		"mode": {
+			"en": "Hybrid / Full Remote possible",
+			"fr": "Hybride / 100% Télétravail envisageable"
+		},
+		"posted": {
+			"en": "January 28, 2026",
+			"fr": "28 Janvier 2026"
+		},
+		"tags": [
+			"SAP S/4HANA",
+			"SAP Service Management",
+			"SAP SM",
+			"SAP SD",
+			"SAP FI",
+			"SAP PM",
+			"SAP BP",
+			"Customer Service",
+			"Integration",
+			"Customizing",
+			"Project"
+		],
+		"description": {
+			"en": "<p>As part of an ongoing SAP S/4HANA transformation project, the client is looking for an experienced SAP Service Management consultant to lead the configuration and implementation of Customer Service processes.</p><p>The consultant will play a key role in the setup of service offerings, service orders, and recurring service contracts, while ensuring seamless integration with SD, FI, PM, and Business Partner.</p><p>This is a short but high-impact mission within an innovative project and a collaborative, expert team.</p>",
+			"fr": "<p>Dans le cadre d’un projet SAP S/4HANA en cours, le client recherche un consultant SAP Service Management expérimenté pour piloter le paramétrage et l’implémentation des processus de Service Client.</p><p>Le consultant interviendra notamment sur la mise en place des offres de service, des ordres de service et des contrats récurrents, ainsi que sur les intégrations avec les modules SD, FI, PM et Business Partner.</p><p>Il s’agit d’une mission courte mais à fort enjeu, au sein d’un projet innovant porté par une équipe expérimentée et engagée.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>Proven experience in SAP Service Management on S/4HANA</li><li>Strong expertise in SAP SM or SAP CS/PM</li><li>Hands-on experience with SAP customizing related to service processes</li><li>Excellent understanding of integrations with SD, FI, PM, and Business Partner</li><li>Experience with service offers, service orders, and recurring service contracts</li><li>Ability to work autonomously in a project context</li><li>Strong analytical and functional skills</li><li>Good communication skills and team spirit</li><li>Availability for a short-term, high-intensity mission</li></ul>",
+			"fr": "<ul><li>Expérience confirmée sur SAP Service Management en environnement S/4HANA</li><li>Solide expertise SAP SM ou SAP CS/PM</li><li>Expérience concrète en paramétrage des processus de service</li><li>Très bonne maîtrise des intégrations avec SD, FI, PM et Business Partner</li><li>Connaissance des offres de service, ordres de service et contrats récurrents</li><li>Capacité à intervenir de manière autonome dans un contexte projet</li><li>Excellentes compétences fonctionnelles et analytiques</li><li>Bon relationnel et esprit d’équipe</li><li>Disponibilité pour une mission courte et intensive</li></ul>"
+		},
+		"benefits": {
+			"en": "Innovative SAP S/4HANA project with an experienced and collaborative team.",
+			"fr": "Projet SAP S/4HANA innovant avec une équipe experte et très collaborative."
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-02-20",
+		"status": ""
+	},
+	{
 		"jobId": "J01012026-01",
 		"title": {
 			"en": "SAP ECC Level 3 Support Consultant (SD / MM / FI)",
