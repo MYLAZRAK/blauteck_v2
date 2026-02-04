@@ -1,4 +1,66 @@
 [
+		{
+		"jobId": "J04022026-01",
+		"title": {
+			"en": "SAP S/4HANA Service AMOA Consultant – Service Contracts",
+			"fr": "Consultant AMOA SAP S/4HANA – Contrats de Service"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"salary": "",
+		"location": {
+			"en": "Paris Area (Île-de-France)",
+			"fr": "Région parisienne (Île-de-France)"
+		},
+		"start": {
+			"en": "ASAP",
+			"fr": "Démarrage ASAP"
+		},
+		"mode": {
+			"en": "Hybrid",
+			"fr": "Hybride"
+		},
+		"posted": {
+			"en": "February 04, 2026",
+			"fr": "04 Fevrier 2026"
+		},
+		"tags": [
+			"SAP S/4HANA",
+			"SAP S/4HANA Service",
+			"AMOA",
+			"Service Contracts",
+			"Hypercare",
+			"Stabilization",
+			"UAT",
+			"Fit/Gap",
+			"SAP SD",
+			"Fiori",
+			"Data Migration",
+			"CRM SERV",
+			"Rollout"
+		],
+		"description": {
+			"en": "<p>You will join an established AMOA team within the IT department, working in close partnership with the current AMOA lead on the Service Contracts and Billing scope.</p><p>The project has recently gone live and is currently in a hypercare and stabilization phase, while preparing upcoming international rollouts.</p><p>The workload will be shared: you will progressively take ownership of the Service Contracts domain, while the current AMOA lead maintains a transversal view and retains responsibility for complex billing and integration topics.</p><p>This is a pure AMOA role, acting as a bridge between Business Process Owners and the technical integrator, with no configuration or development responsibilities.</p>",
+			"fr": "<p>Vous intégrez une équipe AMOA déjà en place au sein de la DSI, en binôme étroit avec le référent AMOA sur le périmètre Contrats de Service et Facturation.</p><p>Suite à une mise en production récente, le projet est actuellement en phase d’hypercare et de stabilisation, tout en préparant les futurs déploiements (rollouts).</p><p>La charge de travail est répartie : vous prendrez progressivement le leadership sur la gestion des contrats de service, tandis que le référent AMOA conservera une vision transverse et les sujets de facturation et d’intégration complexe.</p><p>Le poste est strictement AMOA : aucun paramétrage ni développement, ces activités étant réalisées par l’intégrateur.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>Proven AMOA experience in SAP projects, with strong ability to translate business needs into SAP functional requirements and vice versa</li><li>Solid understanding of SAP S/4HANA Service and Service Contracts processes</li><li>Knowledge of the simplified S/4HANA Service data model (CRM_SERV_H / CRM_SERV_I) to analyze data, without development activities</li><li>Good understanding of the service contract lifecycle: validity dates, status profiles, actions (renewal, termination, printing) and links with SAP SD billing</li><li>Experience in hypercare and stabilization phases, including L2/L3 functional support</li><li>Ability to analyze incidents and distinguish between user errors and system defects</li><li>Experience coordinating corrections with technical integrators (TMA / project teams) and validating fixes before production deployment</li><li>Ability to explain and reinforce standard S/4HANA Service processes to business users</li><li>Experience conducting Fit/Gap workshops with Business Process Owners for new entities or countries</li><li>Ability to write business requirements and general functional specifications (GFS)</li><li>Experience defining test strategies, writing test cases and executing UAT</li><li>Experience supporting business teams during contract data cleansing and validating data migration results (LSMW / Migration Cockpit)</li><li>Nice to have: Familiarity with SAP Fiori apps related to service contract management</li><li>Nice to have: Ability to run simple data queries (SQVI / SE16N) to analyze large volumes of service contract data</li></ul>",
+			"fr": "<ul><li>Expérience AMOA confirmée sur des projets SAP, avec capacité à traduire les besoins métier en langage SAP et inversement</li><li>Très bonne compréhension de SAP S/4HANA Service et des processus de contrats de service</li><li>Connaissance de l’architecture simplifiée S/4HANA Service (tables CRM_SERV_H / CRM_SERV_I) pour l’analyse de données, sans développement</li><li>Maîtrise du cycle de vie des contrats de service : dates de validité, profils de statuts, actions (renouvellement, résiliation, impression) et liens avec la facturation SAP SD</li><li>Expérience des phases d’hypercare et de stabilisation, incluant le support fonctionnel N2 / N3</li><li>Capacité à analyser les incidents et à distinguer les erreurs de manipulation des anomalies système</li><li>Expérience de coordination des corrections avec les intégrateurs (TMA / équipes projet) et validation des correctifs avant mise en production</li><li>Capacité à réexpliquer les processus standards S/4HANA Service aux utilisateurs (pédagogie)</li><li>Expérience dans l’animation d’ateliers Fit/Gap avec les BPO des nouvelles entités ou pays</li><li>Capacité à rédiger les expressions de besoins et les spécifications fonctionnelles générales (SFG)</li><li>Expérience dans la définition de la stratégie de recette, la rédaction des cas de test et l’exécution de la recette fonctionnelle (UAT)</li><li>Expérience d’accompagnement métier sur le nettoyage des données contrats et la validation des reprises de données (LSMW / Migration Cockpit)</li><li>agréable à avoir : Connaissance de l’environnement SAP Fiori (tuiles de gestion des contrats)</li><li>agréable à avoir: Capacité à effectuer des requêtes simples (SQVI / SE16N) pour analyser des volumes importants de données contrats</li></ul>"
+		},
+		"benefits": {
+			"en": "Central AMOA role in a recent and innovative SAP S/4HANA implementation, with strong functional exposure, progressive leadership on service contracts, and close collaboration with an experienced functional/technical expert.",
+			"fr": "Rôle AMOA central au cœur d’un projet SAP S/4HANA récent et innovant, avec une forte exposition fonctionnelle, une prise de leadership progressive sur les contrats de service et un travail en binôme avec un expert fonctionnel/technique expérimenté."
+		},
+		"softSkills": {
+			"en": "<ul><li>Strong team spirit and ability to work closely in a two-person AMOA setup</li><li>Calm and resilient attitude in high-pressure hypercare phases</li><li>High level of rigor, especially in incident description and reproducibility for integrators</li></ul>",
+			"fr": "<ul><li>Esprit d’équipe et capacité à travailler en binôme très étroit</li><li>Résilience et calme face à la pression des phases d’hypercare</li><li>Grande rigueur, notamment dans la rédaction des tickets pour assurer la reproductibilité des anomalies</li></ul>"
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-02-28",
+		"status": ""
+	},
 	{
 		"jobId": "J02012026-01",
 		"title": {
