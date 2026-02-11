@@ -1,794 +1,794 @@
 [
-	{
-		"jobId": "J10022026-02",
-		"title": {
-			"en": "SAP Migration Expert (ECC à S4HANA)",
-			"fr": "Expert Migration SAP (ECC to S4HANA)"
-		},
-		"type": {
-			"en": "Freelance",
-			"fr": "Freelance"
-		},
-		"salary": "",
-		"location": {
-			"en": "Corbeil-Essonnes Area (Essonne)",
-			"fr": "Corbeil-Essonnes (Essonne)"
-		},
-		"start": {
-			"en": "Within 15 days",
-			"fr": "Démarrage sous 15 jours"
-		},
-		"mode": {
-			"en": "Hybrid (3 days on-site / week)",
-			"fr": "Hybride (3 jours sur site / semaine)"
-		},
-		"posted": {
-			"en": "February 10, 2026",
-			"fr": "10 Fevrier 2026"
-		},
-		"tags": [
-			"SAP Migration",
-			"Data Migration",
-			"Cutover",
-			"SAP ECC",
-			"SAP S/4HANA",
-			"Baan",
-			"Legacy Systems",
-			"Stream Leader",
-			"Complex Migration",
-			"Program Management",
-			"Multi-Legacy",
-			"Go-Live Preparation"
-		],
-		"description": {
-			"en": "<p>You will join a large-scale SAP migration program as a Senior Expert in charge of migration and cutover activities.</p><p>The project involves the migration of 7 legacy systems (multiple SAP ECC systems and Baan) toward a target SAP environment, within a highly complex and business-critical context.</p><p>Your role will be to define, structure, coordinate and secure the overall migration and cutover strategy, working closely with business stakeholders, technical teams and integrators.</p><p>This is a hands-on leadership role: you are expected to both do and make others do, ensuring execution quality, planning reliability and operational readiness.</p><p>The engagement is urgent, with a fast contracting process (no purchasing tender) and a possible start within 15 days.</p>",
-			"fr": "<p>Vous intervenez sur un programme de migration SAP d’envergure en tant que Stream Leader / Expert senior en charge des activités de migration et de cutover.</p><p>Le projet concerne la migration de 7 systèmes legacy (plusieurs SAP ECC et Baan) vers un environnement SAP cible, dans un contexte complexe et fortement critique pour le métier.</p><p>Votre rôle consiste à définir, structurer, coordonner et sécuriser la stratégie globale de migration et de cutover, en lien étroit avec les équipes métier, techniques et l’intégrateur.</p><p>Il s’agit d’un rôle de leadership opérationnel : savoir faire, faire faire, piloter et garantir la qualité d’exécution et la préparation au go-live.</p><p>Le besoin est urgent, avec un processus contractuel rapide (hors AO achats) et un démarrage possible sous 15 jours.</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>Strong experience as Senior Expert on complex SAP migration programs</li><li>Proven expertise in defining and executing migration and cutover strategies</li><li>Experience with multi-legacy environments (SAP ECC, Baan or equivalent)</li><li>Ability to coordinate multiple stakeholders: business, IT, integrators and external partners</li><li>Hands-on mindset: able to design plans, execute tasks and supervise teams</li><li>Strong knowledge of SAP data migration concepts and dependencies</li><li>Experience in go-live preparation, rehearsal cutovers and risk management</li><li>Ability to work under pressure in time-critical environments</li><li>Excellent communication and leadership skills</li></ul>",
-			"fr": "<ul><li>Expérience solide en tant que Expert senior sur des projets de migration SAP complexes</li><li>Expertise confirmée dans la définition et l’exécution de stratégies de migration et de cutover</li><li>Expérience des environnements multi-legacy (SAP ECC, Baan ou équivalent)</li><li>Capacité à coordonner de multiples parties prenantes : métiers, IT, intégrateurs et partenaires externes</li><li>Posture opérationnelle : capacité à concevoir les plans, exécuter et superviser les équipes</li><li>Très bonne compréhension des enjeux et dépendances liés à la migration de données SAP</li><li>Expérience des préparations go-live, répétitions de cutover et gestion des risques</li><li>Capacité à évoluer sous forte pression et contraintes de délais</li><li>Leadership et communication de haut niveau</li></ul>"
-		},
-		"benefits": {
-			"en": "Key leadership role on a high-impact SAP migration program, long-term mission (1 to 2 years), strong visibility, and direct influence on go-live success.",
-			"fr": "Rôle clé de leadership sur un programme de migration SAP à fort impact, mission longue (1 à 2 ans), forte visibilité et influence directe sur la réussite du go-live."
-		},
-		"softSkills": {
-			"en": "<ul><li>Strong leadership and decision-making capability</li><li>Structured, methodical and result-oriented mindset</li><li>Excellent stress management in critical project phases</li></ul>",
-			"fr": "<ul><li>Leadership affirmé et capacité de prise de décision</li><li>Approche structurée, méthodique et orientée résultats</li><li>Excellente gestion du stress dans les phases critiques du projet</li></ul>"
-		},
-		"nationalityRequired": "No",
-		"lastDateToApply": "2026-02-28",
-		"status": ""
-	},
-		{
-			"jobId": "J10022026-01",
-			"title": {
-				"en": "SAP Migration Stream Leader / Cutover Expert",
-				"fr": "Stream Leader / Expert Migration SAP – Cutover"
-			},
-			"type": {
-				"en": "Freelance",
-				"fr": "Freelance"
-			},
-			"salary": "",
-			"location": {
-				"en": "Corbeil-Essonnes Area (Essonne)",
-				"fr": "Corbeil-Essonnes (Essonne)"
-			},
-			"start": {
-				"en": "Within 15 days",
-				"fr": "Démarrage sous 15 jours"
-			},
-			"mode": {
-				"en": "Hybrid (3 days on-site / week)",
-				"fr": "Hybride (3 jours sur site / semaine)"
-			},
-			"posted": {
-				"en": "February 10, 2026",
-				"fr": "10 Fevrier 2026"
-			},
-			"tags": [
-				"SAP Migration",
-				"Data Migration",
-				"Cutover",
-				"SAP ECC",
-				"SAP S/4HANA",
-				"Baan",
-				"Legacy Systems",
-				"Stream Leader",
-				"Complex Migration",
-				"Program Management",
-				"Multi-Legacy",
-				"Go-Live Preparation"
-			],
-			"description": {
-				"en": "<p>You will join a large-scale SAP migration program as a Stream Leader / Senior Expert in charge of migration and cutover activities.</p><p>The project involves the migration of 7 legacy systems (multiple SAP ECC systems and Baan) toward a target SAP environment, within a highly complex and business-critical context.</p><p>Your role will be to define, structure, coordinate and secure the overall migration and cutover strategy, working closely with business stakeholders, technical teams and integrators.</p><p>This is a hands-on leadership role: you are expected to both do and make others do, ensuring execution quality, planning reliability and operational readiness.</p><p>The engagement is urgent, with a fast contracting process (no purchasing tender) and a possible start within 15 days.</p>",
-				"fr": "<p>Vous intervenez sur un programme de migration SAP d’envergure en tant que Stream Leader / Expert senior en charge des activités de migration et de cutover.</p><p>Le projet concerne la migration de 7 systèmes legacy (plusieurs SAP ECC et Baan) vers un environnement SAP cible, dans un contexte complexe et fortement critique pour le métier.</p><p>Votre rôle consiste à définir, structurer, coordonner et sécuriser la stratégie globale de migration et de cutover, en lien étroit avec les équipes métier, techniques et l’intégrateur.</p><p>Il s’agit d’un rôle de leadership opérationnel : savoir faire, faire faire, piloter et garantir la qualité d’exécution et la préparation au go-live.</p><p>Le besoin est urgent, avec un processus contractuel rapide (hors AO achats) et un démarrage possible sous 15 jours.</p>"
-			},
-			"requirements": {
-				"en": "<ul><li>Strong experience as Stream Leader or Senior Expert on complex SAP migration programs</li><li>Proven expertise in defining and executing migration and cutover strategies</li><li>Experience with multi-legacy environments (SAP ECC, Baan or equivalent)</li><li>Ability to coordinate multiple stakeholders: business, IT, integrators and external partners</li><li>Hands-on mindset: able to design plans, execute tasks and supervise teams</li><li>Strong knowledge of SAP data migration concepts and dependencies</li><li>Experience in go-live preparation, rehearsal cutovers and risk management</li><li>Ability to work under pressure in time-critical environments</li><li>Excellent communication and leadership skills</li></ul>",
-				"fr": "<ul><li>Expérience solide en tant que Stream Leader ou Expert senior sur des projets de migration SAP complexes</li><li>Expertise confirmée dans la définition et l’exécution de stratégies de migration et de cutover</li><li>Expérience des environnements multi-legacy (SAP ECC, Baan ou équivalent)</li><li>Capacité à coordonner de multiples parties prenantes : métiers, IT, intégrateurs et partenaires externes</li><li>Posture opérationnelle : capacité à concevoir les plans, exécuter et superviser les équipes</li><li>Très bonne compréhension des enjeux et dépendances liés à la migration de données SAP</li><li>Expérience des préparations go-live, répétitions de cutover et gestion des risques</li><li>Capacité à évoluer sous forte pression et contraintes de délais</li><li>Leadership et communication de haut niveau</li></ul>"
-			},
-			"benefits": {
-				"en": "Key leadership role on a high-impact SAP migration program, long-term mission (1 to 2 years), strong visibility, and direct influence on go-live success.",
-				"fr": "Rôle clé de leadership sur un programme de migration SAP à fort impact, mission longue (1 à 2 ans), forte visibilité et influence directe sur la réussite du go-live."
-			},
-			"softSkills": {
-				"en": "<ul><li>Strong leadership and decision-making capability</li><li>Structured, methodical and result-oriented mindset</li><li>Excellent stress management in critical project phases</li></ul>",
-				"fr": "<ul><li>Leadership affirmé et capacité de prise de décision</li><li>Approche structurée, méthodique et orientée résultats</li><li>Excellente gestion du stress dans les phases critiques du projet</li></ul>"
-			},
-			"nationalityRequired": "No",
-			"lastDateToApply": "2026-02-28",
-			"status": ""
-		},	
-		{
-		"jobId": "J04022026-01",
-		"title": {
-			"en": "SAP S/4HANA Service AMOA Consultant – Service Contracts",
-			"fr": "Consultant AMOA SAP S/4HANA – Contrats de Service"
-		},
-		"type": {
-			"en": "Freelance",
-			"fr": "Freelance"
-		},
-		"salary": "",
-		"location": {
-			"en": "Paris Area (Île-de-France)",
-			"fr": "Région parisienne (Île-de-France)"
-		},
-		"start": {
-			"en": "ASAP",
-			"fr": "Démarrage ASAP"
-		},
-		"mode": {
-			"en": "Hybrid",
-			"fr": "Hybride"
-		},
-		"posted": {
-			"en": "February 04, 2026",
-			"fr": "04 Fevrier 2026"
-		},
-		"tags": [
-			"SAP S/4HANA",
-			"SAP S/4HANA Service",
-			"AMOA",
-			"Service Contracts",
-			"Hypercare",
-			"Stabilization",
-			"UAT",
-			"Fit/Gap",
-			"SAP SD",
-			"Fiori",
-			"Data Migration",
-			"CRM SERV",
-			"Rollout"
-		],
-		"description": {
-			"en": "<p>You will join an established AMOA team within the IT department, working in close partnership with the current AMOA lead on the Service Contracts and Billing scope.</p><p>The project has recently gone live and is currently in a hypercare and stabilization phase, while preparing upcoming international rollouts.</p><p>The workload will be shared: you will progressively take ownership of the Service Contracts domain, while the current AMOA lead maintains a transversal view and retains responsibility for complex billing and integration topics.</p><p>This is a pure AMOA role, acting as a bridge between Business Process Owners and the technical integrator, with no configuration or development responsibilities.</p>",
-			"fr": "<p>Vous intégrez une équipe AMOA déjà en place au sein de la DSI, en binôme étroit avec le référent AMOA sur le périmètre Contrats de Service et Facturation.</p><p>Suite à une mise en production récente, le projet est actuellement en phase d’hypercare et de stabilisation, tout en préparant les futurs déploiements (rollouts).</p><p>La charge de travail est répartie : vous prendrez progressivement le leadership sur la gestion des contrats de service, tandis que le référent AMOA conservera une vision transverse et les sujets de facturation et d’intégration complexe.</p><p>Le poste est strictement AMOA : aucun paramétrage ni développement, ces activités étant réalisées par l’intégrateur.</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>Proven AMOA experience in SAP projects, with strong ability to translate business needs into SAP functional requirements and vice versa</li><li>Solid understanding of SAP S/4HANA Service and Service Contracts processes</li><li>Knowledge of the simplified S/4HANA Service data model (CRM_SERV_H / CRM_SERV_I) to analyze data, without development activities</li><li>Good understanding of the service contract lifecycle: validity dates, status profiles, actions (renewal, termination, printing) and links with SAP SD billing</li><li>Experience in hypercare and stabilization phases, including L2/L3 functional support</li><li>Ability to analyze incidents and distinguish between user errors and system defects</li><li>Experience coordinating corrections with technical integrators (TMA / project teams) and validating fixes before production deployment</li><li>Ability to explain and reinforce standard S/4HANA Service processes to business users</li><li>Experience conducting Fit/Gap workshops with Business Process Owners for new entities or countries</li><li>Ability to write business requirements and general functional specifications (GFS)</li><li>Experience defining test strategies, writing test cases and executing UAT</li><li>Experience supporting business teams during contract data cleansing and validating data migration results (LSMW / Migration Cockpit)</li><li>Nice to have: Familiarity with SAP Fiori apps related to service contract management</li><li>Nice to have: Ability to run simple data queries (SQVI / SE16N) to analyze large volumes of service contract data</li></ul>",
-			"fr": "<ul><li>Expérience AMOA confirmée sur des projets SAP, avec capacité à traduire les besoins métier en langage SAP et inversement</li><li>Très bonne compréhension de SAP S/4HANA Service et des processus de contrats de service</li><li>Connaissance de l’architecture simplifiée S/4HANA Service (tables CRM_SERV_H / CRM_SERV_I) pour l’analyse de données, sans développement</li><li>Maîtrise du cycle de vie des contrats de service : dates de validité, profils de statuts, actions (renouvellement, résiliation, impression) et liens avec la facturation SAP SD</li><li>Expérience des phases d’hypercare et de stabilisation, incluant le support fonctionnel N2 / N3</li><li>Capacité à analyser les incidents et à distinguer les erreurs de manipulation des anomalies système</li><li>Expérience de coordination des corrections avec les intégrateurs (TMA / équipes projet) et validation des correctifs avant mise en production</li><li>Capacité à réexpliquer les processus standards S/4HANA Service aux utilisateurs (pédagogie)</li><li>Expérience dans l’animation d’ateliers Fit/Gap avec les BPO des nouvelles entités ou pays</li><li>Capacité à rédiger les expressions de besoins et les spécifications fonctionnelles générales (SFG)</li><li>Expérience dans la définition de la stratégie de recette, la rédaction des cas de test et l’exécution de la recette fonctionnelle (UAT)</li><li>Expérience d’accompagnement métier sur le nettoyage des données contrats et la validation des reprises de données (LSMW / Migration Cockpit)</li><li>agréable à avoir : Connaissance de l’environnement SAP Fiori (tuiles de gestion des contrats)</li><li>agréable à avoir: Capacité à effectuer des requêtes simples (SQVI / SE16N) pour analyser des volumes importants de données contrats</li></ul>"
-		},
-		"benefits": {
-			"en": "Central AMOA role in a recent and innovative SAP S/4HANA implementation, with strong functional exposure, progressive leadership on service contracts, and close collaboration with an experienced functional/technical expert.",
-			"fr": "Rôle AMOA central au cœur d’un projet SAP S/4HANA récent et innovant, avec une forte exposition fonctionnelle, une prise de leadership progressive sur les contrats de service et un travail en binôme avec un expert fonctionnel/technique expérimenté."
-		},
-		"softSkills": {
-			"en": "<ul><li>Strong team spirit and ability to work closely in a two-person AMOA setup</li><li>Calm and resilient attitude in high-pressure hypercare phases</li><li>High level of rigor, especially in incident description and reproducibility for integrators</li></ul>",
-			"fr": "<ul><li>Esprit d’équipe et capacité à travailler en binôme très étroit</li><li>Résilience et calme face à la pression des phases d’hypercare</li><li>Grande rigueur, notamment dans la rédaction des tickets pour assurer la reproductibilité des anomalies</li></ul>"
-		},
-		"nationalityRequired": "No",
-		"lastDateToApply": "2026-02-28",
-		"status": ""
-	},
-	{
-		"jobId": "J02012026-01",
-		"title": {
-			"en": "SAP S/4HANA Service Management Consultant",
-			"fr": "Consultant SAP S/4HANA Service Management"
-		},
-		"type": {
-			"en": "Freelance",
-			"fr": "Freelance"
-		},
-		"salary": "",
-		"location": {
-			"en": "Paris Area",
-			"fr": "Région parisienne"
-		},
-		"start": {
-			"en": "ASAP",
-			"fr": "Démarrage ASAP"
-		},
-		"mode": {
-			"en": "Hybrid / Full Remote possible",
-			"fr": "Hybride / 100% Télétravail envisageable"
-		},
-		"posted": {
-			"en": "January 28, 2026",
-			"fr": "28 Janvier 2026"
-		},
-		"tags": [
-			"SAP S/4HANA",
-			"SAP Service Management",
-			"SAP SM",
-			"SAP SD",
-			"SAP FI",
-			"SAP PM",
-			"SAP BP",
-			"Customer Service",
-			"Integration",
-			"Customizing",
-			"Project"
-		],
-		"description": {
-			"en": "<p>As part of an ongoing SAP S/4HANA transformation project, the client is looking for an experienced SAP Service Management consultant to lead the configuration and implementation of Customer Service processes.</p><p>The consultant will play a key role in the setup of service offerings, service orders, and recurring service contracts, while ensuring seamless integration with SD, FI, PM, and Business Partner.</p><p>This is a short but high-impact mission within an innovative project and a collaborative, expert team.</p>",
-			"fr": "<p>Dans le cadre d’un projet SAP S/4HANA en cours, le client recherche un consultant SAP Service Management expérimenté pour piloter le paramétrage et l’implémentation des processus de Service Client.</p><p>Le consultant interviendra notamment sur la mise en place des offres de service, des ordres de service et des contrats récurrents, ainsi que sur les intégrations avec les modules SD, FI, PM et Business Partner.</p><p>Il s’agit d’une mission courte mais à fort enjeu, au sein d’un projet innovant porté par une équipe expérimentée et engagée.</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>Proven experience in SAP Service Management on S/4HANA</li><li>Strong expertise in SAP SM or SAP CS/PM</li><li>Hands-on experience with SAP customizing related to service processes</li><li>Excellent understanding of integrations with SD, FI, PM, and Business Partner</li><li>Experience with service offers, service orders, and recurring service contracts</li><li>Ability to work autonomously in a project context</li><li>Strong analytical and functional skills</li><li>Good communication skills and team spirit</li><li>Availability for a short-term, high-intensity mission</li></ul>",
-			"fr": "<ul><li>Expérience confirmée sur SAP Service Management en environnement S/4HANA</li><li>Solide expertise SAP SM ou SAP CS/PM</li><li>Expérience concrète en paramétrage des processus de service</li><li>Très bonne maîtrise des intégrations avec SD, FI, PM et Business Partner</li><li>Connaissance des offres de service, ordres de service et contrats récurrents</li><li>Capacité à intervenir de manière autonome dans un contexte projet</li><li>Excellentes compétences fonctionnelles et analytiques</li><li>Bon relationnel et esprit d’équipe</li><li>Disponibilité pour une mission courte et intensive</li></ul>"
-		},
-		"benefits": {
-			"en": "Innovative SAP S/4HANA project with an experienced and collaborative team.",
-			"fr": "Projet SAP S/4HANA innovant avec une équipe experte et très collaborative."
-		},
-		"nationalityRequired": "No",
-		"lastDateToApply": "2026-02-20",
-		"status": ""
-	},
-	{
-		"jobId": "J01012026-01",
-		"title": {
-			"en": "SAP ECC Level 3 Support Consultant (SD / MM / FI)",
-			"fr": "Consultant SAP Support Niveau 3 ECC (SD / MM / FI)"
-		},
-		"type": {
-			"en": "Freelance",
-			"fr": "Freelance"
-		},
-		"salary": "",
-		"location": {
-			"en": "Île-de-France (91)",
-			"fr": "Île-de-France (91)"
-		},
-		"start": {
-			"en": "ASAP",
-			"fr": "Urgent"
-		},
-		"mode": {
-			"en": "Hybrid",
-			"fr": "Hybride"
-		},
-		"posted": {
-			"en": "January 01, 2026",
-			"fr": "01 Janvier 2026"
-		},
-		"tags": [
-			"SAP ECC",
-			"SAP SD",
-			"SAP MM",
-			"SAP FI",
-			"Level 3 Support",
-			"TMA",
-			"MCO",
-			"Customizing",
-			"SPRO",
-			"Industrial",
-			"Defense"
-		],
-		"description": {
-			"en": "<p>As part of SAP ECC maintenance in operational condition (MCO) and advanced support, the client is seeking a Level 3 SAP Support Consultant with strong functional expertise to handle complex incidents involving integrated Logistics–Finance flows.</p><p>The role is set in a demanding industrial environment where stakeholders expect deep SAP ECC expertise, going beyond business processes to include detailed knowledge of fields, account determination logic, transactions, and SAP configuration (SPRO). The consultant will act as a key functional reference for SD, MM, and FI integration.</p>",
-			"fr": "<p>Dans le cadre du MCO et du support avancé de son système SAP ECC, le client recherche un Consultant SAP Support Niveau 3 disposant d’une expertise fonctionnelle approfondie, capable d’intervenir sur des incidents complexes impliquant des flux intégrés Logistique–Finance.</p><p>Le poste s’inscrit dans un environnement exigeant, nécessitant une maîtrise détaillée du fonctionnement SAP ECC, au-delà des processus métiers, incluant la connaissance précise des champs, critères de détermination, transactions et logiques de paramétrage (SPRO).</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>Proven Level 3 support expertise on SAP ECC</li><li>Strong functional mastery of SD, MM, and FI modules</li><li>End-to-end understanding of SD–FI and MM–FI integrations</li><li>Ability to analyze and resolve complex incidents escalated from L1/L2 support</li><li>Hands-on experience with SAP customizing (SPRO): account determination, pricing, release strategies</li><li>Deep knowledge of master data structures (Customers, Vendors, Materials) and accounting impact</li><li>Expertise in advanced business processes: pricing, consignment, release strategy</li><li>System-oriented mindset with strong understanding of SAP ECC internal logic</li><li>Ability to clearly explain how configuration and master data generate FI postings</li><li>Excellent analytical skills, rigor, and precision</li><li>Strong communication skills with expert and demanding stakeholders</li><li>Pedagogical approach to support and upskill L1/L2 teams</li><li>High resilience to stress and demanding environments</li><li>SAP ECC mandatory (S/4HANA knowledge is a plus)</li></ul>",
-			"fr": "<ul><li>Expertise confirmée en support SAP ECC Niveau 3</li><li>Maîtrise fonctionnelle approfondie des modules SD, MM et FI</li><li>Très bonne connaissance de l’intégration SD–FI et MM–FI</li><li>Capacité à analyser et résoudre des incidents complexes escaladés par le support N1/N2</li><li>Expérience concrète en customizing SAP (SPRO) : détermination des comptes, pricing, stratégies de libération</li><li>Maîtrise de la structure des données de base (Clients, Fournisseurs, Articles) et de leur impact comptable</li><li>Expertise sur des processus métiers avancés : pricing, consignation, release strategy</li><li>Approche orientée système et compréhension du fonctionnement interne de SAP ECC</li><li>Capacité à expliquer les liens entre configuration, données de base et écritures comptables</li><li>Très forte capacité d’analyse, rigueur et précision</li><li>Aisance dans les échanges avec des interlocuteurs experts et challengers</li><li>Pédagogie pour accompagner les équipes N1/N2</li><li>Résistance au stress et aux environnements exigeants</li><li>Environnement SAP ECC obligatoire (S/4 apprécié mais non requis)</li></ul>"
-		},
-		"benefits": {
-			"en": "",
-			"fr": ""
-		},
-		"nationalityRequired": "Yes",
-		"lastDateToApply": "2026-01-31",
-		"status": ""
-	},
-	{
-		"jobId": "J01012026-02",
-		"title": {
-			"en": "SAP IS Utilities (IS-U) Consultant",
-			"fr": "Consultant SAP IS Utilities (IS-U)"
-		},
-		"type": {
-			"en": "Freelance",
-			"fr": "Freelance"
-		},
-		"salary": "850",
-		"location": {
-			"en": "Dakar, Senegal",
-			"fr": "Dakar, Sénégal"
-		},
-		"start": {
-			"en": "March 2026",
-			"fr": "Mars 2026"
-		},
-		"mode": {
-			"en": "Hybrid",
-			"fr": "Hybride"
-		},
-		"posted": {
-			"en": "January 01, 2026",
-			"fr": "01 Janvier 2026"
-		},
-		"tags": [
-			"SAP IS-U",
-			"SAP ECC 6.0",
-			"H2MC",
-			"Utilities",
-			"Energy",
-			"Audit",
-			"Customizing",
-			"Deployment"
-		],
-		"description": {
-			"en": "<p>The project takes place in a SAP ERP ECC 6.0 IS-U / H2MC environment within the energy sector. The objective is to audit the existing platform, define and present optimization recommendations, and then implement these recommendations end-to-end.</p><p>The SAP IS-U Consultant will support the audit phase, contribute to the system optimization strategy, and lead the implementation phase including workshops, configuration, testing, deployment, and post-go-live support. The assignment starts in March 2026 and runs for 9 months, with partial on-site presence in Dakar (Senegal) and the remainder delivered remotely.</p>",
-			"fr": "<p>Le projet s’inscrit dans un environnement SAP ERP ECC 6.0 IS-U / H2MC dans le secteur de l’énergie. Il vise à auditer la plateforme existante, formuler et présenter des recommandations d’optimisation, puis à les mettre en œuvre de bout en bout.</p><p>Le Consultant SAP IS-U interviendra sur la phase d’audit, la définition de la stratégie d’optimisation du système, puis sur la mise en œuvre complète : animation d’ateliers, paramétrage, tests, déploiement et support post-mise en production. La mission débute en mars 2026 pour une durée de 9 mois, avec une présence partielle sur site à Dakar (Sénégal) et le reste en télétravail.</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>Minimum 5 years of hands-on experience as a techno-functional SAP IS-U consultant</li><li>Proven experience across the full SAP IS-U deployment lifecycle (workshops, customizing, testing, data migration, go-live, support)</li><li>Participation in at least three SAP IS-U implementation projects</li><li>Strong experience in the utilities / energy sector</li><li>Ability to conduct system audits and define optimization strategies</li><li>Experience with SAP ECC 6.0 IS-U / H2MC environments</li><li>French is the working language of the project</li><li>Availability for on-site work in Dakar during key project phases</li></ul>",
-			"fr": "<ul><li>Profil technico-fonctionnel avec au minimum 5 ans d’expérience sur SAP IS-U (CV et références concrètes)</li><li>Expérience opérationnelle sur l’ensemble du cycle de déploiement SAP IS-U (ateliers, customizing, tests, reprise de données, mise en production, support)</li><li>Participation à au moins trois projets d’implémentation SAP IS-U</li><li>Expérience dans le secteur de l’énergie</li><li>Capacité à réaliser des audits de système et à définir des stratégies d’optimisation</li><li>Maîtrise de l’environnement SAP ECC 6.0 IS-U / H2MC</li><li>Langue du projet : français</li><li>Disponibilité pour des missions sur site à Dakar lors des phases clés</li></ul>"
-		},
-		"benefits": {
-			"en": "",
-			"fr": ""
-		},
-		"nationalityRequired": "No",
-		"lastDateToApply": "2026-01-31",
-		"status": ""
-	},
-	{
-		"jobId": "J05122025-01",
-		"title": {
-			"en": "Order to Cash Work Stream Leader – SAP S/4HANA",
-			"fr": "Work Stream Leader Order to Cash – SAP S/4HANA"
-		},
-		"type": {
-			"en": "Freelance",
-			"fr": "Freelance"
-		},
-		"salary": "850",
-		"location": {
-			"en": "Suresnes, France",
-			"fr": "Suresnes, France"
-		},
-		"start": {
-			"en": "ASAP",
-			"fr": "Dès que possible"
-		},
-		"mode": {
-			"en": "Hybrid",
-			"fr": "Hybride"
-		},
-		"posted": {
-			"en": "December 05, 2025",
-			"fr": "05 Decembre 2025"
-		},
-		"tags": [
-			"Order to Cash",
-			"OTC",
-			"SAP S/4HANA",
-			"Supply Chain",
-			"ERP",
-			"APS",
-			"Stream Lead",
-			"Pharmaceutical"
-		],
-		"description": {
-			"en": "<p>Servier is leading a major global digital transformation program, including the deployment of a new ERP (SAP S/4HANA) and an Advanced Planning System (APS). The program, named Morphe’US, aims to modernize the entire Supply Chain across manufacturing sites, chemical sites, CMOs, and international affiliates.</p><p>The Order to Cash Work Stream Leader is responsible for defining and operationally implementing the OTC Core Model, in close collaboration with the Business Process Owner and under the responsibility of the Industry Lead. The role involves leading design workshops, coordinating stakeholders, overseeing configuration activities, and preparing deployments across the group’s entities.</p>",
-			"fr": "<p>Servier mène une transformation digitale majeure à l’échelle mondiale, incluant le déploiement d’un nouvel ERP (SAP S/4HANA) et d’un APS. Ce programme, nommé Morphe’US, vise à moderniser l’ensemble de la Supply Chain (sites de production, sites chimiques, CMO et filiales internationales).</p><p>Le Work Stream Leader Order to Cash est responsable de la définition et de la mise en œuvre opérationnelle du Core Model OTC, en lien avec le Business Process Owner et sous la responsabilité de l’Industry Lead. Il pilote les ateliers de conception, coordonne les parties prenantes, supervise le paramétrage et prépare les déploiements dans les différentes entités du groupe.</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>Master’s degree (engineering or business school)</li><li>5 to 10 years of experience in Supply Chain, ideally on ERP and/or APS projects</li><li>Strong knowledge of planning processes (S&OP, forecasting, production, distribution) and execution processes (Order to Cash)</li><li>Experience with tools such as SAP S/4HANA, Kinaxis, OMP, IBP is a plus</li><li>Ability to lead change and support business teams</li><li>Strong workshop facilitation, organizational and communication skills</li><li>Knowledge of EDI</li><li>Leadership skills and ability to engage stakeholders</li><li>Fluent in French and English</li><li>Willingness to travel in France (Orléans, Bolbec) and internationally (Ireland)</li></ul>",
-			"fr": "<ul><li>Bac+5 (école d’ingénieurs ou de commerce)</li><li>5 à 10 ans d’expérience en Supply Chain, idéalement sur des projets ERP et/ou APS</li><li>Connaissance des processus de planification (S&OP, prévisions, production, distribution) et d’exécution (Order to Cash)</li><li>Maîtrise ou connaissance des outils SAP S/4HANA, Kinaxis, OMP, IBP appréciée</li><li>Compétences en conduite du changement et accompagnement des équipes</li><li>Capacité à animer des ateliers, sens de l’organisation et communication transversale</li><li>Connaissance de l’EDI</li><li>Leadership et capacité à fédérer</li><li>Français et anglais courants</li><li>Disponibilité pour des déplacements en France (Orléans, Bolbec) et à l’international (Irlande)</li></ul>"
-		},
-		"benefits": {
-			"en": "",
-			"fr": ""
-		},
-		"nationalityRequired": "No",
-		"lastDateToApply": "2025-12-31",
-		"status": ""
-	},
-	{
-		"jobId": "J11112025-01",
-		"title": {
-			"en": "SAP SD Consultant",
-			"fr": "Consultant SAP SD"
-		},
-		"type": {
-			"en": "Freelance",
-			"fr": "Freelance"
-		},
-		"salary": "",
-		"location": {
-			"en": "Île-de-France",
-			"fr": "Île-de-France"
-		},
-		"start": {
-			"en": "ASAP",
-			"fr": "urgent"
-		},
-		"mode": {
-			"en": "Hybrid",
-			"fr": "Hybride"
-		},
-		"posted": {
-			"en": "Nomvenber 11, 2025",
-			"fr": "11 Nomvenbre 2025"
-		},
-		"tags": [
-			"SAP SD",
-			"SAP MM",
-			"Customizing",
-			"SPRO",
-			"ABAP",
-			"Specifications"
-		],
-		"description": {
-			"en": "<p>For a large corporate client based in the Île-de-France region, we are looking for an SAP SD Consultant for a long-term contract. The consultant will be involved in business requirement gathering, workshop facilitation, system configuration, and the drafting of functional specifications within an SAP SD/MM environment.</p>",
-			"fr": "<p>Pour un client grand compte basé en Île-de-France, nous recherchons un Consultant SAP SD pour une mission de longue durée. Le consultant interviendra sur le recueil des besoins, l’animation d’ateliers, le paramétrage SAP ainsi que la rédaction des spécifications fonctionnelles dans un environnement SAP SD/MM.</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>Full mastery of SAP MM/SD transactions and processes</li><li>Experience in requirements gathering, workshop facilitation, and specification writing</li><li>Strong skills in SAP configuration (Customizing) using SPRO</li><li>Good understanding of SAP tables and their functional relationships</li><li>Basic ability to read and debug ABAP code for analysis purposes</li></ul>",
-			"fr": "<ul><li>Maîtrise complète des transactions et processus SAP MM/SD</li><li>Expérience en recueil du besoin, animation d’ateliers et rédaction de spécifications</li><li>Compétences solides en paramétrage SAP (Customizing) via SPRO</li><li>Bonne compréhension des tables SAP et de leurs liens fonctionnels</li><li>Notions de lecture et de debug ABAP pour faciliter l’analyse</li></ul>"
-		},
-		"benefits": {
-			"en": "",
-			"fr": ""
-		},
-		"nationalityRequired": "No",
-		"lastDateToApply": "2025-11-20",
-		"status": ""
-	},
-	{
-		"jobId": "J11112025-02",
-		"title": {
-			"en": "SAP SD Consultant",
-			"fr": "Consultant SAP SD"
-		},
-		"type": {
-			"en": "Freelance",
-			"fr": "Freelance"
-		},
-		"salary": "",
-		"location": {
-			"en": "Île-de-France",
-			"fr": "Île-de-France"
-		},
-		"start": {
-			"en": "ASAP",
-			"fr": "urgent"
-		},
-		"mode": {
-			"en": "Hybrid",
-			"fr": "Hybride"
-		},
-		"posted": {
-			"en": "Nomvenber 11, 2025",
-			"fr": "11 Nomvenbre 2025"
-		},
-		"tags": [
-			"SAP SD",
-			"E-Invoice",
-			"Specifications"
-		],
-		"description": {
-			"en": "<p>We are seeking an SAP SD Consultant for a temporary mission of approximately 40 days. The consultant will support the client by writing functional and technical specifications as part of an e-invoice digitalization system implementation. The working arrangement includes four days of remote work per week, with on-site presence required on Mondays only.</p>",
-			"fr": "<p>Nous recherchons un Consultant SAP SD pour une mission ponctuelle d’environ 40 jours. Le consultant accompagnera le client dans la rédaction des spécifications fonctionnelles et techniques dans le cadre de la mise en place d’un système de digitalisation de la facturation électronique (E-Invoice). L’organisation du travail prévoit quatre jours de télétravail par semaine, avec une présence sur site uniquement le lundi.</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>Strong expertise in SAP SD</li><li>Proven experience in writing functional and technical specifications</li><li>Knowledge of e-invoicing and digital invoicing processes</li></ul>",
-			"fr": "<ul><li>Solide expertise en SAP SD</li><li>Expérience confirmée en rédaction de spécifications fonctionnelles et techniques</li><li>Connaissance des processus de facturation électronique (E-Invoice)</li></ul>"
-		},
-		"benefits": {
-			"en": "",
-			"fr": ""
-		},
-		"nationalityRequired": "No",
-		"lastDateToApply": "2025-11-20",
-		"status": ""
-	},
-	{
-		"jobId": "J01012025-01",
-		"title": {
-			"en": "Senior SAP FICO Consultant",
-			"fr": "Consultant SAP FICO Senior"
-		},
-		"type": {
-			"en": "Permanent",
-			"fr": "CDI"
-		},
-		"salary": "60-80K €",
-		"location": {
-			"en": "Paris, France",
-			"fr": "Paris, France"
-		},
-		"start": {
-			"en": "February 2025",
-			"fr": "Février 2025"
-		},
-		"mode": {
-			"en": "Hybrid",
-			"fr": "Hybride"
-		},
-		"posted": {
-			"en": "January 01, 2025",
-			"fr": "01 Janvier 2025"
-		},
-		"tags": [
-			"SAP FICO",
-			"S/4HANA",
-			"Finance"
-		],
-		"description": {
-			"en": "<p>We are looking for an experienced SAP FICO Consultant to join our growing team. You will be responsible for implementation and support tasks.</p>",
-			"fr": "<p>Nous recherchons un Consultant SAP FICO expérimenté pour rejoindre notre équipe. Vous serez responsable des tâches d'implémentation et de support.</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>5+ years of experience in SAP FICO consulting</li><li>Experience with S/4HANA migration</li></ul>",
-			"fr": "<ul><li>5+ ans d'expérience en conseil SAP FICO</li><li>Expérience en migration S/4HANA</li></ul>"
-		},
-		"benefits": {
-			"en": "<ul><li>Competitive salary package with performance bonuses</li><li>Health insurance</li></ul>",
-			"fr": "<ul><li>Package salarial compétitif avec bonus de performance</li><li>Assurance maladie</li></ul>"
-		},
-		"nationalityRequired": "No",
-		"lastDateToApply": "2025-02-01",
-		"status": ""
-	},
-	{
-		"jobId": "J08012025-01",
-		"title": {
-			"en": "SAP SD/MM Consultant",
-			"fr": "Consultant SAP SD/MM"
-		},
-		"type": {
-			"en": "Freelance",
-			"fr": "Freelance"
-		},
-		"rate": "500-650 €/day",
-		"location": {
-			"en": "Lyon, France",
-			"fr": "Lyon, France"
-		},
-		"start": {
-			"en": "March 2025",
-			"fr": "Mars 2025"
-		},
-		"mode": {
-			"en": "Remote",
-			"fr": "Télétravail"
-		},
-		"posted": {
-			"en": "January 8, 2025",
-			"fr": "8 Janvier 2025"
-		},
-		"tags": [
-			"SAP SD",
-			"SAP MM",
-			"Logistics"
-		],
-		"description": {
-			"en": "<p>Join our team as a SAP SD/MM Consultant for a 12-month mission. Focus on optimizing logistics flows.</p>",
-			"fr": "<p>Rejoignez notre équipe en tant que Consultant SAP SD/MM pour une mission de 12 mois. Focus sur l'optimisation des flux logistiques.</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>4+ years of experience with SAP SD/MM</li><li>Fluent in French</li></ul>",
-			"fr": "<ul><li>4+ ans d'expérience avec SAP SD/MM</li><li>Fluide en français</li></ul>"
-		},
-		"benefits": {
-			"en": "<ul><li>Competitive daily rate</li><li>Remote work flexibility</li></ul>",
-			"fr": "<ul><li>Taux journalier compétitif</li><li>Flexibilité télétravail</li></ul>"
-		},
-		"nationalityRequired": "No",
-		"lastDateToApply": "2025-02-15",
-		"status": ""
-	},
-	{
-		"jobId": "J05012025-01",
-		"title": {
-			"en": "Cloud Solutions Architect",
-			"fr": "Architecte Solutions Cloud"
-		},
-		"type": {
-			"en": "Permanent",
-			"fr": "CDI"
-		},
-		"salary": "70-90K €",
-		"location": {
-			"en": "Paris, France",
-			"fr": "Paris, France"
-		},
-		"start": {
-			"en": "ASAP",
-			"fr": "Dès que possible"
-		},
-		"mode": {
-			"en": "Hybrid",
-			"fr": "Hybride"
-		},
-		"posted": {
-			"en": "January 5, 2025",
-			"fr": "5 Janvier 2025"
-		},
-		"tags": [
-			"AWS",
-			"Azure",
-			"GCP",
-			"Architecture"
-		],
-		"description": {
-			"en": "<p>We are seeking a talented Cloud Solutions Architect to design scalable systems.</p>",
-			"fr": "<p>Nous recherchons un Architecte Solutions Cloud talentueux pour concevoir des systèmes évolutifs.</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>5+ years of experience in cloud architecture</li><li>Certification in AWS or Azure</li></ul>",
-			"fr": "<ul><li>5+ ans d'expérience en architecture cloud</li><li>Certification AWS ou Azure</li></ul>"
-		},
-		"benefits": {
-			"en": "<ul><li>Competitive salary with benefits</li><li>Training budget</li></ul>",
-			"fr": "<ul><li>Salaire compétitif avec avantages</li><li>Budget formation</li></ul>"
-		},
-		"nationalityRequired": "No",
-		"lastDateToApply": "2025-02-20",
-		"status": ""
-	},
-	{
-		"jobId": "J12012025-01",
-		"title": {
-			"en": "DevOps Engineer",
-			"fr": "Ingénieur DevOps"
-		},
-		"type": {
-			"en": "Freelance",
-			"fr": "Freelance"
-		},
-		"rate": "450-550 €/day",
-		"location": {
-			"en": "France",
-			"fr": "France"
-		},
-		"start": {
-			"en": "February 2025",
-			"fr": "Février 2025"
-		},
-		"mode": {
-			"en": "Remote",
-			"fr": "Télétravail"
-		},
-		"posted": {
-			"en": "January 12, 2025",
-			"fr": "12 Janvier 2025"
-		},
-		"tags": [
-			"Kubernetes",
-			"Docker",
-			"CI/CD",
-			"Terraform"
-		],
-		"description": {
-			"en": "<p>Looking for an experienced DevOps Engineer to automate our infrastructure.</p>",
-			"fr": "<p>Nous recherchons un Ingénieur DevOps expérimenté pour automatiser notre infrastructure.</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>4+ years of DevOps experience</li><li>Scripting skills (Python/Bash)</li></ul>",
-			"fr": "<ul><li>4+ ans d'expérience DevOps</li><li>Compétences en scripting (Python/Bash)</li></ul>"
-		},
-		"benefits": {
-			"en": "<ul><li>Competitive daily rate</li><li>Long term contract</li></ul>",
-			"fr": "<ul><li>Taux journalier compétitif</li><li>Contrat long terme</li></ul>"
-		},
-		"nationalityRequired": "No",
-		"lastDateToApply": "2025-02-25",
-		"status": ""
-	},
-	{
-		"jobId": "J03012025-01",
-		"title": {
-			"en": "Cybersecurity Analyst",
-			"fr": "Analyste Cybersécurité"
-		},
-		"type": {
-			"en": "Fixed-term (18 months)",
-			"fr": "CDD (18 mois)"
-		},
-		"salary": "50-65K €",
-		"location": {
-			"en": "Lyon, France",
-			"fr": "Lyon, France"
-		},
-		"start": {
-			"en": "April 2025",
-			"fr": "Avril 2025"
-		},
-		"mode": {
-			"en": "On-site",
-			"fr": "Sur site"
-		},
-		"posted": {
-			"en": "January 3, 2025",
-			"fr": "3 Janvier 2025"
-		},
-		"tags": [
-			"Security",
-			"SIEM",
-			"Penetration Testing"
-		],
-		"description": {
-			"en": "<p>Join our security team to help protect digital assets and conduct audits.</p>",
-			"fr": "<p>Rejoignez notre équipe sécurité pour protéger les actifs numériques et effectuer des audits.</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>3+ years of cybersecurity experience</li><li>CISSP or similar certification is a plus</li></ul>",
-			"fr": "<ul><li>3+ ans d'expérience en cybersécurité</li><li>Certification CISSP ou similaire est un plus</li></ul>"
-		},
-		"benefits": {
-			"en": "<ul><li>Competitive salary</li><li>Mercedes plan</li></ul>",
-			"fr": "<ul><li>Salaire compétitif</li><li>Plan Mercedes</li></ul>"
-		},
-		"nationalityRequired": "No",
-		"lastDateToApply": "2025-02-10",
-		"status": ""
-	},
-	{
-		"jobId": "J07012025-01",
-		"title": {
-			"en": "AI/ML Engineer",
-			"fr": "Ingénieur IA/ML"
-		},
-		"type": {
-			"en": "Permanent",
-			"fr": "CDI"
-		},
-		"salary": "65-85K €",
-		"location": {
-			"en": "Paris, France",
-			"fr": "Paris, France"
-		},
-		"start": {
-			"en": "March 2025",
-			"fr": "Mars 2025"
-		},
-		"mode": {
-			"en": "Hybrid",
-			"fr": "Hybride"
-		},
-		"posted": {
-			"en": "January 7, 2025",
-			"fr": "7 Janvier 2025"
-		},
-		"tags": [
-			"Python",
-			"TensorFlow",
-			"Machine Learning",
-			"NLP"
-		],
-		"description": {
-			"en": "<p>We're looking for a passionate AI/ML Engineer to build predictive models.</p>",
-			"fr": "<p>Nous recherchons un Ingénieur IA/ML passionné pour construire des modèles prédictifs.</p>"
-		},
-		"requirements": {
-			"en": "<ul><li>3+ years of experience in ML/AI</li><li>Strong math background</li></ul>",
-			"fr": "<ul><li>3+ ans d'expérience en ML/IA</li><li>Forte base en mathématiques</li></ul>"
-		},
-		"benefits": {
-			"en": "<ul><li>Competitive salary package</li><li>Equity options</li></ul>",
-			"fr": "<ul><li>Package salarial compétitif</li><li>Options sur actions</li></ul>"
-		},
-		"nationalityRequired": "No",
-		"lastDateToApply": "2025-02-28",
-		"status": ""
-	}
+  {
+    "jobId": "J10022026-02",
+    "title": {
+      "en": "SAP Migration Expert (ECC à S4HANA)",
+      "fr": "Expert Migration SAP (ECC to S4HANA)"
+    },
+    "type": {
+      "en": "Freelance",
+      "fr": "Freelance"
+    },
+    "salary": "",
+    "location": {
+      "en": "Corbeil-Essonnes Area (Essonne)",
+      "fr": "Corbeil-Essonnes (Essonne)"
+    },
+    "start": {
+      "en": "Within 15 days",
+      "fr": "Démarrage sous 15 jours"
+    },
+    "mode": {
+      "en": "Hybrid (3 days on-site / week)",
+      "fr": "Hybride (3 jours sur site / semaine)"
+    },
+    "posted": {
+      "en": "February 10, 2026",
+      "fr": "10 Fevrier 2026"
+    },
+    "tags": [
+      "SAP Migration",
+      "Data Migration",
+      "Cutover",
+      "SAP ECC",
+      "SAP S/4HANA",
+      "Baan",
+      "Legacy Systems",
+      "Stream Leader",
+      "Complex Migration",
+      "Program Management",
+      "Multi-Legacy",
+      "Go-Live Preparation"
+    ],
+    "description": {
+      "en": "<p>You will join a large-scale SAP migration program as a Senior Expert in charge of migration and cutover activities.</p><p>The project involves the migration of 7 legacy systems (multiple SAP ECC systems and Baan) toward a target SAP environment, within a highly complex and business-critical context.</p><p>Your role will be to define, structure, coordinate and secure the overall migration and cutover strategy, working closely with business stakeholders, technical teams and integrators.</p><p>This is a hands-on leadership role: you are expected to both do and make others do, ensuring execution quality, planning reliability and operational readiness.</p><p>The engagement is urgent, with a fast contracting process (no purchasing tender) and a possible start within 15 days.</p>",
+      "fr": "<p>Vous intervenez sur un programme de migration SAP d’envergure en tant que Stream Leader / Expert senior en charge des activités de migration et de cutover.</p><p>Le projet concerne la migration de 7 systèmes legacy (plusieurs SAP ECC et Baan) vers un environnement SAP cible, dans un contexte complexe et fortement critique pour le métier.</p><p>Votre rôle consiste à définir, structurer, coordonner et sécuriser la stratégie globale de migration et de cutover, en lien étroit avec les équipes métier, techniques et l’intégrateur.</p><p>Il s’agit d’un rôle de leadership opérationnel : savoir faire, faire faire, piloter et garantir la qualité d’exécution et la préparation au go-live.</p><p>Le besoin est urgent, avec un processus contractuel rapide (hors AO achats) et un démarrage possible sous 15 jours.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>Strong experience as Senior Expert on complex SAP migration programs</li><li>Proven expertise in defining and executing migration and cutover strategies</li><li>Experience with multi-legacy environments (SAP ECC, Baan or equivalent)</li><li>Ability to coordinate multiple stakeholders: business, IT, integrators and external partners</li><li>Hands-on mindset: able to design plans, execute tasks and supervise teams</li><li>Strong knowledge of SAP data migration concepts and dependencies</li><li>Experience in go-live preparation, rehearsal cutovers and risk management</li><li>Ability to work under pressure in time-critical environments</li><li>Excellent communication and leadership skills</li></ul>",
+      "fr": "<ul><li>Expérience solide en tant que Expert senior sur des projets de migration SAP complexes</li><li>Expertise confirmée dans la définition et l’exécution de stratégies de migration et de cutover</li><li>Expérience des environnements multi-legacy (SAP ECC, Baan ou équivalent)</li><li>Capacité à coordonner de multiples parties prenantes : métiers, IT, intégrateurs et partenaires externes</li><li>Posture opérationnelle : capacité à concevoir les plans, exécuter et superviser les équipes</li><li>Très bonne compréhension des enjeux et dépendances liés à la migration de données SAP</li><li>Expérience des préparations go-live, répétitions de cutover et gestion des risques</li><li>Capacité à évoluer sous forte pression et contraintes de délais</li><li>Leadership et communication de haut niveau</li></ul>"
+    },
+    "benefits": {
+      "en": "Key leadership role on a high-impact SAP migration program, long-term mission (1 to 2 years), strong visibility, and direct influence on go-live success.",
+      "fr": "Rôle clé de leadership sur un programme de migration SAP à fort impact, mission longue (1 à 2 ans), forte visibilité et influence directe sur la réussite du go-live."
+    },
+    "softSkills": {
+      "en": "<ul><li>Strong leadership and decision-making capability</li><li>Structured, methodical and result-oriented mindset</li><li>Excellent stress management in critical project phases</li></ul>",
+      "fr": "<ul><li>Leadership affirmé et capacité de prise de décision</li><li>Approche structurée, méthodique et orientée résultats</li><li>Excellente gestion du stress dans les phases critiques du projet</li></ul>"
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2026-02-28",
+    "status": ""
+  },
+  {
+    "jobId": "J10022026-01",
+    "title": {
+      "en": "SAP Migration Stream Leader / Cutover Expert",
+      "fr": "Stream Leader / Expert Migration SAP – Cutover"
+    },
+    "type": {
+      "en": "Freelance",
+      "fr": "Freelance"
+    },
+    "salary": "",
+    "location": {
+      "en": "Corbeil-Essonnes Area (Essonne)",
+      "fr": "Corbeil-Essonnes (Essonne)"
+    },
+    "start": {
+      "en": "Within 15 days",
+      "fr": "Démarrage sous 15 jours"
+    },
+    "mode": {
+      "en": "Hybrid (3 days on-site / week)",
+      "fr": "Hybride (3 jours sur site / semaine)"
+    },
+    "posted": {
+      "en": "February 10, 2026",
+      "fr": "10 Fevrier 2026"
+    },
+    "tags": [
+      "SAP Migration",
+      "Data Migration",
+      "Cutover",
+      "SAP ECC",
+      "SAP S/4HANA",
+      "Baan",
+      "Legacy Systems",
+      "Stream Leader",
+      "Complex Migration",
+      "Program Management",
+      "Multi-Legacy",
+      "Go-Live Preparation"
+    ],
+    "description": {
+      "en": "<p>You will join a large-scale SAP migration program as a Stream Leader / Senior Expert in charge of migration and cutover activities.</p><p>The project involves the migration of 7 legacy systems (multiple SAP ECC systems and Baan) toward a target SAP environment, within a highly complex and business-critical context.</p><p>Your role will be to define, structure, coordinate and secure the overall migration and cutover strategy, working closely with business stakeholders, technical teams and integrators.</p><p>This is a hands-on leadership role: you are expected to both do and make others do, ensuring execution quality, planning reliability and operational readiness.</p><p>The engagement is urgent, with a fast contracting process (no purchasing tender) and a possible start within 15 days.</p>",
+      "fr": "<p>Vous intervenez sur un programme de migration SAP d’envergure en tant que Stream Leader / Expert senior en charge des activités de migration et de cutover.</p><p>Le projet concerne la migration de 7 systèmes legacy (plusieurs SAP ECC et Baan) vers un environnement SAP cible, dans un contexte complexe et fortement critique pour le métier.</p><p>Votre rôle consiste à définir, structurer, coordonner et sécuriser la stratégie globale de migration et de cutover, en lien étroit avec les équipes métier, techniques et l’intégrateur.</p><p>Il s’agit d’un rôle de leadership opérationnel : savoir faire, faire faire, piloter et garantir la qualité d’exécution et la préparation au go-live.</p><p>Le besoin est urgent, avec un processus contractuel rapide (hors AO achats) et un démarrage possible sous 15 jours.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>Strong experience as Stream Leader or Senior Expert on complex SAP migration programs</li><li>Proven expertise in defining and executing migration and cutover strategies</li><li>Experience with multi-legacy environments (SAP ECC, Baan or equivalent)</li><li>Ability to coordinate multiple stakeholders: business, IT, integrators and external partners</li><li>Hands-on mindset: able to design plans, execute tasks and supervise teams</li><li>Strong knowledge of SAP data migration concepts and dependencies</li><li>Experience in go-live preparation, rehearsal cutovers and risk management</li><li>Ability to work under pressure in time-critical environments</li><li>Excellent communication and leadership skills</li></ul>",
+      "fr": "<ul><li>Expérience solide en tant que Stream Leader ou Expert senior sur des projets de migration SAP complexes</li><li>Expertise confirmée dans la définition et l’exécution de stratégies de migration et de cutover</li><li>Expérience des environnements multi-legacy (SAP ECC, Baan ou équivalent)</li><li>Capacité à coordonner de multiples parties prenantes : métiers, IT, intégrateurs et partenaires externes</li><li>Posture opérationnelle : capacité à concevoir les plans, exécuter et superviser les équipes</li><li>Très bonne compréhension des enjeux et dépendances liés à la migration de données SAP</li><li>Expérience des préparations go-live, répétitions de cutover et gestion des risques</li><li>Capacité à évoluer sous forte pression et contraintes de délais</li><li>Leadership et communication de haut niveau</li></ul>"
+    },
+    "benefits": {
+      "en": "Key leadership role on a high-impact SAP migration program, long-term mission (1 to 2 years), strong visibility, and direct influence on go-live success.",
+      "fr": "Rôle clé de leadership sur un programme de migration SAP à fort impact, mission longue (1 à 2 ans), forte visibilité et influence directe sur la réussite du go-live."
+    },
+    "softSkills": {
+      "en": "<ul><li>Strong leadership and decision-making capability</li><li>Structured, methodical and result-oriented mindset</li><li>Excellent stress management in critical project phases</li></ul>",
+      "fr": "<ul><li>Leadership affirmé et capacité de prise de décision</li><li>Approche structurée, méthodique et orientée résultats</li><li>Excellente gestion du stress dans les phases critiques du projet</li></ul>"
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2026-02-28",
+    "status": ""
+  },
+  {
+    "jobId": "J04022026-01",
+    "title": {
+      "en": "SAP S/4HANA Service AMOA Consultant – Service Contracts",
+      "fr": "Consultant AMOA SAP S/4HANA – Contrats de Service"
+    },
+    "type": {
+      "en": "Freelance",
+      "fr": "Freelance"
+    },
+    "salary": "",
+    "location": {
+      "en": "Paris Area (Île-de-France)",
+      "fr": "Région parisienne (Île-de-France)"
+    },
+    "start": {
+      "en": "ASAP",
+      "fr": "Démarrage ASAP"
+    },
+    "mode": {
+      "en": "Hybrid",
+      "fr": "Hybride"
+    },
+    "posted": {
+      "en": "February 04, 2026",
+      "fr": "04 Fevrier 2026"
+    },
+    "tags": [
+      "SAP S/4HANA",
+      "SAP S/4HANA Service",
+      "AMOA",
+      "Service Contracts",
+      "Hypercare",
+      "Stabilization",
+      "UAT",
+      "Fit/Gap",
+      "SAP SD",
+      "Fiori",
+      "Data Migration",
+      "CRM SERV",
+      "Rollout"
+    ],
+    "description": {
+      "en": "<p>You will join an established AMOA team within the IT department, working in close partnership with the current AMOA lead on the Service Contracts and Billing scope.</p><p>The project has recently gone live and is currently in a hypercare and stabilization phase, while preparing upcoming international rollouts.</p><p>The workload will be shared: you will progressively take ownership of the Service Contracts domain, while the current AMOA lead maintains a transversal view and retains responsibility for complex billing and integration topics.</p><p>This is a pure AMOA role, acting as a bridge between Business Process Owners and the technical integrator, with no configuration or development responsibilities.</p>",
+      "fr": "<p>Vous intégrez une équipe AMOA déjà en place au sein de la DSI, en binôme étroit avec le référent AMOA sur le périmètre Contrats de Service et Facturation.</p><p>Suite à une mise en production récente, le projet est actuellement en phase d’hypercare et de stabilisation, tout en préparant les futurs déploiements (rollouts).</p><p>La charge de travail est répartie : vous prendrez progressivement le leadership sur la gestion des contrats de service, tandis que le référent AMOA conservera une vision transverse et les sujets de facturation et d’intégration complexe.</p><p>Le poste est strictement AMOA : aucun paramétrage ni développement, ces activités étant réalisées par l’intégrateur.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>Proven AMOA experience in SAP projects, with strong ability to translate business needs into SAP functional requirements and vice versa</li><li>Solid understanding of SAP S/4HANA Service and Service Contracts processes</li><li>Knowledge of the simplified S/4HANA Service data model (CRM_SERV_H / CRM_SERV_I) to analyze data, without development activities</li><li>Good understanding of the service contract lifecycle: validity dates, status profiles, actions (renewal, termination, printing) and links with SAP SD billing</li><li>Experience in hypercare and stabilization phases, including L2/L3 functional support</li><li>Ability to analyze incidents and distinguish between user errors and system defects</li><li>Experience coordinating corrections with technical integrators (TMA / project teams) and validating fixes before production deployment</li><li>Ability to explain and reinforce standard S/4HANA Service processes to business users</li><li>Experience conducting Fit/Gap workshops with Business Process Owners for new entities or countries</li><li>Ability to write business requirements and general functional specifications (GFS)</li><li>Experience defining test strategies, writing test cases and executing UAT</li><li>Experience supporting business teams during contract data cleansing and validating data migration results (LSMW / Migration Cockpit)</li><li>Nice to have: Familiarity with SAP Fiori apps related to service contract management</li><li>Nice to have: Ability to run simple data queries (SQVI / SE16N) to analyze large volumes of service contract data</li></ul>",
+      "fr": "<ul><li>Expérience AMOA confirmée sur des projets SAP, avec capacité à traduire les besoins métier en langage SAP et inversement</li><li>Très bonne compréhension de SAP S/4HANA Service et des processus de contrats de service</li><li>Connaissance de l’architecture simplifiée S/4HANA Service (tables CRM_SERV_H / CRM_SERV_I) pour l’analyse de données, sans développement</li><li>Maîtrise du cycle de vie des contrats de service : dates de validité, profils de statuts, actions (renouvellement, résiliation, impression) et liens avec la facturation SAP SD</li><li>Expérience des phases d’hypercare et de stabilisation, incluant le support fonctionnel N2 / N3</li><li>Capacité à analyser les incidents et à distinguer les erreurs de manipulation des anomalies système</li><li>Expérience de coordination des corrections avec les intégrateurs (TMA / équipes projet) et validation des correctifs avant mise en production</li><li>Capacité à réexpliquer les processus standards S/4HANA Service aux utilisateurs (pédagogie)</li><li>Expérience dans l’animation d’ateliers Fit/Gap avec les BPO des nouvelles entités ou pays</li><li>Capacité à rédiger les expressions de besoins et les spécifications fonctionnelles générales (SFG)</li><li>Expérience dans la définition de la stratégie de recette, la rédaction des cas de test et l’exécution de la recette fonctionnelle (UAT)</li><li>Expérience d’accompagnement métier sur le nettoyage des données contrats et la validation des reprises de données (LSMW / Migration Cockpit)</li><li>agréable à avoir : Connaissance de l’environnement SAP Fiori (tuiles de gestion des contrats)</li><li>agréable à avoir: Capacité à effectuer des requêtes simples (SQVI / SE16N) pour analyser des volumes importants de données contrats</li></ul>"
+    },
+    "benefits": {
+      "en": "Central AMOA role in a recent and innovative SAP S/4HANA implementation, with strong functional exposure, progressive leadership on service contracts, and close collaboration with an experienced functional/technical expert.",
+      "fr": "Rôle AMOA central au cœur d’un projet SAP S/4HANA récent et innovant, avec une forte exposition fonctionnelle, une prise de leadership progressive sur les contrats de service et un travail en binôme avec un expert fonctionnel/technique expérimenté."
+    },
+    "softSkills": {
+      "en": "<ul><li>Strong team spirit and ability to work closely in a two-person AMOA setup</li><li>Calm and resilient attitude in high-pressure hypercare phases</li><li>High level of rigor, especially in incident description and reproducibility for integrators</li></ul>",
+      "fr": "<ul><li>Esprit d’équipe et capacité à travailler en binôme très étroit</li><li>Résilience et calme face à la pression des phases d’hypercare</li><li>Grande rigueur, notamment dans la rédaction des tickets pour assurer la reproductibilité des anomalies</li></ul>"
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2026-02-28",
+    "status": ""
+  },
+  {
+    "jobId": "J02012026-01",
+    "title": {
+      "en": "SAP S/4HANA Service Management Consultant",
+      "fr": "Consultant SAP S/4HANA Service Management"
+    },
+    "type": {
+      "en": "Freelance",
+      "fr": "Freelance"
+    },
+    "salary": "",
+    "location": {
+      "en": "Paris Area",
+      "fr": "Région parisienne"
+    },
+    "start": {
+      "en": "ASAP",
+      "fr": "Démarrage ASAP"
+    },
+    "mode": {
+      "en": "Hybrid / Full Remote possible",
+      "fr": "Hybride / 100% Télétravail envisageable"
+    },
+    "posted": {
+      "en": "January 28, 2026",
+      "fr": "28 Janvier 2026"
+    },
+    "tags": [
+      "SAP S/4HANA",
+      "SAP Service Management",
+      "SAP SM",
+      "SAP SD",
+      "SAP FI",
+      "SAP PM",
+      "SAP BP",
+      "Customer Service",
+      "Integration",
+      "Customizing",
+      "Project"
+    ],
+    "description": {
+      "en": "<p>As part of an ongoing SAP S/4HANA transformation project, the client is looking for an experienced SAP Service Management consultant to lead the configuration and implementation of Customer Service processes.</p><p>The consultant will play a key role in the setup of service offerings, service orders, and recurring service contracts, while ensuring seamless integration with SD, FI, PM, and Business Partner.</p><p>This is a short but high-impact mission within an innovative project and a collaborative, expert team.</p>",
+      "fr": "<p>Dans le cadre d’un projet SAP S/4HANA en cours, le client recherche un consultant SAP Service Management expérimenté pour piloter le paramétrage et l’implémentation des processus de Service Client.</p><p>Le consultant interviendra notamment sur la mise en place des offres de service, des ordres de service et des contrats récurrents, ainsi que sur les intégrations avec les modules SD, FI, PM et Business Partner.</p><p>Il s’agit d’une mission courte mais à fort enjeu, au sein d’un projet innovant porté par une équipe expérimentée et engagée.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>Proven experience in SAP Service Management on S/4HANA</li><li>Strong expertise in SAP SM or SAP CS/PM</li><li>Hands-on experience with SAP customizing related to service processes</li><li>Excellent understanding of integrations with SD, FI, PM, and Business Partner</li><li>Experience with service offers, service orders, and recurring service contracts</li><li>Ability to work autonomously in a project context</li><li>Strong analytical and functional skills</li><li>Good communication skills and team spirit</li><li>Availability for a short-term, high-intensity mission</li></ul>",
+      "fr": "<ul><li>Expérience confirmée sur SAP Service Management en environnement S/4HANA</li><li>Solide expertise SAP SM ou SAP CS/PM</li><li>Expérience concrète en paramétrage des processus de service</li><li>Très bonne maîtrise des intégrations avec SD, FI, PM et Business Partner</li><li>Connaissance des offres de service, ordres de service et contrats récurrents</li><li>Capacité à intervenir de manière autonome dans un contexte projet</li><li>Excellentes compétences fonctionnelles et analytiques</li><li>Bon relationnel et esprit d’équipe</li><li>Disponibilité pour une mission courte et intensive</li></ul>"
+    },
+    "benefits": {
+      "en": "Innovative SAP S/4HANA project with an experienced and collaborative team.",
+      "fr": "Projet SAP S/4HANA innovant avec une équipe experte et très collaborative."
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2026-02-20",
+    "status": ""
+  },
+  {
+    "jobId": "J01012026-01",
+    "title": {
+      "en": "SAP ECC Level 3 Support Consultant (SD / MM / FI)",
+      "fr": "Consultant SAP Support Niveau 3 ECC (SD / MM / FI)"
+    },
+    "type": {
+      "en": "Freelance",
+      "fr": "Freelance"
+    },
+    "salary": "",
+    "location": {
+      "en": "Île-de-France (91)",
+      "fr": "Île-de-France (91)"
+    },
+    "start": {
+      "en": "ASAP",
+      "fr": "Urgent"
+    },
+    "mode": {
+      "en": "Hybrid",
+      "fr": "Hybride"
+    },
+    "posted": {
+      "en": "January 01, 2026",
+      "fr": "01 Janvier 2026"
+    },
+    "tags": [
+      "SAP ECC",
+      "SAP SD",
+      "SAP MM",
+      "SAP FI",
+      "Level 3 Support",
+      "TMA",
+      "MCO",
+      "Customizing",
+      "SPRO",
+      "Industrial",
+      "Defense"
+    ],
+    "description": {
+      "en": "<p>As part of SAP ECC maintenance in operational condition (MCO) and advanced support, the client is seeking a Level 3 SAP Support Consultant with strong functional expertise to handle complex incidents involving integrated Logistics–Finance flows.</p><p>The role is set in a demanding industrial environment where stakeholders expect deep SAP ECC expertise, going beyond business processes to include detailed knowledge of fields, account determination logic, transactions, and SAP configuration (SPRO). The consultant will act as a key functional reference for SD, MM, and FI integration.</p>",
+      "fr": "<p>Dans le cadre du MCO et du support avancé de son système SAP ECC, le client recherche un Consultant SAP Support Niveau 3 disposant d’une expertise fonctionnelle approfondie, capable d’intervenir sur des incidents complexes impliquant des flux intégrés Logistique–Finance.</p><p>Le poste s’inscrit dans un environnement exigeant, nécessitant une maîtrise détaillée du fonctionnement SAP ECC, au-delà des processus métiers, incluant la connaissance précise des champs, critères de détermination, transactions et logiques de paramétrage (SPRO).</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>Proven Level 3 support expertise on SAP ECC</li><li>Strong functional mastery of SD, MM, and FI modules</li><li>End-to-end understanding of SD–FI and MM–FI integrations</li><li>Ability to analyze and resolve complex incidents escalated from L1/L2 support</li><li>Hands-on experience with SAP customizing (SPRO): account determination, pricing, release strategies</li><li>Deep knowledge of master data structures (Customers, Vendors, Materials) and accounting impact</li><li>Expertise in advanced business processes: pricing, consignment, release strategy</li><li>System-oriented mindset with strong understanding of SAP ECC internal logic</li><li>Ability to clearly explain how configuration and master data generate FI postings</li><li>Excellent analytical skills, rigor, and precision</li><li>Strong communication skills with expert and demanding stakeholders</li><li>Pedagogical approach to support and upskill L1/L2 teams</li><li>High resilience to stress and demanding environments</li><li>SAP ECC mandatory (S/4HANA knowledge is a plus)</li></ul>",
+      "fr": "<ul><li>Expertise confirmée en support SAP ECC Niveau 3</li><li>Maîtrise fonctionnelle approfondie des modules SD, MM et FI</li><li>Très bonne connaissance de l’intégration SD–FI et MM–FI</li><li>Capacité à analyser et résoudre des incidents complexes escaladés par le support N1/N2</li><li>Expérience concrète en customizing SAP (SPRO) : détermination des comptes, pricing, stratégies de libération</li><li>Maîtrise de la structure des données de base (Clients, Fournisseurs, Articles) et de leur impact comptable</li><li>Expertise sur des processus métiers avancés : pricing, consignation, release strategy</li><li>Approche orientée système et compréhension du fonctionnement interne de SAP ECC</li><li>Capacité à expliquer les liens entre configuration, données de base et écritures comptables</li><li>Très forte capacité d’analyse, rigueur et précision</li><li>Aisance dans les échanges avec des interlocuteurs experts et challengers</li><li>Pédagogie pour accompagner les équipes N1/N2</li><li>Résistance au stress et aux environnements exigeants</li><li>Environnement SAP ECC obligatoire (S/4 apprécié mais non requis)</li></ul>"
+    },
+    "benefits": {
+      "en": "",
+      "fr": ""
+    },
+    "nationalityRequired": "Yes",
+    "lastDateToApply": "2026-01-31",
+    "status": ""
+  },
+  {
+    "jobId": "J01012026-02",
+    "title": {
+      "en": "SAP IS Utilities (IS-U) Consultant",
+      "fr": "Consultant SAP IS Utilities (IS-U)"
+    },
+    "type": {
+      "en": "Freelance",
+      "fr": "Freelance"
+    },
+    "salary": "850",
+    "location": {
+      "en": "Dakar, Senegal",
+      "fr": "Dakar, Sénégal"
+    },
+    "start": {
+      "en": "March 2026",
+      "fr": "Mars 2026"
+    },
+    "mode": {
+      "en": "Hybrid",
+      "fr": "Hybride"
+    },
+    "posted": {
+      "en": "January 01, 2026",
+      "fr": "01 Janvier 2026"
+    },
+    "tags": [
+      "SAP IS-U",
+      "SAP ECC 6.0",
+      "H2MC",
+      "Utilities",
+      "Energy",
+      "Audit",
+      "Customizing",
+      "Deployment"
+    ],
+    "description": {
+      "en": "<p>The project takes place in a SAP ERP ECC 6.0 IS-U / H2MC environment within the energy sector. The objective is to audit the existing platform, define and present optimization recommendations, and then implement these recommendations end-to-end.</p><p>The SAP IS-U Consultant will support the audit phase, contribute to the system optimization strategy, and lead the implementation phase including workshops, configuration, testing, deployment, and post-go-live support. The assignment starts in March 2026 and runs for 9 months, with partial on-site presence in Dakar (Senegal) and the remainder delivered remotely.</p>",
+      "fr": "<p>Le projet s’inscrit dans un environnement SAP ERP ECC 6.0 IS-U / H2MC dans le secteur de l’énergie. Il vise à auditer la plateforme existante, formuler et présenter des recommandations d’optimisation, puis à les mettre en œuvre de bout en bout.</p><p>Le Consultant SAP IS-U interviendra sur la phase d’audit, la définition de la stratégie d’optimisation du système, puis sur la mise en œuvre complète : animation d’ateliers, paramétrage, tests, déploiement et support post-mise en production. La mission débute en mars 2026 pour une durée de 9 mois, avec une présence partielle sur site à Dakar (Sénégal) et le reste en télétravail.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>Minimum 5 years of hands-on experience as a techno-functional SAP IS-U consultant</li><li>Proven experience across the full SAP IS-U deployment lifecycle (workshops, customizing, testing, data migration, go-live, support)</li><li>Participation in at least three SAP IS-U implementation projects</li><li>Strong experience in the utilities / energy sector</li><li>Ability to conduct system audits and define optimization strategies</li><li>Experience with SAP ECC 6.0 IS-U / H2MC environments</li><li>French is the working language of the project</li><li>Availability for on-site work in Dakar during key project phases</li></ul>",
+      "fr": "<ul><li>Profil technico-fonctionnel avec au minimum 5 ans d’expérience sur SAP IS-U (CV et références concrètes)</li><li>Expérience opérationnelle sur l’ensemble du cycle de déploiement SAP IS-U (ateliers, customizing, tests, reprise de données, mise en production, support)</li><li>Participation à au moins trois projets d’implémentation SAP IS-U</li><li>Expérience dans le secteur de l’énergie</li><li>Capacité à réaliser des audits de système et à définir des stratégies d’optimisation</li><li>Maîtrise de l’environnement SAP ECC 6.0 IS-U / H2MC</li><li>Langue du projet : français</li><li>Disponibilité pour des missions sur site à Dakar lors des phases clés</li></ul>"
+    },
+    "benefits": {
+      "en": "",
+      "fr": ""
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2026-01-31",
+    "status": ""
+  },
+  {
+    "jobId": "J05122025-01",
+    "title": {
+      "en": "Order to Cash Work Stream Leader – SAP S/4HANA",
+      "fr": "Work Stream Leader Order to Cash – SAP S/4HANA"
+    },
+    "type": {
+      "en": "Freelance",
+      "fr": "Freelance"
+    },
+    "salary": "850",
+    "location": {
+      "en": "Suresnes, France",
+      "fr": "Suresnes, France"
+    },
+    "start": {
+      "en": "ASAP",
+      "fr": "Dès que possible"
+    },
+    "mode": {
+      "en": "Hybrid",
+      "fr": "Hybride"
+    },
+    "posted": {
+      "en": "December 05, 2025",
+      "fr": "05 Decembre 2025"
+    },
+    "tags": [
+      "Order to Cash",
+      "OTC",
+      "SAP S/4HANA",
+      "Supply Chain",
+      "ERP",
+      "APS",
+      "Stream Lead",
+      "Pharmaceutical"
+    ],
+    "description": {
+      "en": "<p>Servier is leading a major global digital transformation program, including the deployment of a new ERP (SAP S/4HANA) and an Advanced Planning System (APS). The program, named Morphe’US, aims to modernize the entire Supply Chain across manufacturing sites, chemical sites, CMOs, and international affiliates.</p><p>The Order to Cash Work Stream Leader is responsible for defining and operationally implementing the OTC Core Model, in close collaboration with the Business Process Owner and under the responsibility of the Industry Lead. The role involves leading design workshops, coordinating stakeholders, overseeing configuration activities, and preparing deployments across the group’s entities.</p>",
+      "fr": "<p>Servier mène une transformation digitale majeure à l’échelle mondiale, incluant le déploiement d’un nouvel ERP (SAP S/4HANA) et d’un APS. Ce programme, nommé Morphe’US, vise à moderniser l’ensemble de la Supply Chain (sites de production, sites chimiques, CMO et filiales internationales).</p><p>Le Work Stream Leader Order to Cash est responsable de la définition et de la mise en œuvre opérationnelle du Core Model OTC, en lien avec le Business Process Owner et sous la responsabilité de l’Industry Lead. Il pilote les ateliers de conception, coordonne les parties prenantes, supervise le paramétrage et prépare les déploiements dans les différentes entités du groupe.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>Master’s degree (engineering or business school)</li><li>5 to 10 years of experience in Supply Chain, ideally on ERP and/or APS projects</li><li>Strong knowledge of planning processes (S&OP, forecasting, production, distribution) and execution processes (Order to Cash)</li><li>Experience with tools such as SAP S/4HANA, Kinaxis, OMP, IBP is a plus</li><li>Ability to lead change and support business teams</li><li>Strong workshop facilitation, organizational and communication skills</li><li>Knowledge of EDI</li><li>Leadership skills and ability to engage stakeholders</li><li>Fluent in French and English</li><li>Willingness to travel in France (Orléans, Bolbec) and internationally (Ireland)</li></ul>",
+      "fr": "<ul><li>Bac+5 (école d’ingénieurs ou de commerce)</li><li>5 à 10 ans d’expérience en Supply Chain, idéalement sur des projets ERP et/ou APS</li><li>Connaissance des processus de planification (S&OP, prévisions, production, distribution) et d’exécution (Order to Cash)</li><li>Maîtrise ou connaissance des outils SAP S/4HANA, Kinaxis, OMP, IBP appréciée</li><li>Compétences en conduite du changement et accompagnement des équipes</li><li>Capacité à animer des ateliers, sens de l’organisation et communication transversale</li><li>Connaissance de l’EDI</li><li>Leadership et capacité à fédérer</li><li>Français et anglais courants</li><li>Disponibilité pour des déplacements en France (Orléans, Bolbec) et à l’international (Irlande)</li></ul>"
+    },
+    "benefits": {
+      "en": "",
+      "fr": ""
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2025-12-31",
+    "status": ""
+  },
+  {
+    "jobId": "J11112025-01",
+    "title": {
+      "en": "SAP SD Consultant",
+      "fr": "Consultant SAP SD"
+    },
+    "type": {
+      "en": "Freelance",
+      "fr": "Freelance"
+    },
+    "salary": "",
+    "location": {
+      "en": "Île-de-France",
+      "fr": "Île-de-France"
+    },
+    "start": {
+      "en": "ASAP",
+      "fr": "urgent"
+    },
+    "mode": {
+      "en": "Hybrid",
+      "fr": "Hybride"
+    },
+    "posted": {
+      "en": "Nomvenber 11, 2025",
+      "fr": "11 Nomvenbre 2025"
+    },
+    "tags": [
+      "SAP SD",
+      "SAP MM",
+      "Customizing",
+      "SPRO",
+      "ABAP",
+      "Specifications"
+    ],
+    "description": {
+      "en": "<p>For a large corporate client based in the Île-de-France region, we are looking for an SAP SD Consultant for a long-term contract. The consultant will be involved in business requirement gathering, workshop facilitation, system configuration, and the drafting of functional specifications within an SAP SD/MM environment.</p>",
+      "fr": "<p>Pour un client grand compte basé en Île-de-France, nous recherchons un Consultant SAP SD pour une mission de longue durée. Le consultant interviendra sur le recueil des besoins, l’animation d’ateliers, le paramétrage SAP ainsi que la rédaction des spécifications fonctionnelles dans un environnement SAP SD/MM.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>Full mastery of SAP MM/SD transactions and processes</li><li>Experience in requirements gathering, workshop facilitation, and specification writing</li><li>Strong skills in SAP configuration (Customizing) using SPRO</li><li>Good understanding of SAP tables and their functional relationships</li><li>Basic ability to read and debug ABAP code for analysis purposes</li></ul>",
+      "fr": "<ul><li>Maîtrise complète des transactions et processus SAP MM/SD</li><li>Expérience en recueil du besoin, animation d’ateliers et rédaction de spécifications</li><li>Compétences solides en paramétrage SAP (Customizing) via SPRO</li><li>Bonne compréhension des tables SAP et de leurs liens fonctionnels</li><li>Notions de lecture et de debug ABAP pour faciliter l’analyse</li></ul>"
+    },
+    "benefits": {
+      "en": "",
+      "fr": ""
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2025-11-20",
+    "status": ""
+  },
+  {
+    "jobId": "J11112025-02",
+    "title": {
+      "en": "SAP SD Consultant",
+      "fr": "Consultant SAP SD"
+    },
+    "type": {
+      "en": "Freelance",
+      "fr": "Freelance"
+    },
+    "salary": "",
+    "location": {
+      "en": "Île-de-France",
+      "fr": "Île-de-France"
+    },
+    "start": {
+      "en": "ASAP",
+      "fr": "urgent"
+    },
+    "mode": {
+      "en": "Hybrid",
+      "fr": "Hybride"
+    },
+    "posted": {
+      "en": "Nomvenber 11, 2025",
+      "fr": "11 Nomvenbre 2025"
+    },
+    "tags": [
+      "SAP SD",
+      "E-Invoice",
+      "Specifications"
+    ],
+    "description": {
+      "en": "<p>We are seeking an SAP SD Consultant for a temporary mission of approximately 40 days. The consultant will support the client by writing functional and technical specifications as part of an e-invoice digitalization system implementation. The working arrangement includes four days of remote work per week, with on-site presence required on Mondays only.</p>",
+      "fr": "<p>Nous recherchons un Consultant SAP SD pour une mission ponctuelle d’environ 40 jours. Le consultant accompagnera le client dans la rédaction des spécifications fonctionnelles et techniques dans le cadre de la mise en place d’un système de digitalisation de la facturation électronique (E-Invoice). L’organisation du travail prévoit quatre jours de télétravail par semaine, avec une présence sur site uniquement le lundi.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>Strong expertise in SAP SD</li><li>Proven experience in writing functional and technical specifications</li><li>Knowledge of e-invoicing and digital invoicing processes</li></ul>",
+      "fr": "<ul><li>Solide expertise en SAP SD</li><li>Expérience confirmée en rédaction de spécifications fonctionnelles et techniques</li><li>Connaissance des processus de facturation électronique (E-Invoice)</li></ul>"
+    },
+    "benefits": {
+      "en": "",
+      "fr": ""
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2025-11-20",
+    "status": ""
+  },
+  {
+    "jobId": "J01012025-01",
+    "title": {
+      "en": "Senior SAP FICO Consultant",
+      "fr": "Consultant SAP FICO Senior"
+    },
+    "type": {
+      "en": "Permanent",
+      "fr": "CDI"
+    },
+    "salary": "60-80K €",
+    "location": {
+      "en": "Paris, France",
+      "fr": "Paris, France"
+    },
+    "start": {
+      "en": "February 2025",
+      "fr": "Février 2025"
+    },
+    "mode": {
+      "en": "Hybrid",
+      "fr": "Hybride"
+    },
+    "posted": {
+      "en": "January 01, 2025",
+      "fr": "01 Janvier 2025"
+    },
+    "tags": [
+      "SAP FICO",
+      "S/4HANA",
+      "Finance"
+    ],
+    "description": {
+      "en": "<p>We are looking for an experienced SAP FICO Consultant to join our growing team. You will be responsible for implementation and support tasks.</p>",
+      "fr": "<p>Nous recherchons un Consultant SAP FICO expérimenté pour rejoindre notre équipe. Vous serez responsable des tâches d'implémentation et de support.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>5+ years of experience in SAP FICO consulting</li><li>Experience with S/4HANA migration</li></ul>",
+      "fr": "<ul><li>5+ ans d'expérience en conseil SAP FICO</li><li>Expérience en migration S/4HANA</li></ul>"
+    },
+    "benefits": {
+      "en": "<ul><li>Competitive salary package with performance bonuses</li><li>Health insurance</li></ul>",
+      "fr": "<ul><li>Package salarial compétitif avec bonus de performance</li><li>Assurance maladie</li></ul>"
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2025-02-01",
+    "status": ""
+  },
+  {
+    "jobId": "J08012025-01",
+    "title": {
+      "en": "SAP SD/MM Consultant",
+      "fr": "Consultant SAP SD/MM"
+    },
+    "type": {
+      "en": "Freelance",
+      "fr": "Freelance"
+    },
+    "rate": "500-650 €/day",
+    "location": {
+      "en": "Lyon, France",
+      "fr": "Lyon, France"
+    },
+    "start": {
+      "en": "March 2025",
+      "fr": "Mars 2025"
+    },
+    "mode": {
+      "en": "Remote",
+      "fr": "Télétravail"
+    },
+    "posted": {
+      "en": "January 8, 2025",
+      "fr": "8 Janvier 2025"
+    },
+    "tags": [
+      "SAP SD",
+      "SAP MM",
+      "Logistics"
+    ],
+    "description": {
+      "en": "<p>Join our team as a SAP SD/MM Consultant for a 12-month mission. Focus on optimizing logistics flows.</p>",
+      "fr": "<p>Rejoignez notre équipe en tant que Consultant SAP SD/MM pour une mission de 12 mois. Focus sur l'optimisation des flux logistiques.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>4+ years of experience with SAP SD/MM</li><li>Fluent in French</li></ul>",
+      "fr": "<ul><li>4+ ans d'expérience avec SAP SD/MM</li><li>Fluide en français</li></ul>"
+    },
+    "benefits": {
+      "en": "<ul><li>Competitive daily rate</li><li>Remote work flexibility</li></ul>",
+      "fr": "<ul><li>Taux journalier compétitif</li><li>Flexibilité télétravail</li></ul>"
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2025-02-15",
+    "status": ""
+  },
+  {
+    "jobId": "J05012025-01",
+    "title": {
+      "en": "Cloud Solutions Architect",
+      "fr": "Architecte Solutions Cloud"
+    },
+    "type": {
+      "en": "Permanent",
+      "fr": "CDI"
+    },
+    "salary": "70-90K €",
+    "location": {
+      "en": "Paris, France",
+      "fr": "Paris, France"
+    },
+    "start": {
+      "en": "ASAP",
+      "fr": "Dès que possible"
+    },
+    "mode": {
+      "en": "Hybrid",
+      "fr": "Hybride"
+    },
+    "posted": {
+      "en": "January 5, 2025",
+      "fr": "5 Janvier 2025"
+    },
+    "tags": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Architecture"
+    ],
+    "description": {
+      "en": "<p>We are seeking a talented Cloud Solutions Architect to design scalable systems.</p>",
+      "fr": "<p>Nous recherchons un Architecte Solutions Cloud talentueux pour concevoir des systèmes évolutifs.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>5+ years of experience in cloud architecture</li><li>Certification in AWS or Azure</li></ul>",
+      "fr": "<ul><li>5+ ans d'expérience en architecture cloud</li><li>Certification AWS ou Azure</li></ul>"
+    },
+    "benefits": {
+      "en": "<ul><li>Competitive salary with benefits</li><li>Training budget</li></ul>",
+      "fr": "<ul><li>Salaire compétitif avec avantages</li><li>Budget formation</li></ul>"
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2025-02-20",
+    "status": ""
+  },
+  {
+    "jobId": "J12012025-01",
+    "title": {
+      "en": "DevOps Engineer",
+      "fr": "Ingénieur DevOps"
+    },
+    "type": {
+      "en": "Freelance",
+      "fr": "Freelance"
+    },
+    "rate": "450-550 €/day",
+    "location": {
+      "en": "France",
+      "fr": "France"
+    },
+    "start": {
+      "en": "February 2025",
+      "fr": "Février 2025"
+    },
+    "mode": {
+      "en": "Remote",
+      "fr": "Télétravail"
+    },
+    "posted": {
+      "en": "January 12, 2025",
+      "fr": "12 Janvier 2025"
+    },
+    "tags": [
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
+      "Terraform"
+    ],
+    "description": {
+      "en": "<p>Looking for an experienced DevOps Engineer to automate our infrastructure.</p>",
+      "fr": "<p>Nous recherchons un Ingénieur DevOps expérimenté pour automatiser notre infrastructure.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>4+ years of DevOps experience</li><li>Scripting skills (Python/Bash)</li></ul>",
+      "fr": "<ul><li>4+ ans d'expérience DevOps</li><li>Compétences en scripting (Python/Bash)</li></ul>"
+    },
+    "benefits": {
+      "en": "<ul><li>Competitive daily rate</li><li>Long term contract</li></ul>",
+      "fr": "<ul><li>Taux journalier compétitif</li><li>Contrat long terme</li></ul>"
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2025-02-25",
+    "status": ""
+  },
+  {
+    "jobId": "J03012025-01",
+    "title": {
+      "en": "Cybersecurity Analyst",
+      "fr": "Analyste Cybersécurité"
+    },
+    "type": {
+      "en": "Fixed-term (18 months)",
+      "fr": "CDD (18 mois)"
+    },
+    "salary": "50-65K €",
+    "location": {
+      "en": "Lyon, France",
+      "fr": "Lyon, France"
+    },
+    "start": {
+      "en": "April 2025",
+      "fr": "Avril 2025"
+    },
+    "mode": {
+      "en": "On-site",
+      "fr": "Sur site"
+    },
+    "posted": {
+      "en": "January 3, 2025",
+      "fr": "3 Janvier 2025"
+    },
+    "tags": [
+      "Security",
+      "SIEM",
+      "Penetration Testing"
+    ],
+    "description": {
+      "en": "<p>Join our security team to help protect digital assets and conduct audits.</p>",
+      "fr": "<p>Rejoignez notre équipe sécurité pour protéger les actifs numériques et effectuer des audits.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>3+ years of cybersecurity experience</li><li>CISSP or similar certification is a plus</li></ul>",
+      "fr": "<ul><li>3+ ans d'expérience en cybersécurité</li><li>Certification CISSP ou similaire est un plus</li></ul>"
+    },
+    "benefits": {
+      "en": "<ul><li>Competitive salary</li><li>Mercedes plan</li></ul>",
+      "fr": "<ul><li>Salaire compétitif</li><li>Plan Mercedes</li></ul>"
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2025-02-10",
+    "status": ""
+  },
+  {
+    "jobId": "J07012025-01",
+    "title": {
+      "en": "AI/ML Engineer",
+      "fr": "Ingénieur IA/ML"
+    },
+    "type": {
+      "en": "Permanent",
+      "fr": "CDI"
+    },
+    "salary": "65-85K €",
+    "location": {
+      "en": "Paris, France",
+      "fr": "Paris, France"
+    },
+    "start": {
+      "en": "March 2025",
+      "fr": "Mars 2025"
+    },
+    "mode": {
+      "en": "Hybrid",
+      "fr": "Hybride"
+    },
+    "posted": {
+      "en": "January 7, 2025",
+      "fr": "7 Janvier 2025"
+    },
+    "tags": [
+      "Python",
+      "TensorFlow",
+      "Machine Learning",
+      "NLP"
+    ],
+    "description": {
+      "en": "<p>We're looking for a passionate AI/ML Engineer to build predictive models.</p>",
+      "fr": "<p>Nous recherchons un Ingénieur IA/ML passionné pour construire des modèles prédictifs.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>3+ years of experience in ML/AI</li><li>Strong math background</li></ul>",
+      "fr": "<ul><li>3+ ans d'expérience en ML/IA</li><li>Forte base en mathématiques</li></ul>"
+    },
+    "benefits": {
+      "en": "<ul><li>Competitive salary package</li><li>Equity options</li></ul>",
+      "fr": "<ul><li>Package salarial compétitif</li><li>Options sur actions</li></ul>"
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2025-02-28",
+    "status": ""
+  }
 ]
