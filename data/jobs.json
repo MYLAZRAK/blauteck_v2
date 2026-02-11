@@ -1,5 +1,64 @@
 [
   {
+    "jobId": "J11022026-03",
+    "title": {
+      "en": "Senior SAP Migration Program Expert (Project Manager / Migration Lead / Delivery)",
+      "fr": "Expert Senior Programme Migration SAP (Chef de Projet / Pilote Migration / Réalisation)"
+    },
+    "type": {
+      "en": "Freelance",
+      "fr": "Freelance"
+    },
+    "salary": "",
+    "location": {
+      "en": "Corbeil, France",
+      "fr": "Corbeil, France"
+    },
+    "start": {
+      "en": "ASAP",
+      "fr": "Démarrage ASAP"
+    },
+    "mode": {
+      "en": "Hybrid (3 days onsite / 2 days remote – mandatory)",
+      "fr": "Hybride (3 jours sur site / 2 jours en télétravail – non négociable)"
+    },
+    "posted": {
+      "en": "February 11, 2026",
+      "fr": "11 Fevrier 2026"
+    },
+    "tags": [
+      "SAP Migration",
+      "Data Migration",
+      "SAP Transformation",
+      "Cut-over",
+      "Legacy Systems",
+      "ERP Coexistence",
+      "Talend",
+      "Industrial Environment",
+      "Large Scale Programs",
+      "Data Strategy"
+    ],
+    "description": {
+      "en": "<p>As part of strategic SAP migration programs, we are looking for three highly experienced senior profiles to contribute to complex transformation initiatives.</p><p>The roles may cover migration project management, migration stream leadership, or hands-on migration delivery within the same program scope.</p><p>The projects involve migrating legacy systems to SAP, including the replacement of BAN with SAP across production sites integrating multiple tools and managing large and complex data volumes.</p><p>You will operate in industrial environments with high data volumes and critical business continuity constraints.</p>",
+      "fr": "<p>Dans le cadre de programmes stratégiques de migration SAP, nous recherchons trois profils seniors très expérimentés pour intervenir sur des projets de transformation complexes.</p><p>Les rôles peuvent couvrir la chefferie de projet migration, le pilotage du stream migration ou l’intervention en réalisation au sein d’un même programme.</p><p>Les projets portent sur la migration de systèmes legacy vers SAP, notamment le remplacement de BAN par SAP sur des sites de production intégrant de multiples outils et un volume de données important et complexe.</p><p>Vous interviendrez dans des environnements industriels à forts enjeux, avec des volumes de données élevés et des contraintes fortes de continuité d’activité.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>Strong transversal vision of SAP projects (not necessarily a module-specific expert)</li><li>Strong data-oriented mindset with proven migration strategy experience</li><li>Experience structuring migrations by site or business entity</li><li>Solid expertise in data extraction and transformation processes (ideally using Talend)</li><li>Proven experience defining and managing cut-over plans</li><li>Experience handling complex legacy systems and multiple ERP coexistence</li><li>Strong experience cleansing, consolidating, and securing heterogeneous or low-quality data</li><li>Proven track record in large-scale, high-stakes migration programs</li><li>Ability to operate within complex industrial environments with high data volumes</li></ul>",
+      "fr": "<ul><li>Vision transverse des projets SAP (pas nécessairement expert d’un module spécifique)</li><li>Forte orientation data et expérience confirmée en stratégie de migration</li><li>Expérience dans le découpage des migrations par site ou entité métier</li><li>Maîtrise des problématiques d’extraction et de transformation de données (idéalement via Talend)</li><li>Expérience confirmée dans la définition et le pilotage de plans de cut-over</li><li>Expérience de gestion de systèmes legacy complexes avec coexistence de plusieurs ERP</li><li>Solide expérience dans le traitement, la fiabilisation et la consolidation de données hétérogènes ou de qualité insuffisante</li><li>Expérience avérée sur des migrations à grande échelle et à forts enjeux</li><li>Capacité à intervenir dans des environnements industriels complexes avec des volumes de données importants</li></ul>"
+    },
+    "benefits": {
+      "en": "Opportunity to contribute to large-scale strategic SAP transformation programs within complex industrial environments, with high visibility and strong impact on business continuity and data governance.",
+      "fr": "Opportunité d’intervenir sur des programmes stratégiques de transformation SAP à grande échelle dans des environnements industriels complexes, avec un fort impact sur la continuité d’activité et la gouvernance des données."
+    },
+    "softSkills": {
+      "en": "<ul><li>Strong analytical and structured mindset</li><li>Ability to operate under high pressure during critical migration phases</li><li>Excellent stakeholder coordination and communication skills</li><li>High level of autonomy and accountability</li></ul>",
+      "fr": "<ul><li>Esprit analytique et structuré</li><li>Capacité à gérer la pression lors des phases critiques de migration</li><li>Excellentes compétences de coordination et de communication avec les parties prenantes</li><li>Grande autonomie et sens des responsabilités</li></ul>"
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2026-03-15",
+    "status": ""
+  },
+  {
     "jobId": "J10022026-02",
     "title": {
       "en": "SAP Migration Expert (ECC à S4HANA)",
