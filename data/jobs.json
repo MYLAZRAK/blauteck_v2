@@ -1,4 +1,65 @@
 [
+	{
+		"jobId": "J10022026-02",
+		"title": {
+			"en": "SAP Migration Expert (ECC à S4HANA)",
+			"fr": "Expert Migration SAP (ECC to S4HANA)"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"salary": "",
+		"location": {
+			"en": "Corbeil-Essonnes Area (Essonne)",
+			"fr": "Corbeil-Essonnes (Essonne)"
+		},
+		"start": {
+			"en": "Within 15 days",
+			"fr": "Démarrage sous 15 jours"
+		},
+		"mode": {
+			"en": "Hybrid (3 days on-site / week)",
+			"fr": "Hybride (3 jours sur site / semaine)"
+		},
+		"posted": {
+			"en": "February 10, 2026",
+			"fr": "10 Fevrier 2026"
+		},
+		"tags": [
+			"SAP Migration",
+			"Data Migration",
+			"Cutover",
+			"SAP ECC",
+			"SAP S/4HANA",
+			"Baan",
+			"Legacy Systems",
+			"Stream Leader",
+			"Complex Migration",
+			"Program Management",
+			"Multi-Legacy",
+			"Go-Live Preparation"
+		],
+		"description": {
+			"en": "<p>You will join a large-scale SAP migration program as a Senior Expert in charge of migration and cutover activities.</p><p>The project involves the migration of 7 legacy systems (multiple SAP ECC systems and Baan) toward a target SAP environment, within a highly complex and business-critical context.</p><p>Your role will be to define, structure, coordinate and secure the overall migration and cutover strategy, working closely with business stakeholders, technical teams and integrators.</p><p>This is a hands-on leadership role: you are expected to both do and make others do, ensuring execution quality, planning reliability and operational readiness.</p><p>The engagement is urgent, with a fast contracting process (no purchasing tender) and a possible start within 15 days.</p>",
+			"fr": "<p>Vous intervenez sur un programme de migration SAP d’envergure en tant que Stream Leader / Expert senior en charge des activités de migration et de cutover.</p><p>Le projet concerne la migration de 7 systèmes legacy (plusieurs SAP ECC et Baan) vers un environnement SAP cible, dans un contexte complexe et fortement critique pour le métier.</p><p>Votre rôle consiste à définir, structurer, coordonner et sécuriser la stratégie globale de migration et de cutover, en lien étroit avec les équipes métier, techniques et l’intégrateur.</p><p>Il s’agit d’un rôle de leadership opérationnel : savoir faire, faire faire, piloter et garantir la qualité d’exécution et la préparation au go-live.</p><p>Le besoin est urgent, avec un processus contractuel rapide (hors AO achats) et un démarrage possible sous 15 jours.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>Strong experience as Senior Expert on complex SAP migration programs</li><li>Proven expertise in defining and executing migration and cutover strategies</li><li>Experience with multi-legacy environments (SAP ECC, Baan or equivalent)</li><li>Ability to coordinate multiple stakeholders: business, IT, integrators and external partners</li><li>Hands-on mindset: able to design plans, execute tasks and supervise teams</li><li>Strong knowledge of SAP data migration concepts and dependencies</li><li>Experience in go-live preparation, rehearsal cutovers and risk management</li><li>Ability to work under pressure in time-critical environments</li><li>Excellent communication and leadership skills</li></ul>",
+			"fr": "<ul><li>Expérience solide en tant que Expert senior sur des projets de migration SAP complexes</li><li>Expertise confirmée dans la définition et l’exécution de stratégies de migration et de cutover</li><li>Expérience des environnements multi-legacy (SAP ECC, Baan ou équivalent)</li><li>Capacité à coordonner de multiples parties prenantes : métiers, IT, intégrateurs et partenaires externes</li><li>Posture opérationnelle : capacité à concevoir les plans, exécuter et superviser les équipes</li><li>Très bonne compréhension des enjeux et dépendances liés à la migration de données SAP</li><li>Expérience des préparations go-live, répétitions de cutover et gestion des risques</li><li>Capacité à évoluer sous forte pression et contraintes de délais</li><li>Leadership et communication de haut niveau</li></ul>"
+		},
+		"benefits": {
+			"en": "Key leadership role on a high-impact SAP migration program, long-term mission (1 to 2 years), strong visibility, and direct influence on go-live success.",
+			"fr": "Rôle clé de leadership sur un programme de migration SAP à fort impact, mission longue (1 à 2 ans), forte visibilité et influence directe sur la réussite du go-live."
+		},
+		"softSkills": {
+			"en": "<ul><li>Strong leadership and decision-making capability</li><li>Structured, methodical and result-oriented mindset</li><li>Excellent stress management in critical project phases</li></ul>",
+			"fr": "<ul><li>Leadership affirmé et capacité de prise de décision</li><li>Approche structurée, méthodique et orientée résultats</li><li>Excellente gestion du stress dans les phases critiques du projet</li></ul>"
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-02-28",
+		"status": ""
+	},
 		{
 			"jobId": "J10022026-01",
 			"title": {
