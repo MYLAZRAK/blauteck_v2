@@ -624,5 +624,13 @@
     <script src="js/utils.js"></script>
     <script src="js/language.js"></script>
     <script src="js/job-detail.js"></script>
+     <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5HVGSP0KJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-T5HVGSP0KJ');
+    </script>
 </body>
 </html>
