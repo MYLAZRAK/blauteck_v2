@@ -1,5 +1,65 @@
 [
   {
+    "jobId": "J10032026-01",
+    "title": {
+      "en": "IT Program Director – Digital Transformation",
+      "fr": "Directeur de Programme IT – Transformation Digitale"
+    },
+    "type": {
+      "en": "Freelance",
+      "fr": "Freelance"
+    },
+    "salary": "",
+    "location": {
+      "en": "Suresnes, France",
+      "fr": "Suresnes, France"
+    },
+    "start": {
+      "en": "April 2026",
+      "fr": "Démarrage Avril 2026"
+    },
+    "mode": {
+      "en": "Onsite / Hybrid (to be defined with the client)",
+      "fr": "Sur site / Hybride (à définir avec le client)"
+    },
+    "posted": {
+      "en": "March 10, 2026",
+      "fr": "10 Mars 2026"
+    },
+    "tags": [
+      "IT Program Management",
+      "Digital Transformation",
+      "ERP Integration",
+      "SAP",
+      "Oracle",
+      "Large Scale Programs",
+      "Vendor Management",
+      "RFP Management",
+      "Agile",
+      "SCRUM",
+      "Prince2"
+    ],
+    "description": {
+      "en": "<p>As part of several ambitious digital transformation initiatives covering procurement, contracting, industrial processes, and serialization, we are looking for an experienced IT Program Director to lead the IT dimension of these strategic programs.</p><p>The IT Program Director will work closely with Business Program Directors and collaborate with selected system integrators, software vendors, and internal IT teams including Business Analysts, Solution Owners, Architects, and Data specialists.</p><p>The role involves coordinating complex transformation initiatives, ensuring alignment between business and IT, and guaranteeing the successful integration of new digital solutions across the organization.</p>",
+      "fr": "<p>Dans le cadre de plusieurs programmes ambitieux de digitalisation des processus (contractualisation, achats, industriel, sérialisation, etc.), nous recherchons un Directeur de Programme IT expérimenté pour piloter la dimension IT de ces initiatives stratégiques.</p><p>Le Directeur de Programme IT travaillera en étroite collaboration avec les Directeurs de Programme Métier ainsi qu’avec les intégrateurs sélectionnés, les éditeurs et les équipes internes IT (Business Analysts, Solution Owners, Architectes, Data specialists, etc.).</p><p>La mission consiste à coordonner des programmes de transformation complexes, à assurer l’alignement entre les métiers et l’IT et à garantir la réussite de l’intégration des nouvelles solutions digitales.</p>"
+    },
+    "requirements": {
+      "en": "<ul><li>Extensive experience leading large-scale international IT programs</li><li>Proven experience managing major software vendors and system integrators</li><li>Strong experience managing complex RFP and vendor selection processes</li><li>Hands-on experience with ERP integrations such as SAP, Oracle, or similar systems</li><li>Strong project management capabilities including planning, budgeting, and delivery governance</li><li>Experience identifying risks and implementing mitigation strategies</li><li>Strong coordination with cross-functional teams including business, data, and IT stakeholders</li><li>Strong communication skills in both French and English</li><li>Excellent command of project management methodologies such as Agile, SCRUM, Prince2</li><li>Experience with project management tools such as MS Project and JIRA</li></ul>",
+      "fr": "<ul><li>Expérience significative dans le pilotage de grands programmes informatiques à dimension internationale</li><li>Expérience confirmée dans la gestion d’éditeurs majeurs et d’intégrateurs</li><li>Expérience solide dans la conduite et le pilotage de gros appels d’offres</li><li>Expérience pratique dans l’intégration de systèmes ERP tels que SAP, Oracle ou équivalents</li><li>Compétences solides en gestion de projet : planification, gestion budgétaire et pilotage des livrables</li><li>Capacité à identifier les risques et à mettre en place des actions correctives</li><li>Expérience dans la coordination d’équipes transverses incluant les métiers, la data et la DSI</li><li>Excellentes compétences de communication orale et écrite en français et en anglais</li><li>Maîtrise des méthodologies de gestion de projet telles que Agile, SCRUM, Prince2</li><li>Maîtrise des outils de gestion de projet tels que MS Project et JIRA</li></ul>"
+    },
+    "benefits": {
+      "en": "Opportunity to lead strategic digital transformation programs within an international environment, working with major ERP platforms, system integrators, and cross-functional teams on high-impact initiatives.",
+      "fr": "Opportunité de piloter des programmes stratégiques de transformation digitale dans un environnement international, en collaboration avec des éditeurs majeurs, des intégrateurs et des équipes transverses sur des projets à fort impact."
+    },
+    "softSkills": {
+      "en": "<ul><li>Strong leadership and stakeholder management skills</li><li>Excellent communication and negotiation abilities</li><li>Ability to federate and coordinate cross-functional teams</li><li>Strategic thinking with strong execution capabilities</li><li>High level of autonomy and accountability</li></ul>",
+      "fr": "<ul><li>Leadership fort et capacité de gestion des parties prenantes</li><li>Excellentes capacités de communication et de négociation</li><li>Capacité à fédérer et coordonner des équipes transverses</li><li>Vision stratégique et forte capacité d’exécution</li><li>Grande autonomie et sens des responsabilités</li></ul>"
+    },
+    "nationalityRequired": "No",
+    "lastDateToApply": "2026-03-31",
+    "status": ""
+  },
+  {
     "jobId": "J11022026-03",
     "title": {
       "en": "Senior SAP Migration Program Expert (Project Manager / Migration Lead / Delivery)",
