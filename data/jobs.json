@@ -1,5 +1,64 @@
 [
 	{
+		"jobId": "J27032026-01",
+		"title": {
+			"en": "Senior SAP SD Pricing Expert",
+			"fr": "Expert Senior SAP SD Pricing"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"salary": "",
+		"location": {
+			"en": "Paris Region, France",
+			"fr": "Région Parisienne, France"
+		},
+		"start": {
+			"en": "ASAP",
+			"fr": "Démarrage ASAP"
+		},
+		"mode": {
+			"en": "Hybrid (50% onsite required)",
+			"fr": "Hybride (présence sur site requise à 50%)"
+		},
+		"posted": {
+			"en": "March 27, 2026",
+			"fr": "27 Mars 2026"
+		},
+		"tags": [
+			"SAP SD",
+			"Pricing",
+			"SAP ECC",
+			"SAP S/4HANA",
+			"Order to Cash",
+			"Condition Types",
+			"Access Sequences",
+			"Billing",
+			"E-invoicing",
+			"SAP Integration"
+		],
+		"description": {
+			"en": "<p>As part of a project for a client based in the Paris region, we are looking for a Senior SAP SD Pricing Expert with strong expertise in pricing configuration.</p><p>You will work on complex pricing topics, ensuring consistency and accuracy across sales, delivery, and billing processes in SAP environments.</p><p>You will collaborate with business stakeholders, IT teams, and external partners while contributing to pricing design, implementation, and optimization.</p><p>Exposure to electronic invoicing and compliance-driven processes is considered a strong advantage.</p>",
+			"fr": "<p>Dans le cadre d’un projet pour un client basé en région parisienne, nous recherchons un Expert Senior SAP SD spécialisé en pricing.</p><p>Vous interviendrez sur des problématiques complexes de tarification, en garantissant la cohérence et la fiabilité des processus de vente, livraison et facturation.</p><p>Vous collaborerez avec les équipes métiers, IT et partenaires externes, tout en contribuant à la conception et à l’optimisation des solutions de pricing.</p><p>Une expérience en facturation électronique et conformité réglementaire est un plus.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>Minimum 10 years of SAP SD experience with strong specialization in pricing</li><li>Proven expertise in pricing procedures, condition types, access sequences, condition records, and pricing logic</li><li>Strong understanding of end-to-end Order to Cash processes</li><li>Ability to work autonomously on complex functional topics</li><li>Experience in international or multi-country SAP environments</li><li>Experience in SAP ECC and/or S/4HANA environments</li><li>Experience with billing processes and integration with FI</li><li>Knowledge of e-invoicing and compliance requirements is a plus</li><li>Fluent English and French required</li></ul>",
+			"fr": "<ul><li>Minimum 10 ans d’expérience SAP SD avec une forte expertise en pricing</li><li>Maîtrise des pricing procedures, condition types, access sequences, condition records et logique de pricing</li><li>Bonne compréhension des processus Order to Cash</li><li>Capacité à travailler en autonomie sur des sujets complexes</li><li>Expérience dans des environnements SAP internationaux ou multi-pays</li><li>Expérience sur SAP ECC et/ou S/4HANA</li><li>Expérience des processus de facturation et intégration avec FI</li><li>Connaissance de la facturation électronique et des contraintes réglementaires appréciée</li><li>Anglais et français courants obligatoires</li></ul>"
+		},
+		"benefits": {
+			"en": "Opportunity to work on complex SAP SD pricing topics within an international environment, contributing to high-impact projects involving billing, integration, and regulatory compliance.",
+			"fr": "Opportunité d’intervenir sur des problématiques complexes de pricing SAP SD dans un environnement international, avec un fort impact sur la facturation, l’intégration et la conformité réglementaire."
+		},
+		"softSkills": {
+			"en": "<ul><li>Strong communication skills with business and technical teams</li><li>Analytical and problem-solving mindset</li><li>Structured and rigorous approach</li><li>Ability to challenge requirements and propose robust solutions</li><li>Comfortable in complex and high-stakes environments</li></ul>",
+			"fr": "<ul><li>Excellentes compétences en communication avec les équipes métiers et techniques</li><li>Esprit analytique et capacité de résolution de problèmes</li><li>Approche structurée et rigoureuse</li><li>Capacité à challenger les besoins et proposer des solutions robustes</li><li>À l’aise dans des environnements complexes et exigeants</li></ul>"
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-04-30",
+		"status": ""
+	},
+	{
 		"jobId": "J26032026-01",
 		"title": {
 			"en": "PTP Business Expert Consultant – SAP Rollout Program (Pharma)",
