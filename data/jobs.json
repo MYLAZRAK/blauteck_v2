@@ -1,5 +1,62 @@
 [
 	{
+		"jobId": "J16042026-01",
+		"title": {
+			"en": "ServiceNow ITSM / CMDB Developer",
+			"fr": "Développeur ServiceNow ITSM / CMDB"
+		},
+		"type": {
+			"en": "Permanent (CDI)",
+			"fr": "CDI"
+		},
+		"salary": "",
+		"location": {
+			"en": "Neuilly-sur-Seine, France",
+			"fr": "Neuilly-sur-Seine, France"
+		},
+		"start": {
+			"en": "ASAP",
+			"fr": "Démarrage ASAP"
+		},
+		"mode": {
+			"en": "Hybrid (3 days remote per week)",
+			"fr": "Hybride (3 jours de télétravail par semaine)"
+		},
+		"posted": {
+			"en": "April 16, 2026",
+			"fr": "16 Avril 2026"
+		},
+		"tags": [
+			"ServiceNow",
+			"ITSM",
+			"CMDB",
+			"Development",
+			"Service Management",
+			"IT Platforms",
+			"Business Analysis",
+			"Functional Collaboration"
+		],
+		"description": {
+			"en": "<p>As part of IT service management initiatives, we are looking for developers with strong knowledge of ITSM and CMDB platforms.</p><p>You will work closely with functional teams to understand business needs and translate them into effective technical solutions.</p><p>This role requires both technical expertise and strong communication skills to bridge the gap between IT and business stakeholders.</p>",
+			"fr": "<p>Dans le cadre de projets autour des plateformes ServiceNow ITSM et CMDB, nous recherchons des développeurs disposant d’une bonne maîtrise de ces environnements.</p><p>Vous interviendrez en étroite collaboration avec les équipes fonctionnelles afin de comprendre les besoins métiers et les traduire en solutions techniques adaptées.</p><p>Ce poste nécessite à la fois des compétences techniques solides et une bonne capacité de communication avec les métiers.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>1 to 5 years of experience in development</li><li>Good knowledge of ITSM and CMDB platforms</li><li>Ability to understand and translate business requirements</li><li>Experience working with functional teams</li><li>Strong communication skills</li></ul>",
+			"fr": "<ul><li>1 à 5 ans d’expérience en développement</li><li>Bonne maîtrise des plateformes ServiceNow ITSM et CMDB</li><li>Capacité à comprendre et traduire les besoins métiers</li><li>Expérience de collaboration avec des équipes fonctionnelles</li><li>Bonnes compétences en communication</li></ul>"
+		},
+		"benefits": {
+			"en": "Opportunity to work on ServiceNow ITSM/CMDB platforms within a collaborative environment, combining technical and business interactions in a flexible hybrid setup.",
+			"fr": "Opportunité de travailler sur des plateformes ServiceNow ITSM/CMDB dans un environnement collaboratif, alliant technique et métier avec un mode de travail hybride."
+		},
+		"softSkills": {
+			"en": "<ul><li>Strong communication skills</li><li>Analytical thinking</li><li>Ability to work in a team</li><li>Adaptability and curiosity</li></ul>",
+			"fr": "<ul><li>Bon relationnel et communication</li><li>Esprit analytique</li><li>Esprit d’équipe</li><li>Adaptabilité et curiosité</li></ul>"
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-05-31",
+		"status": ""
+	},
+	{
 		"jobId": "J27032026-01",
 		"title": {
 			"en": "Senior SAP SD Pricing Expert",
