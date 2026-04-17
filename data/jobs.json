@@ -1,5 +1,64 @@
 [
 	{
+		"jobId": "J17042026-01",
+		"title": {
+			"en": "SAP S/4HANA Group Reporting Expert (EPM / IFRS 18)",
+			"fr": "Expert SAP S/4HANA Group Reporting (EPM / IFRS 18)"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"salary": "",
+		"location": {
+			"en": "Not specified",
+			"fr": "Non précisé"
+		},
+		"start": {
+			"en": "ASAP",
+			"fr": "Démarrage ASAP"
+		},
+		"mode": {
+			"en": "Not specified",
+			"fr": "Non précisé"
+		},
+		"posted": {
+			"en": "April 17, 2026",
+			"fr": "17 Avril 2026"
+		},
+		"tags": [
+			"SAP S/4HANA",
+			"Group Reporting",
+			"EPM",
+			"IFRS 18",
+			"Financial Consolidation",
+			"Master Data Governance",
+			"CFIN",
+			"Finance Transformation",
+			"SAP Finance",
+			"Regulatory Reporting"
+		],
+		"description": {
+			"en": "<p>We are looking for an experienced SAP S/4HANA Group Reporting expert to drive functional design, governance, and implementation of master data and IFRS 18-related reporting changes.</p><p>You will act as a key interface between Finance Policy, Group Reporting teams, and IT (CFIN / SAP Group Reporting), ensuring alignment between accounting requirements and system implementation.</p><p>The role requires strong ownership of governance topics, the ability to operate autonomously, and confidence working with senior stakeholders in a regulatory transformation environment.</p>",
+			"fr": "<p>Nous recherchons un expert SAP S/4HANA Group Reporting expérimenté pour piloter la conception fonctionnelle, la gouvernance et l’implémentation des données de référence ainsi que des évolutions liées à IFRS 18.</p><p>Vous interviendrez en tant qu’interface clé entre les équipes Finance, Group Reporting et IT (CFIN / SAP Group Reporting), en assurant l’alignement entre les exigences comptables et leur mise en œuvre dans le système.</p><p>Le poste nécessite une forte autonomie, une capacité à porter des sujets de gouvernance et une aisance dans les interactions avec des parties prenantes seniors dans un contexte réglementaire.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>8 to 10 years of SAP experience</li><li>Strong background in financial consolidation and Group Reporting (IFRS context)</li><li>Solid understanding of IFRS financial statements, IFRS 18 exposure is a strong plus</li><li>Proven experience in finance master data governance</li><li>Mandatory experience with SAP S/4HANA Group Reporting</li><li>Experience with Central Finance (CFIN) and legacy consolidation tools is a plus</li><li>Strong hands-on expertise in Group Reporting master data (FS items, hierarchies, validation rules)</li></ul>",
+			"fr": "<ul><li>8 à 10 ans d’expérience sur SAP</li><li>Solide expérience en consolidation financière et Group Reporting (contexte IFRS)</li><li>Bonne maîtrise de la présentation des états financiers IFRS, exposition à IFRS 18 fortement appréciée</li><li>Expérience confirmée en gouvernance des données de référence Finance</li><li>Expérience obligatoire sur SAP S/4HANA Group Reporting</li><li>La connaissance de CFIN et d’outils de consolidation legacy est un plus</li><li>Expertise pratique des données de référence Group Reporting (FS Items, hiérarchies, règles de validation)</li></ul>"
+		},
+		"benefits": {
+			"en": "Opportunity to play a key role in a major regulatory transformation program (IFRS 18) with high visibility, strong stakeholder exposure, and impact on finance governance and reporting processes.",
+			"fr": "Opportunité de jouer un rôle clé dans un programme de transformation réglementaire majeur (IFRS 18) avec une forte visibilité, une exposition aux parties prenantes de haut niveau et un impact direct sur la gouvernance et le reporting financier."
+		},
+		"softSkills": {
+			"en": "<ul><li>Strong understanding of accounting logic and financial processes</li><li>Ability to work autonomously and take ownership</li><li>Excellent stakeholder management and communication skills</li><li>Proactive mindset with strong workshop facilitation skills</li><li>Structured and delivery-oriented approach</li></ul>",
+			"fr": "<ul><li>Bonne compréhension des logiques comptables et des processus financiers</li><li>Capacité à travailler en autonomie et à prendre des responsabilités</li><li>Excellentes compétences en communication et gestion des parties prenantes</li><li>Esprit proactif et capacité à animer des ateliers</li><li>Approche structurée orientée delivery</li></ul>"
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "",
+		"status": ""
+	},
+	{
 		"jobId": "J16042026-01",
 		"title": {
 			"en": "ServiceNow ITSM / CMDB Developer",
