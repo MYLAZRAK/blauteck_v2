@@ -1,5 +1,66 @@
 [
 	{
+		"jobId": "J06052026-01",
+		"title": {
+			"en": "PLM Centric Integration Solutions Expert",
+			"fr": "Expert Intégration Solutions PLM Centric"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"salary": "",
+		"location": {
+			"en": "France",
+			"fr": "France"
+		},
+		"start": {
+			"en": "ASAP",
+			"fr": "Démarrage ASAP"
+		},
+		"mode": {
+			"en": "Hybrid",
+			"fr": "Hybride"
+		},
+		"posted": {
+			"en": "May 6, 2026",
+			"fr": "6 Mai 2026"
+		},
+		"tags": [
+			"PLM Centric",
+			"PLM",
+			"Integration",
+			"ERP",
+			"PIM",
+			"DAM",
+			"Fashion Industry",
+			"Luxury Sector",
+			"Agile",
+			"Project Management",
+			"Solution Governance",
+			"IT Strategy"
+		],
+		"description": {
+			"en": "<p>We are looking for an experienced PLM Centric Integration Solutions Expert to define and drive the strategic vision of enterprise solutions aligned with business objectives.</p><p>You will be responsible for managing the lifecycle of solutions, driving the roadmap, and ensuring alignment with the overall information system, including integrations with ERP, PIM, and DAM systems.</p><p>You will collaborate with IT teams, vendors, and business stakeholders to ensure performance, availability, and continuous improvement of solutions, with a strong focus on PLM Centric.</p><p>This role also involves governance, user adoption, data management, and ensuring compliance and security across solutions.</p>",
+			"fr": "<p>Nous recherchons un expert en intégration de solutions PLM Centric pour définir et porter la vision stratégique des solutions en alignement avec les objectifs business.</p><p>Vous serez responsable du pilotage du cycle de vie des solutions, de la feuille de route, ainsi que de la cohérence avec le SI global (intégrations ERP, PIM, DAM, etc.).</p><p>Vous collaborerez avec les équipes IT, les partenaires et les métiers afin d’assurer la performance, la disponibilité et l’amélioration continue des solutions, notamment le PLM Centric.</p><p>Le rôle inclut également la gouvernance, l’accompagnement des utilisateurs, la gestion des données, ainsi que le respect des exigences de sécurité et de conformité.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>Minimum 10 years of experience in a similar role</li><li>Strong expertise in PLM Centric solution</li><li>Good knowledge of fashion and luxury industry processes (2D/3D design, pattern making, workshop tracking, etc.)</li><li>Strong understanding of collection development processes</li><li>Experience with Agile and Waterfall (V-cycle) methodologies</li><li>Ability to translate business needs into functional and technical requirements</li><li>Experience managing solution lifecycle, roadmap, and governance</li><li>Strong experience in system integration (ERP, PIM, DAM)</li><li>Experience working with vendors and managing multidisciplinary teams</li></ul>",
+			"fr": "<ul><li>Minimum 10 ans d’expérience dans un poste similaire</li><li>Excellente maîtrise de la solution PLM Centric</li><li>Bonne connaissance des outils et processus métiers de la mode et du luxe (conception 2D/3D, patronage, suivi d’atelier, etc.)</li><li>Bonne compréhension des enjeux liés au développement des collections</li><li>Maîtrise des méthodologies Agile et cycle en V</li><li>Capacité à traduire les besoins métiers en solutions fonctionnelles et techniques</li><li>Expérience en pilotage de cycle de vie des solutions et gouvernance</li><li>Expérience en intégration de systèmes (ERP, PIM, DAM)</li><li>Capacité à piloter des équipes pluridisciplinaires et des partenaires</li></ul>"
+		},
+		"benefits": {
+			"en": "Opportunity to work on strategic PLM initiatives within the fashion and luxury sector, contributing to high-impact digital transformation programs and improving business performance.",
+			"fr": "Opportunité de travailler sur des initiatives PLM stratégiques dans le secteur de la mode et du luxe, avec un fort impact sur la transformation digitale et la performance métier."
+		},
+		"softSkills": {
+			"en": "<ul><li>Strong communication and pedagogical skills</li><li>Ability to simplify complex IT concepts for business users</li><li>Leadership and team management capabilities</li><li>Curiosity and proactive mindset</li><li>Strong problem-solving skills</li><li>Rigor and attention to detail</li><li>Customer and service-oriented mindset</li></ul>",
+			"fr": "<ul><li>Excellentes capacités de communication et pédagogie</li><li>Capacité à vulgariser les concepts IT pour les métiers</li><li>Leadership et gestion d’équipes</li><li>Curiosité et proactivité</li><li>Sens de la résolution de problèmes</li><li>Rigueur et organisation</li><li>Sens du service et orientation utilisateur</li></ul>"
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-06-30",
+		"status": ""
+	},
+	{
 		"jobId": "J17042026-01",
 		"title": {
 			"en": "SAP S/4HANA Group Reporting Expert (EPM / IFRS 18)",
