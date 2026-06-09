@@ -1,5 +1,110 @@
 [
 	{
+		"jobId": "SAPPP-SONACA-20260609",
+		"title": {
+			"en": "Senior SAP PP Consultant",
+			"fr": "Consultant Senior SAP PP"
+		},
+		"type": {
+			"en": "Freelance",
+			"fr": "Freelance"
+		},
+		"salary": "",
+		"location": {
+			"en": "Gosselies (Charleroi), Belgium",
+			"fr": "Gosselies (Charleroi), Belgique"
+		},
+		"start": {
+			"en": "ASAP",
+			"fr": "Démarrage ASAP"
+		},
+		"mode": {
+			"en": "Hybrid (3 days onsite / 2 days remote – mandatory)",
+			"fr": "Hybride (3 jours sur site / 2 jours en télétravail – non négociable)"
+		},
+		"posted": {
+			"en": "June 9, 2026",
+			"fr": "9 Juin 2026"
+		},
+		"tags": [
+			"SAP PP",
+			"SAP ECC",
+			"Customizing",
+			"Functional Specifications",
+			"SAP MM",
+			"SAP SD",
+			"MRP",
+			"Kanban",
+			"Production Planning",
+			"Manufacturing",
+			"Outside Processing",
+			"Third Party",
+			"APS",
+			"Warehouse Management",
+			"Plan-to-Produce"
+		],
+		"description": {
+			"en": "<p>We are looking for a Senior SAP PP Consultant to support our client SONACA in Gosselies, Belgium. The consultant will join a long-term mission within an industrial manufacturing environment and will be responsible for SAP Production Planning processes across multiple business flows.</p><p>The role requires strong expertise in SAP ECC, SAP PP customization, process analysis, and the drafting of functional specifications. The consultant will collaborate closely with business stakeholders and cross-functional SAP teams to optimize and support production-related processes.</p><p>The mission covers a broad SAP supply chain and manufacturing scope, including planning, procurement integration, warehouse operations, subcontracting, inventory management, and production execution.</p>"
+		},
+		"requirements": {
+			"en": "<ul><li>Minimum 8 years of SAP PP consulting experience</li><li>Strong expertise in SAP ECC environment</li><li>Hands-on experience with SAP PP Customizing</li><li>Ability to write detailed Functional Specifications</li><li>Good knowledge of SAP MM and SAP SD integration points</li><li>Strong experience with MRP and production planning processes</li><li>Experience with Kanban processes and replenishment flows</li><li>Knowledge of decentralized warehouse environments</li><li>Experience with consignment stock management</li><li>Experience with subcontracting and Outside Processing scenarios</li><li>Knowledge of Third-Party processes</li><li>Experience with Plan-to-Produce business processes</li><li>Knowledge of Rework Orders and Sampling Procedures</li><li>Exposure to APS (Advanced Planning & Scheduling) solutions</li><li>Experience working in industrial and manufacturing environments</li><li>Ability to work across complex end-to-end SAP supply chain processes</li></ul>",
+			"fr": "<ul><li>Minimum 8 ans d'expérience en consulting SAP PP</li><li>Excellente maîtrise de l'environnement SAP ECC</li><li>Expérience confirmée en Customizing SAP PP</li><li>Capacité à rédiger des Spécifications Fonctionnelles détaillées</li><li>Bonne connaissance des intégrations avec SAP MM et SAP SD</li><li>Solide expérience des processus MRP et de planification de production</li><li>Expérience des flux Kanban et de réapprovisionnement</li><li>Connaissance des environnements de stockage décentralisés</li><li>Expérience de la gestion des stocks en consignation</li><li>Expérience des processus de sous-traitance et d'Outside Processing</li><li>Connaissance des flux Third Party</li><li>Maîtrise des processus Plan-to-Produce</li><li>Connaissance des Ordres de Rework et des Sampling Procedures</li><li>Exposition aux solutions APS (Advanced Planning & Scheduling)</li><li>Expérience dans des environnements industriels et manufacturiers</li><li>Capacité à intervenir sur des processus Supply Chain SAP complexes de bout en bout</li></ul>"
+		},
+		"benefits": {
+			"en": "Long-term SAP PP assignment within a leading aerospace manufacturing company, offering exposure to complex industrial production processes and broad SAP supply chain integration challenges.",
+			"fr": "Mission SAP PP de longue durée au sein d'un acteur majeur de l'industrie aéronautique, offrant une exposition à des processus industriels complexes et à des problématiques d'intégration SAP Supply Chain étendues."
+		},
+		"softSkills": {
+			"en": "<ul><li>Strong analytical and problem-solving skills</li><li>Excellent communication with business and technical stakeholders</li><li>Ability to challenge requirements and propose improvements</li><li>Autonomous and proactive mindset</li><li>Strong organizational skills</li><li>Team player with cross-functional collaboration capabilities</li></ul>",
+			"fr": "<ul><li>Excellentes capacités d'analyse et de résolution de problèmes</li><li>Très bonne communication avec les équipes métiers et techniques</li><li>Capacité à challenger les besoins et proposer des améliorations</li><li>Autonomie et proactivité</li><li>Bon sens de l'organisation</li><li>Esprit d'équipe et capacité à collaborer dans des environnements transverses</li></ul>"
+		},
+		"languages": {
+			"en": "French and/or English",
+			"fr": "Français et/ou Anglais"
+		},
+		"additionalQuestions": {
+			"en": [
+				"Consignment",
+				"MRP",
+				"Replenishment Processes",
+				"Patch Management",
+				"Decentralized Warehouse",
+				"Kanban",
+				"Configuration",
+				"Stock Provided to Customers",
+				"Third Party",
+				"Outside Processing",
+				"Plan-to-Produce",
+				"LSF and VSF/VSC",
+				"Rework Orders",
+				"Sampling Procedures",
+				"APS",
+				"SRN Platform"
+			],
+			"fr": [
+				"Consignation",
+				"MRP",
+				"Processus de Réapprovisionnement",
+				"Patch Management",
+				"Entrepôt Décentralisé",
+				"Kanban",
+				"Configuration",
+				"Stock Fourni aux Clients",
+				"Third Party",
+				"Outside Processing",
+				"Plan-to-Produce",
+				"LSF et VSF/VSC",
+				"Ordres de Rework",
+				"Sampling Procedures",
+				"APS",
+				"Plateforme SRN"
+			]
+		},
+		"nationalityRequired": "No",
+		"lastDateToApply": "2026-06-30",
+		"status": "Open"
+	},
+	{
 		"jobId": "J19052026-02",
 		"title": {
 			"en": "Senior SAP Technical Developer – SAP S/4HANA Public Cloud",
