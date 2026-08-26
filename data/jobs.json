@@ -1,5 +1,67 @@
 [
     {
+        "jobId": "J08262026-01",
+        "title": {
+            "en": "SAP Functional Relationship Manager – Technical & Production",
+            "fr": "Responsable Fonctionnel SAP – Technical & Production"
+        },
+        "type": {
+            "en": "Freelance",
+            "fr": "Freelance"
+        },
+        "salary": "",
+        "location": {
+            "en": "Almere, Netherlands",
+            "fr": "Almere, Pays-Bas"
+        },
+        "start": {
+            "en": "September / October 2026",
+            "fr": "Démarrage Septembre / Octobre 2026"
+        },
+        "mode": {
+            "en": "Onsite (Factory-based)",
+            "fr": "Sur site (Usine)"
+        },
+        "posted": {
+            "en": "August 26, 2026",
+            "fr": "26 Août 2026"
+        },
+        "tags": [
+            "SAP PP",
+            "SAP QM",
+            "SAP EAM",
+            "SAP PM",
+            "SAP MII",
+            "SAP MM",
+            "SAP WM",
+            "Manufacturing",
+            "Production",
+            "Quality Management",
+            "Asset Management",
+            "Stakeholder Management",
+            "SAP Transformation",
+            "Industrial Operations"
+        ],
+        "description": {
+            "en": "<p>We are looking for a Functional Relationship Manager to support the Technical & Production (T&P) domain for a major manufacturing site in Almere, Netherlands.</p><p>The role acts as the key interface between Manufacturing Operations and IT, ensuring business needs are translated into effective SAP solutions while supporting the site's transition to SAP.</p><p>You will work closely with production, quality, maintenance, and IT stakeholders to optimize manufacturing processes and ensure successful adoption of SAP across the factory.</p><p>This is a functional business-facing role requiring strong stakeholder management capabilities and an excellent understanding of manufacturing processes rather than deep technical development expertise.</p>"
+        },
+        "requirements": {
+            "en": "<ul><li>Minimum 5 years of SAP functional support experience within manufacturing environments</li><li>Strong expertise in SAP PP (Production Planning)</li><li>Strong expertise in SAP QM (Quality Management)</li><li>Strong expertise in SAP EAM / PM (Enterprise Asset Management / Plant Maintenance)</li><li>Good knowledge of SAP MII</li><li>Knowledge of SAP MM and SAP WM</li><li>Excellent understanding of manufacturing, production, quality and asset management processes</li><li>Experience supporting SAP implementations or SAP transformation projects</li><li>Strong business analysis and stakeholder management skills</li><li>Fluent English is mandatory; Dutch is considered an advantage</li></ul>",
+            "fr": "<ul><li>Minimum 5 ans d'expérience en support fonctionnel SAP dans un environnement industriel</li><li>Excellente maîtrise de SAP PP (Production Planning)</li><li>Excellente maîtrise de SAP QM (Quality Management)</li><li>Excellente maîtrise de SAP EAM / PM (Enterprise Asset Management / Plant Maintenance)</li><li>Bonne connaissance de SAP MII</li><li>Connaissances de SAP MM et SAP WM</li><li>Très bonne compréhension des processus de production, qualité et gestion des actifs industriels</li><li>Expérience dans des projets d'implémentation ou de transformation SAP</li><li>Excellentes compétences en analyse fonctionnelle et gestion des parties prenantes</li><li>Anglais courant obligatoire ; le néerlandais est un atout</li></ul>"
+        },
+        "benefits": {
+            "en": "Join a strategic SAP transformation project at a brand-new manufacturing facility, working closely with business leaders and contributing directly to the successful deployment of SAP within an industrial environment.",
+            "fr": "Participez à un projet stratégique de transformation SAP au sein d'un nouveau site industriel en collaborant étroitement avec les équipes métiers et en contribuant au déploiement de SAP dans un environnement de production."
+        },
+        "softSkills": {
+            "en": "<ul><li>Excellent communication and interpersonal skills</li><li>Strong stakeholder management abilities</li><li>Business-oriented mindset</li><li>Analytical and problem-solving skills</li><li>Ability to bridge business and IT teams</li><li>Autonomous and proactive approach</li></ul>",
+            "fr": "<ul><li>Excellentes compétences en communication</li><li>Très bonne gestion des parties prenantes</li><li>Orientation métier forte</li><li>Esprit d'analyse et de résolution de problèmes</li><li>Capacité à faire le lien entre les équipes métiers et IT</li><li>Autonomie et proactivité</li></ul>"
+        },
+        "nationalityRequired": "No",
+        "lastDateToApply": "",
+        "status": ""
+    },
+    {
         "jobId": "J14082026-02",
         "title": {
             "en": "Senior SAP FI/CO Consultant – Tax, Claims & Sales Integration",
