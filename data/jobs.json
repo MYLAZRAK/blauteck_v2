@@ -1,5 +1,68 @@
 [
     {
+        "jobId": "J27082026-01",
+        "title": {
+            "en": "Senior SAP Procurement Process Consultant (SAP MM / Procurement Advisory)",
+            "fr": "Consultant Senior Processus Achats SAP (SAP MM / Conseil Fonctionnel)"
+        },
+        "type": {
+            "en": "Freelance",
+            "fr": "Freelance"
+        },
+        "salary": "",
+        "location": {
+            "en": "France",
+            "fr": "France"
+        },
+        "start": {
+            "en": "October 2026",
+            "fr": "Démarrage Octobre 2026"
+        },
+        "mode": {
+            "en": "Mainly Remote (occasional onsite visits in France)",
+            "fr": "Majoritairement à distance (quelques jours sur site en France)"
+        },
+        "posted": {
+            "en": "August 27, 2026",
+            "fr": "27 Août 2026"
+        },
+        "tags": [
+            "SAP MM",
+            "Procurement",
+            "Purchasing Processes",
+            "SAP ECC6",
+            "SAP S/4HANA",
+            "Release Strategies",
+            "Purchase Requisitions",
+            "Purchase Orders",
+            "Source of Supply",
+            "Info Records",
+            "Framework Agreements",
+            "Punch-Out",
+            "Industrial Environment",
+            "Business Consulting"
+        ],
+        "description": {
+            "en": "<p>As part of a strategic procurement transformation program led by Masai (Meogroup), we are looking for a Senior SAP Procurement Process Consultant to provide functional expertise for a major French industrial client operating in a regulated multi-site environment.</p><p>This is a business consulting assignment rather than a SAP implementation or configuration role. You will work under Masai's engagement leadership to define procurement process improvements and support workshops with business stakeholders and the client's internal SAP team.</p><p>Your contribution will focus on defining the extraction framework for purchase requisition analysis, reviewing existing SAP release strategies, and designing the functional framework for automated Purchase Requisition to Purchase Order conversion.</p><p>The assignment requires the ability to work in both SAP ECC6 and SAP S/4HANA environments depending on the client's current landscape.</p>",
+            "fr": "<p>Dans le cadre d'une mission de transformation des achats pilotée par Masai (groupe Meogroup), nous recherchons un Consultant Senior Processus Achats SAP afin d'apporter une expertise fonctionnelle auprès d'un grand industriel français multi-sites évoluant dans un environnement réglementé.</p><p>Il s'agit d'une mission de conseil fonctionnel et non d'intégration ou de paramétrage SAP. Vous interviendrez sous la direction de mission de Masai pour animer des ateliers, réaliser le cadrage fonctionnel et échanger avec l'équipe SAP interne du client.</p><p>Votre intervention portera notamment sur la définition du cadre d'extraction et d'analyse des demandes d'achat, l'analyse des schémas de libération existants et le cadrage fonctionnel de la conversion automatique des demandes d'achat en commandes.</p><p>Le consultant devra être capable d'intervenir aussi bien sur des environnements SAP ECC6 que SAP S/4HANA, la version cible du client restant à confirmer.</p>"
+        },
+        "requirements": {
+            "en": "<ul><li>Strong functional expertise in SAP Procurement processes (SAP MM)</li><li>Experience as a business consultant rather than SAP technical configurator</li><li>Excellent knowledge of Purchase Requisitions, Purchase Orders and procurement workflows</li><li>Experience with SAP Release Strategies and Delegation of Authority models</li><li>Knowledge of automatic PR-to-PO conversion mechanisms, Source of Supply, Purchasing Info Records, Framework Agreements, Catalogs and Punch-Out solutions</li><li>Ability to work on both SAP ECC6 and SAP S/4HANA environments</li><li>Experience facilitating workshops and interacting with business and SAP teams</li><li>Experience within industrial or regulated environments is highly desirable</li><li>Fluent French is mandatory; English is appreciated</li></ul>",
+            "fr": "<ul><li>Excellente maîtrise fonctionnelle des processus Achats SAP (SAP MM)</li><li>Expérience en conseil métier plutôt qu'en intégration ou paramétrage SAP</li><li>Très bonne connaissance des demandes d'achat, commandes et processus achats</li><li>Maîtrise des schémas de libération (Release Strategies) et des délégations de pouvoirs</li><li>Connaissance des mécanismes de conversion automatique DA vers commande, des sources d'approvisionnement, fiches infos-achats, contrats cadres, catalogues et Punch-Out</li><li>Capacité à intervenir sur des environnements SAP ECC6 et SAP S/4HANA</li><li>Expérience d'animation d'ateliers et d'échanges avec les équipes métiers et SAP</li><li>Une expérience dans des environnements industriels ou réglementés constitue un atout</li><li>Français courant indispensable ; anglais apprécié</li></ul>"
+        },
+        "benefits": {
+            "en": "Opportunity to contribute as a senior functional expert to a high-value procurement transformation program for a major industrial organization, working alongside an experienced consulting team with flexible remote working conditions.",
+            "fr": "Opportunité d'intervenir comme expert fonctionnel senior sur un programme stratégique de transformation des achats pour un grand groupe industriel, au sein d'une équipe de conseil expérimentée avec une organisation majoritairement à distance."
+        },
+        "softSkills": {
+            "en": "<ul><li>Strong consulting and facilitation skills</li><li>Excellent communication with business and IT stakeholders</li><li>Analytical and structured mindset</li><li>Ability to synthesize complex procurement processes</li><li>Autonomous and proactive</li><li>Customer-oriented approach</li></ul>",
+            "fr": "<ul><li>Excellentes compétences en conseil et animation d'ateliers</li><li>Très bonne communication avec les équipes métiers et IT</li><li>Esprit d'analyse et de synthèse</li><li>Capacité à structurer des processus achats complexes</li><li>Autonomie et proactivité</li><li>Sens du service et orientation client</li></ul>"
+        },
+        "nationalityRequired": "Yes",
+        "lastDateToApply": "2026-09-25",
+        "status": ""
+    },
+    {
         "jobId": "J26082026-01",
         "title": {
             "en": "SAP Functional Relationship Manager – Technical & Production",
