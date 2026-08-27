@@ -11,16 +11,16 @@
         },
         "salary": "",
         "location": {
-            "en": "France",
-            "fr": "France"
+            "en": "IDF",
+            "fr": "IDF"
         },
         "start": {
-            "en": "October 2026",
-            "fr": "Démarrage Octobre 2026"
+            "en": "September 2026",
+            "fr": "Démarrage Septembre 2026"
         },
         "mode": {
-            "en": "Mainly Remote (occasional onsite visits in France)",
-            "fr": "Majoritairement à distance (quelques jours sur site en France)"
+            "en": "Hybrid",
+            "fr": "Hybride"
         },
         "posted": {
             "en": "August 27, 2026",
