@@ -1,5 +1,75 @@
 [
     {
+        "jobId": "J01092026-01",
+        "title": {
+            "en": "Senior SAP S/4HANA RTR Core Model Business Expert (FI & CO)",
+            "fr": "Expert Senior Business Core Model SAP S/4HANA RTR (FI & CO)"
+        },
+        "type": {
+            "en": "Freelance",
+            "fr": "Freelance"
+        },
+        "salary": "",
+        "location": {
+            "en": "Suresnes, France",
+            "fr": "Suresnes, France"
+        },
+        "start": {
+            "en": "ASAP",
+            "fr": "Démarrage ASAP"
+        },
+        "mode": {
+            "en": "Hybrid – Suresnes headquarters with occasional travel to international subsidiaries",
+            "fr": "Hybride – Siège de Suresnes avec déplacements ponctuels dans les filiales internationales"
+        },
+        "posted": {
+            "en": "September 1, 2026",
+            "fr": "1er septembre 2026"
+        },
+        "tags": [
+            "SAP S/4HANA",
+            "SAP FI",
+            "SAP CO",
+            "RTR",
+            "Core Model",
+            "Finance Transformation",
+            "SAP FI-CO",
+            "FI-BL",
+            "Product Costing",
+            "CO-PC",
+            "BPC",
+            "SAP Governance",
+            "Change Management",
+            "Internal Controls",
+            "CSR Reporting",
+            "SAP DRC",
+            "SAP GRC",
+            "FI-SD Integration",
+            "FI-MM Integration",
+            "Industrial Environment",
+            "International Environment"
+        ],
+        "description": {
+            "en": "<p>As part of the Finance Operational Performance organization, we are looking for a Senior SAP S/4HANA RTR Core Model Business Expert specialized in FI & CO to join the SAP S/4HANA Run & Core Model Governance team.</p><p>The role is focused on ensuring the performance, consistency and adoption of the global Finance Core Model across international subsidiaries and industrial sites. Acting as the RTR functional reference, you will combine strong SAP S/4HANA expertise with a broad Finance vision covering accounting, controlling and treasury.</p><p>You will promote the Core Model standard, support Key Users and End Users in the post-hypercare phase, challenge and govern business evolution requests, and coordinate their implementation with IT teams in line with Core Model governance principles.</p><p>The position also includes a strong contribution to transformation and regulatory initiatives, including CSR reporting requirements within the Morphe’Us program, deployment of Internal Control Key Controls, continuous improvement of the Run activity, and maintenance of high-quality Core Model documentation.</p><p>This is a high-impact international role offering long-term visibility and a potential evolution toward Finance Project & Governance activities.</p>",
+            "fr": "<p>Dans le cadre de la Direction Performance Opérationnelle Finance, nous recherchons un Expert Senior Business Core Model SAP S/4HANA spécialisé RTR – FI & CO pour rejoindre l’équipe Run SAP S/4HANA & Core Model Governance.</p><p>La mission consiste à garantir la performance, la cohérence et l’adoption du Core Model Finance auprès des filiales internationales et des sites industriels. En tant que référent fonctionnel RTR, vous combinerez une expertise solide de SAP S/4HANA avec une vision Finance 360° couvrant la comptabilité, le controlling et la trésorerie.</p><p>Vous serez en charge de promouvoir le standard Core Model, d’accompagner les Key Users et End Users en phase post-hypercare, de challenger et gouverner les demandes d’évolution métier et de coordonner leur mise en œuvre avec les équipes IT dans le respect de la gouvernance du Core Model.</p><p>La mission comporte également une forte dimension transformation et réglementaire, notamment autour des exigences de reporting RSE dans le cadre du programme Morphe’Us, du déploiement des Key Controls du Contrôle Interne, de l’amélioration continue du Run et de la qualité de la documentation du Core Model.</p><p>Il s’agit d’une mission internationale à fort impact, offrant une visibilité long terme et une trajectoire potentielle vers des activités Projet & Gouvernance Finance.</p>"
+        },
+        "requirements": {
+            "en": "<ul><li>Strong functional expertise in SAP S/4HANA Finance, with proven experience in SAP FI and CO</li><li>Strong knowledge of Record-to-Report (RTR) processes and Finance transformation</li><li>Broad Finance knowledge covering accounting, controlling and treasury</li><li>Proven experience with SAP S/4HANA FI-CO and ideally FI-BL</li><li>Good understanding of FI integration flows with SAP SD and SAP MM</li><li>Experience promoting and governing a global SAP Core Model or template across multiple entities or countries</li><li>Strong ability to challenge, qualify, document and prioritize business evolution requests</li><li>Experience working with Key Users, Business Process Owners and Global Process Owners in an AMOA or functional expert capacity</li><li>Ability to ensure standard adoption while managing local business requirements and exceptions</li><li>Good understanding of SAP ECC6 to S/4HANA Fits & Gaps is a significant advantage</li><li>Experience in Product Costing (CO-PC) and/or BPC is a strong advantage, particularly in industrial environments</li><li>Knowledge or experience with SAP DRC and GRC is a plus</li><li>Good understanding of Internal Control requirements and deployment of Finance Key Controls</li><li>Experience contributing to CSR/RSE or extra-financial reporting initiatives is a plus</li><li>Strong documentation skills, including SOPs, accounting schemes and Core Model documentation</li><li>Experience with KPIs, operational reporting and continuous improvement of SAP Run activities</li><li>Fluent English is mandatory; Spanish is a strong advantage</li><li>Availability at 100% with exclusive commitment to the assignment</li></ul>",
+            "fr": "<ul><li>Expertise fonctionnelle confirmée sur SAP S/4HANA Finance, notamment SAP FI et CO</li><li>Excellente connaissance des processus Record-to-Report (RTR) et des enjeux de transformation Finance</li><li>Vision Finance 360° couvrant comptabilité, controlling et trésorerie</li><li>Expérience confirmée sur SAP S/4HANA FI-CO et idéalement FI-BL</li><li>Bonne compréhension des flux d’intégration FI avec SAP SD et SAP MM</li><li>Expérience dans la promotion et la gouvernance d’un Core Model ou template SAP mondial sur plusieurs entités ou pays</li><li>Forte capacité à challenger, qualifier, documenter et prioriser les demandes d’évolution métier</li><li>Expérience auprès de Key Users, Business Process Owners et Global Process Owners dans un rôle d’AMOA ou d’expert fonctionnel</li><li>Capacité à garantir l’adoption du standard tout en maîtrisant les besoins locaux et les éventuelles dérogations</li><li>La connaissance des Fits & Gaps entre ECC6 et S/4HANA constitue un avantage significatif</li><li>Une expérience en Product Costing (CO-PC) et/ou BPC est un atout majeur, notamment dans un environnement industriel</li><li>La connaissance ou l’expérience de SAP DRC et GRC est un plus</li><li>Bonne compréhension des enjeux de Contrôle Interne et du déploiement des Key Controls Finance</li><li>Une expérience sur des initiatives RSE/CSR ou de reporting extra-financier constitue un plus</li><li>Excellentes capacités de documentation : SOP, schémas comptables et documentation Core Model</li><li>Expérience dans la définition de KPIs, le reporting opérationnel et l’amélioration continue des activités Run SAP</li><li>Anglais courant impératif ; espagnol fortement apprécié</li><li>Disponibilité à 100% avec engagement exclusif sur la mission</li></ul>"
+        },
+        "benefits": {
+            "en": "Opportunity to act as a key functional reference for a global SAP S/4HANA Finance Core Model within an international industrial environment, contributing to strategic transformation programs such as Jazz, Morphe’Us and Fusion. The assignment offers strong visibility, long-term potential and a possible evolution toward Finance Project & Governance activities.",
+            "fr": "Opportunité de devenir un référent fonctionnel clé d’un Core Model SAP S/4HANA Finance mondial dans un environnement industriel international, en contribuant à des programmes de transformation stratégiques tels que Jazz, Morphe’Us et Fusion. La mission offre une forte visibilité, une perspective long terme et une évolution potentielle vers des activités Projet & Gouvernance Finance."
+        },
+        "softSkills": {
+            "en": "<ul><li>Strong leadership and functional authority with a Domain Leader mindset</li><li>Excellent stakeholder management and communication skills in an international environment</li><li>Strong analytical, structured and problem-solving mindset</li><li>Ability to take a strategic perspective while remaining operational and hands-on</li><li>Strong team spirit and collaborative approach</li><li>Continuous improvement mindset and strong commitment to quality</li><li>High level of rigor in reporting, documentation and governance</li><li>Ability to challenge business requirements while maintaining strong relationships with stakeholders</li><li>Autonomy, proactivity and strong sense of accountability</li><li>Ability to work effectively in project mode and within a Quality Assurance Plan framework</li></ul>",
+            "fr": "<ul><li>Leadership fonctionnel affirmé et posture de Domain Leader</li><li>Excellentes capacités de communication et de gestion des parties prenantes dans un environnement international</li><li>Esprit analytique, structuré et orienté résolution de problèmes</li><li>Capacité à prendre de la hauteur tout en restant opérationnel et proche du terrain</li><li>Fort esprit d’équipe et approche collaborative</li><li>Culture de l’amélioration continue et fort engagement envers la qualité</li><li>Grande rigueur dans le reporting, la documentation et la gouvernance</li><li>Capacité à challenger les besoins métier tout en maintenant une relation constructive avec les parties prenantes</li><li>Autonomie, proactivité et sens des responsabilités</li><li>Capacité à travailler efficacement en mode projet et dans le respect d’un Plan d’Assurance Qualité</li></ul>"
+        },
+        "nationalityRequired": "No",
+        "lastDateToApply": "2026-09-25",
+        "status": ""
+    },
+    {
         "jobId": "J27082026-01",
         "title": {
             "en": "Senior SAP Procurement Process Consultant (SAP MM / Procurement Advisory)",
