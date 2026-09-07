@@ -1,5 +1,67 @@
 [
     {
+        "jobId": "J07092026-01",
+        "title": {
+            "en": "SAP OTC Deployment Lead – S/4HANA",
+            "fr": "SAP OTC Deployment Lead – S/4HANA"
+        },
+        "type": {
+            "en": "Freelance",
+            "fr": "Freelance"
+        },
+        "salary": "",
+        "location": {
+            "en": "International / Europe",
+            "fr": "International / Europe"
+        },
+        "start": {
+            "en": "October 1, 2026",
+            "fr": "1er OCtobre 2026"
+        },
+        "mode": {
+            "en": "Hybrid / International travel required during key deployment phases",
+            "fr": "Hybride / Déplacements internationaux requis lors des phases clés de déploiement"
+        },
+        "posted": {
+            "en": "September 7, 2026",
+            "fr": "7 Septembre 2026"
+        },
+        "tags": [
+            "SAP OTC",
+            "SAP S/4HANA",
+            "SAP Deployment",
+            "SAP Rollout",
+            "Order-to-Cash",
+            "Core Model",
+            "AMOA",
+            "Business Analysis",
+            "Functional Lead",
+            "International Rollout",
+            "UAT",
+            "Go-Live",
+            "Pharmaceutical Industry"
+        ],
+        "description": {
+            "en": "<p>As part of an international SAP S/4HANA Core Model deployment program within a pharmaceutical group, we are looking for a SAP OTC Deployment Lead to support successive international rollout waves.</p><p>The program has already been deployed in several countries and is continuing its expansion across new subsidiaries. You will be responsible for leading the Order-to-Cash scope on one or more deployments and supporting local entities in adopting the global SAP S/4HANA Core Model.</p><p>Positioned on the Business / Business Analysis side, you will work closely with local business teams, central teams and the SAP implementation partner throughout the deployment lifecycle.</p><p>The role offers a long-term opportunity to contribute to multiple international rollouts, from Explore / Design through UAT and Go-Live.</p>",
+            "fr": "<p>Dans le cadre d’un programme international de déploiement d’un Core Model SAP S/4HANA au sein d’un groupe pharmaceutique, nous recherchons un(e) SAP OTC Deployment Lead pour accompagner les différentes vagues de rollout à l’international.</p><p>Le programme est déjà déployé dans plusieurs pays et poursuit son expansion auprès de nouvelles filiales. Vous serez responsable du pilotage du périmètre Order-to-Cash sur un ou plusieurs déploiements et accompagnerez les filiales dans l’adoption du Core Model SAP S/4HANA.</p><p>Positionné côté Business / AMOA, vous travaillerez en étroite collaboration avec les équipes métier locales, les équipes centrales et l’intégrateur SAP tout au long du cycle de déploiement.</p><p>Le poste offre une perspective de collaboration à long terme sur plusieurs rollouts internationaux, depuis les phases Explore / Design jusqu’aux UAT et au Go-Live.</p>"
+        },
+        "requirements": {
+            "en": "<ul><li>Minimum 5 years of experience in SAP OTC, ideally on SAP S/4HANA</li><li>Significant experience delivering international SAP deployment or rollout projects</li><li>Strong knowledge of Order-to-Cash processes and Core Model integration challenges</li><li>Proven experience in Business Analysis, AMOA or Business Expert roles</li><li>Ability to take on a functional lead and coordination role</li><li>Experience facilitating functional workshops and analyzing gaps between local processes and the global Core Model</li><li>Ability to challenge and qualify local business requirements while ensuring Core Model consistency</li><li>Experience coordinating functional topics with SAP integrators and central teams</li><li>Experience supporting Explore / Design, UAT and Go-Live phases</li><li>Strong experience managing tests, defects and action plans through resolution</li><li>Ability to provide functional leadership, support and best practices to OTC consultants</li><li>Fluent English is mandatory</li><li>Willingness and availability to travel internationally, typically for one to two weeks during key deployment phases</li></ul>",
+            "fr": "<ul><li>Minimum 5 ans d’expérience sur SAP OTC, idéalement sur SAP S/4HANA</li><li>Expérience significative sur des projets de déploiement ou de rollout SAP internationaux</li><li>Très bonne maîtrise des processus Order-to-Cash et des enjeux d’intégration d’un Core Model</li><li>Expérience confirmée en AMOA, Business Analysis ou en tant que Business Expert</li><li>Capacité à prendre un rôle de Lead fonctionnel et de coordination</li><li>Expérience dans l’animation d’ateliers fonctionnels et l’analyse des écarts entre les processus locaux et le Core Model global</li><li>Capacité à challenger et qualifier les besoins métiers locaux tout en garantissant la cohérence avec le Core Model</li><li>Expérience dans la coordination des sujets fonctionnels avec l’intégrateur SAP et les équipes centrales</li><li>Expérience des phases Explore / Design, UAT et Go-Live</li><li>Solide expérience dans le suivi des tests, des anomalies et des plans d’action jusqu’à leur résolution</li><li>Capacité à assurer un leadership fonctionnel, à accompagner les consultants OTC et à partager les bonnes pratiques</li><li>Anglais courant indispensable</li><li>Disponibilité pour des déplacements internationaux ponctuels, généralement d’une à deux semaines lors des phases clés de déploiement</li></ul>"
+        },
+        "benefits": {
+            "en": "Opportunity to contribute to a major international SAP S/4HANA transformation program within the pharmaceutical industry, with long-term involvement across multiple rollout waves and strong exposure to business, central teams and SAP implementation partners.",
+            "fr": "Opportunité d’intervenir sur un programme international majeur de transformation SAP S/4HANA dans l’industrie pharmaceutique, avec une collaboration à long terme sur plusieurs vagues de rollout et une forte exposition aux équipes métier, centrales et aux intégrateurs SAP."
+        },
+        "softSkills": {
+            "en": "<ul><li>Natural leadership and ability to federate stakeholders in an international and multicultural environment</li><li>Excellent communication and interpersonal skills</li><li>Ability to work effectively with business and IT stakeholders at different levels</li><li>Strong synthesis and decision-making skills</li><li>High level of autonomy, pragmatism and solution-oriented mindset</li><li>Ability to challenge business requirements while maintaining constructive relationships with local subsidiaries</li><li>Strong teamwork and knowledge-sharing capabilities</li></ul>",
+            "fr": "<ul><li>Leadership naturel et capacité à fédérer dans un environnement international et multiculturel</li><li>Excellentes compétences en communication et aisance relationnelle</li><li>Capacité à travailler avec des interlocuteurs métier et IT de différents niveaux</li><li>Esprit de synthèse et capacité à prendre des décisions</li><li>Autonomie, pragmatisme et forte orientation solutions</li><li>Capacité à challenger les besoins tout en maintenant une relation constructive avec les filiales</li><li>Goût du travail en équipe et capacité à transmettre son expertise</li></ul>"
+        },
+        "nationalityRequired": "No",
+        "lastDateToApply": "2026-10-15",
+        "status": ""
+    },
+    {
         "jobId": "J01092026-02",
         "title": {
             "en": "Senior SAP Migration Program Expert (Project Manager / Migration Lead / Delivery)",
