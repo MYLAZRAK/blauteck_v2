@@ -1,5 +1,69 @@
 [
     {
+        "jobId": "J11092026-01",
+        "title": {
+            "en": "Senior SAP PP/DS Expert – Detailed Scheduling Assessment & Project Estimation",
+            "fr": "Expert Senior SAP PP/DS – Étude d'Ordonnancement Détaillé et Chiffrage Projet"
+        },
+        "type": {
+            "en": "Freelance",
+            "fr": "Freelance"
+        },
+        "salary": "",
+        "location": {
+            "en": "Paris, France",
+            "fr": "Paris, France"
+        },
+        "start": {
+            "en": "October 2026",
+            "fr": "Octobre 2026"
+        },
+        "mode": {
+            "en": "Hybrid – Remote possible, with onsite presence in Paris for workshops and steering committee presentations",
+            "fr": "Hybride – Télétravail possible, avec présence sur site à Paris pour les ateliers et les restitutions en comité"
+        },
+        "posted": {
+            "en": "September 11, 2026",
+            "fr": "11 Septembre 2026"
+        },
+        "tags": [
+            "SAP PP/DS",
+            "SAP ePP/DS",
+            "S/4HANA",
+            "Detailed Scheduling",
+            "Production Planning",
+            "Advanced Planning",
+            "APS",
+            "Kinaxis Maestro",
+            "Supply Chain",
+            "SAP Integration",
+            "S/4HANA Brownfield",
+            "Project Estimation",
+            "Solution Assessment",
+            "Industrial Environment",
+            "Legacy Decommissioning"
+        ],
+        "description": {
+            "en": "<p>As part of an S/4HANA Brownfield transformation program for an international luxury player, we are looking for a Senior SAP PP/DS Expert to assess and compare detailed scheduling solutions and contribute to the associated project estimation.</p><p>The client is currently structuring its target Supply Chain application architecture. Kinaxis Maestro has been selected for concurrent planning, while SAP S/4HANA Core will become the execution master. Detailed scheduling is currently covered by a mix of legacy APS/MES tools, a third-party solution scheduled for decommissioning, SAP-specific developments and Excel files.</p><p>The mission consists of assessing the feasibility of two competing solutions: SAP ePP/DS embedded in S/4HANA and Kinaxis Maestro Detailed Scheduling. The expert will challenge and refine the target solution, secure architecture and integration assumptions, compare functional and technical coverage, assess risks and integration effort, and contribute to project planning and implementation cost estimation.</p><p>The assignment is expected to require 10 to 15 days on a part-time basis between October and December 2026, with a potential continuation during the implementation phase between February and April 2027.</p>",
+            "fr": "<p>Dans le cadre d'un programme de transformation S/4HANA en approche Brownfield pour un acteur international du luxe, nous recherchons un Expert Senior SAP PP/DS afin d'évaluer et de comparer des solutions d'ordonnancement détaillé et de contribuer au chiffrage projet associé.</p><p>Le client structure actuellement son architecture applicative Supply Chain cible. Kinaxis Maestro a été retenu pour la planification concurrente, tandis que SAP S/4HANA Core deviendra le master d'exécution. L'ordonnancement détaillé est aujourd'hui couvert par un ensemble d'outils APS/MES legacy, une solution éditeur tierce devant être décommissionnée, des développements SAP spécifiques et des fichiers Excel.</p><p>La mission consiste à évaluer la faisabilité de deux solutions concurrentes : SAP ePP/DS embarqué dans S/4HANA et le module Detailed Scheduling de Kinaxis Maestro. L'expert devra challenger et affiner la solution cible, sécuriser les hypothèses d'architecture et d'intégration, comparer les couvertures fonctionnelles et techniques, évaluer les risques et les efforts d'intégration, et contribuer au planning projet ainsi qu'au chiffrage de la phase d'implémentation.</p><p>La charge prévisionnelle est de 10 à 15 jours à temps partiel entre octobre et décembre 2026, avec une possibilité de poursuivre la mission lors de la phase d'implémentation entre février et avril 2027.</p>"
+        },
+        "requirements": {
+            "en": "<ul><li>Advanced and hands-on expertise in SAP PP/DS, particularly embedded ePP/DS in SAP S/4HANA</li><li>Several end-to-end SAP PP/DS project implementations, ideally including at least one S/4HANA project</li><li>Strong expertise in detailed scheduling within industrial environments</li><li>Proven experience with resource modeling, capacity constraints, sequencing, heuristics and optimization</li><li>Strong understanding of the planning-to-execution chain, from S&amp;OP and planning through detailed scheduling and MES</li><li>Good understanding of APS-to-ERP integration challenges and architecture considerations</li><li>Ability to assess solution feasibility, integration effort, risks and indicative TCO</li><li>Proven ability to produce project estimates and defend solution choices with IT departments and business sponsors</li><li>Strong senior consulting capabilities, including autonomy, workshop facilitation and steering committee presentations</li><li>Professional proficiency in both French and English</li><li>Availability to start in October 2026 and work on a part-time basis between October and December 2026</li></ul>",
+            "fr": "<ul><li>Expertise avancée et opérationnelle de SAP PP/DS, notamment de l'ePP/DS embarqué dans SAP S/4HANA</li><li>Plusieurs projets SAP PP/DS menés de bout en bout, dont idéalement au moins un projet S/4HANA</li><li>Solide expertise de l'ordonnancement détaillé en environnement industriel</li><li>Expérience confirmée en modélisation des ressources, gestion des contraintes de capacité, séquencement, heuristiques et optimisation</li><li>Bonne compréhension de la chaîne planification-exécution, de la S&amp;OP et de la planification jusqu'à l'ordonnancement détaillé et au MES</li><li>Bonne compréhension des enjeux d'intégration APS-ERP et des problématiques d'architecture associées</li><li>Capacité à évaluer la faisabilité d'une solution, les efforts d'intégration, les risques et le TCO indicatif</li><li>Expérience confirmée dans la production de chiffrages projet et la défense d'un choix de solution auprès d'une DSI et de sponsors métier</li><li>Posture de consultant senior : autonomie, animation d'ateliers et restitution en comité de pilotage</li><li>Français et anglais professionnels</li><li>Disponibilité pour démarrer en octobre 2026 et intervenir à temps partiel entre octobre et décembre 2026</li></ul>"
+        },
+        "benefits": {
+            "en": "Opportunity to contribute to a strategic S/4HANA Brownfield transformation for an international luxury player, assess the target detailed scheduling architecture, influence a key solution decision and potentially continue into the implementation phase in 2027.",
+            "fr": "Opportunité de contribuer à une transformation stratégique S/4HANA en approche Brownfield pour un acteur international du luxe, d'influencer un choix structurant d'architecture d'ordonnancement détaillé et de poursuivre potentiellement la mission lors de la phase d'implémentation en 2027."
+        },
+        "softSkills": {
+            "en": "<ul><li>Strong analytical and structured mindset</li><li>Senior consulting posture with strong autonomy</li><li>Ability to challenge existing assumptions and constructively defend recommendations</li><li>Excellent workshop facilitation and stakeholder communication skills</li><li>Ability to synthesize complex functional, technical and architectural topics</li><li>Strong presentation skills with IT and business executives</li></ul>",
+            "fr": "<ul><li>Esprit analytique, structuré et orienté résolution de problèmes</li><li>Posture de consultant senior et forte autonomie</li><li>Capacité à challenger les hypothèses existantes et à défendre ses recommandations de manière constructive</li><li>Excellentes capacités d'animation d'ateliers et de communication avec les parties prenantes</li><li>Capacité à synthétiser des problématiques fonctionnelles, techniques et d'architecture complexes</li><li>Excellentes aptitudes de présentation auprès de la DSI et des sponsors métier</li></ul>"
+        },
+        "nationalityRequired": "No",
+        "lastDateToApply": "2026-09-30",
+        "status": ""
+    },
+    {
         "jobId": "J07092026-01",
         "title": {
             "en": "SAP OTC Deployment Lead – S/4HANA",
@@ -61,7 +125,6 @@
         "lastDateToApply": "2026-10-15",
         "status": ""
     },
-    
     {
         "jobId": "J01092026-02",
         "title": {
