@@ -1,5 +1,70 @@
 [
     {
+        "jobId": "J14092026-01",
+        "title": {
+            "en": "Senior SAP PLM Data Migration Expert (AMOA / Project Delivery)",
+            "fr": "Expert Senior Migration de Données SAP PLM (AMOA / Maîtrise d’Œuvre)"
+        },
+        "type": {
+            "en": "Freelance",
+            "fr": "Freelance"
+        },
+        "salary": "",
+        "location": {
+            "en": "Corbeil, France",
+            "fr": "Corbeil, France"
+        },
+        "start": {
+            "en": "ASAP",
+            "fr": "Démarrage ASAP"
+        },
+        "mode": {
+            "en": "Hybrid (3 days onsite / 2 days remote – mandatory)",
+            "fr": "Hybride (3 jours sur site / 2 jours en télétravail – non négociable)"
+        },
+        "posted": {
+            "en": "September 14, 2026",
+            "fr": "14 septembre 2026"
+        },
+        "tags": [
+            "SAP PLM",
+            "SAP Data Migration",
+            "Data Migration",
+            "Technical Data",
+            "Articles / Materials",
+            "Routings",
+            "Bill of Materials",
+            "SAP DMC",
+            "Data Extraction",
+            "Data Transformation",
+            "Data Loading",
+            "Data Mapping",
+            "Cut-over",
+            "SAP Testing",
+            "Data Quality",
+            "Migration Cycles"
+        ],
+        "description": {
+            "en": "<p>As part of a SAP transformation program, we are looking for a Senior SAP PLM Data Migration Expert to support the migration and recovery of technical data within the Product Lifecycle Management (PLM) domain.</p><p>Acting in an AMOA / project delivery capacity, you will be responsible for the migration of technical data such as articles/materials, routings and bills of materials into SAP.</p><p>You will contribute throughout the migration lifecycle, from design and mapping workshops through development, testing, cut-over preparation and successive migration cycles, including MR1, MR2, Dry Run and final cut-over.</p><p>You will coordinate closely with business teams, the SAP integrator and technical stakeholders to ensure data extraction, transformation, loading, validation and issue resolution are properly managed.</p>",
+            "fr": "<p>Dans le cadre d’un programme de transformation SAP, nous recherchons un Expert Senior Migration de Données SAP PLM pour intervenir sur les activités de migration et de reprise des données techniques au sein du domaine Product Lifecycle Management (PLM).</p><p>Dans un rôle d’AMOA / Maîtrise d’Œuvre, vous serez responsable de la migration des données techniques telles que les articles, les gammes et les nomenclatures dans SAP.</p><p>Vous interviendrez sur l’ensemble du cycle de migration, depuis les ateliers de conception et de mapping jusqu’au développement, aux tests, à la préparation des bascules et aux différents cycles de migration, notamment MR1, MR2, Dry Run et Bascule finale.</p><p>Vous travaillerez en étroite collaboration avec les équipes métier, l’intégrateur SAP et les équipes techniques afin de garantir la bonne réalisation des activités d’extraction, de transformation, de chargement, de validation des données et de résolution des anomalies.</p>"
+        },
+        "requirements": {
+            "en": "<ul><li>Proven experience in SAP data migration projects, preferably within a PLM or technical data environment</li><li>Strong understanding of technical data objects such as materials/articles, routings and bills of materials</li><li>Experience participating in SAP design and data migration workshops</li><li>Solid knowledge of data mapping, extraction, transformation and loading processes</li><li>Experience with SAP Data Migration Cockpit (DMC) and/or specific SAP data loaders</li><li>Ability to define and validate migration rules and data transformation requirements</li><li>Experience testing extraction, conversion and SAP loading tools</li><li>Experience preparing and managing data collection files and mapping/transcoding tables in collaboration with business teams</li><li>Proven experience monitoring migration defects, coordinating corrective actions and managing associated planning</li><li>Experience defining and executing cut-over plans and migration runbooks</li><li>Hands-on ability to launch SAP loading programs based on predefined operating procedures</li><li>Experience validating migrated data in the target SAP system</li><li>Ability to identify data issues, raise bug or change requests and, when required, perform direct data corrections in SAP</li><li>Experience working across multiple migration cycles such as mock runs, dry runs and final cut-over</li></ul>",
+            "fr": "<ul><li>Expérience confirmée sur des projets de migration de données SAP, idéalement dans un environnement PLM ou de données techniques</li><li>Bonne compréhension des objets de données techniques tels que les articles, les gammes et les nomenclatures</li><li>Expérience dans la participation à des ateliers de conception et de migration SAP</li><li>Bonne maîtrise des processus de mapping, d’extraction, de transformation et de chargement des données</li><li>Expérience avec SAP Data Migration Cockpit (DMC) et/ou des loaders SAP spécifiques</li><li>Capacité à définir et valider les règles de migration et les besoins de transformation des données</li><li>Expérience dans la recette des outils d’extraction, de conversion et de chargement SAP</li><li>Expérience dans la préparation et le suivi des fiches de collecte et des tables de transcodification en collaboration avec le métier</li><li>Expérience confirmée dans le suivi des anomalies de migration, la coordination des corrections et la gestion du planning associé</li><li>Expérience dans la définition et le pilotage de plans de bascule et de modes opératoires de migration</li><li>Capacité à lancer des programmes de chargement dans SAP à partir de procédures préalablement définies</li><li>Expérience dans le contrôle et la validation des données migrées dans le système SAP cible</li><li>Capacité à identifier les problèmes de données, à émettre des tickets de bugs ou d’évolution et, si nécessaire, à effectuer directement des corrections dans SAP</li><li>Expérience sur plusieurs cycles de migration tels que les répétitions de bascule, Dry Run et Bascule finale</li></ul>"
+        },
+        "benefits": {
+            "en": "Opportunity to play a key role in a strategic SAP transformation program, taking ownership of critical PLM technical data migration activities from design through final cut-over, with strong exposure to business, integration and SAP delivery teams.",
+            "fr": "Opportunité de jouer un rôle clé au sein d’un programme stratégique de transformation SAP, avec la responsabilité d’activités critiques de migration des données techniques PLM, de la conception jusqu’à la bascule finale, en interaction étroite avec les équipes métier, intégrateur et SAP."
+        },
+        "softSkills": {
+            "en": "<ul><li>Strong analytical and problem-solving skills</li><li>Rigorous and structured approach to data and migration activities</li><li>Strong coordination and communication skills with business and technical stakeholders</li><li>Ability to challenge proposed solutions and drive decisions when required</li><li>High level of autonomy, ownership and accountability</li><li>Ability to remain effective under pressure during critical migration and cut-over phases</li><li>Strong attention to detail and commitment to data quality</li></ul>",
+            "fr": "<ul><li>Fortes capacités d’analyse et de résolution de problèmes</li><li>Approche rigoureuse et structurée des données et des activités de migration</li><li>Excellentes capacités de coordination et de communication avec les interlocuteurs métier et techniques</li><li>Capacité à challenger les solutions proposées et à faire arbitrer les décisions nécessaires</li><li>Grande autonomie, sens du ownership et des responsabilités</li><li>Capacité à rester efficace sous pression lors des phases critiques de migration et de bascule</li><li>Forte attention portée à la qualité et à la fiabilité des données</li></ul>"
+        },
+        "nationalityRequired": "No",
+        "lastDateToApply": "2026-09-30",
+        "status": ""
+    },
+    {
         "jobId": "J11092026-01",
         "title": {
             "en": "Senior SAP PP/DS Expert – Detailed Scheduling Assessment & Project Estimation",
