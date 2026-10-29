@@ -11,16 +11,16 @@
         },
         "salary": "",
         "location": {
-            "en": "",
-            "fr": ""
+            "en": "IDF, France",
+            "fr": "IDF, France"
         },
         "start": {
-            "en": "ASAP - Urgent",
-            "fr": "Démarrage au plus tôt - Urgent"
+            "en": "ASAP",
+            "fr": "Démarrage ASAP"
         },
         "mode": {
-            "en": "",
-            "fr": ""
+            "en": "Hybrid (3 days onsite / 2 days remote – mandatory)",
+            "fr": "Hybride (3 jours sur site / 2 jours en télétravail – non négociable)"
         },
         "posted": {
             "en": "October 29, 2026",
