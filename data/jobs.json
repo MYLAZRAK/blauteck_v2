@@ -1,5 +1,72 @@
 [
     {
+        "jobId": "J29102026-01",
+        "title": {
+            "en": "SAP PLM Data Migration Lead (Functional / Migration Strategy)",
+            "fr": "Pilote de Migration de Données SAP PLM (Stratégie / Fonctionnel)"
+        },
+        "type": {
+            "en": "Freelance",
+            "fr": "Freelance"
+        },
+        "salary": "",
+        "location": {
+            "en": "",
+            "fr": ""
+        },
+        "start": {
+            "en": "ASAP - Urgent",
+            "fr": "Démarrage au plus tôt - Urgent"
+        },
+        "mode": {
+            "en": "",
+            "fr": ""
+        },
+        "posted": {
+            "en": "October 29, 2026",
+            "fr": "29 octobre 2026"
+        },
+        "tags": [
+            "SAP PLM",
+            "SAP S/4HANA",
+            "PLM Data Migration",
+            "Migration Lead",
+            "Migration Strategy",
+            "Data Mapping",
+            "Functional Specifications",
+            "PLM Master Data",
+            "Quality Management",
+            "PLM Quality Integration",
+            "Data Transformation",
+            "Migration Rules",
+            "Functional Design",
+            "SAP Data Migration",
+            "Business Analysis",
+            "Migration Planning",
+            "Data Quality",
+            "Cross-Functional Coordination"
+        ],
+        "description": {
+            "en": "<p>We are urgently looking for a SAP PLM Data Migration Lead to strengthen an ongoing migration program. The need has already been validated by the client, and the selected consultant will contribute to an existing migration initiative that is already underway.</p><p>As the PLM Migration Lead, you will help define and drive the migration strategy for PLM master data, ensuring consistency between source and target systems and alignment with related Quality Management objects.</p><p>Your responsibilities will include data mapping, migration strategy definition, functional specifications, migration rule definition and coordination with business and technical stakeholders. You will work closely with the relevant teams to clarify requirements, identify dependencies and ensure that migration activities meet functional and data quality expectations.</p><p>The objective is to migrate PLM master data as early as possible while securing the links and consistency between PLM and Quality objects in the target SAP S/4HANA environment.</p>",
+            "fr": "<p>Dans le cadre d'un dispositif de migration déjà initié, nous recherchons en urgence un Pilote de Migration de Données SAP PLM afin de renforcer l'équipe en place. Le besoin a déjà été validé par le client et nécessite une intervention au plus tôt.</p><p>En tant que Pilote de Migration PLM, vous contribuerez à la définition et au pilotage de la stratégie de migration des objets référentiels PLM, en veillant à leur cohérence entre les systèmes source et cible ainsi qu'à leur articulation avec les objets du domaine Qualité.</p><p>Vos principales activités porteront sur le mapping des données, la définition de la stratégie de migration, la rédaction des spécifications fonctionnelles, la formalisation des règles de migration et la coordination avec les équipes métier et techniques. Vous interviendrez également dans l'analyse des besoins, l'identification des dépendances et la sécurisation de la qualité des données migrées.</p><p>L'objectif prioritaire est de migrer au plus tôt les objets référentiels PLM, tout en garantissant la cohérence et les liens avec les objets Qualité dans l'environnement SAP S/4HANA cible.</p>"
+        },
+        "requirements": {
+            "en": "<ul><li>Proven experience in SAP PLM projects, particularly in data migration or master data migration activities</li><li>Good knowledge of SAP S/4HANA and its PLM-related data structures and processes</li><li>Experience defining and executing data migration strategies</li><li>Strong skills in data mapping between source and target systems</li><li>Experience writing and reviewing functional specifications for migration requirements</li><li>Ability to identify, document and validate migration rules and data transformation requirements</li><li>Understanding of PLM master data objects and their dependencies</li><li>Knowledge of the relationships between PLM data and Quality Management objects</li><li>Ability to analyze data structures, identify inconsistencies and anticipate migration risks</li><li>Experience working with business stakeholders, functional experts and technical migration teams</li><li>Ability to contribute to migration planning, prioritization and execution monitoring</li><li>Experience validating migrated data against functional requirements and data quality standards</li><li>Ability to work effectively within an existing migration program and quickly become operational</li></ul>",
+            "fr": "<ul><li>Expérience confirmée sur des projets SAP PLM, notamment dans le cadre de migrations de données ou de référentiels</li><li>Bonne connaissance de SAP S/4HANA et des structures de données et processus associés au PLM</li><li>Expérience dans la définition et la mise en œuvre de stratégies de migration de données</li><li>Maîtrise du mapping des données entre les systèmes source et cible</li><li>Expérience dans la rédaction et la validation de spécifications fonctionnelles liées aux besoins de migration</li><li>Capacité à identifier, documenter et valider les règles de migration et les besoins de transformation des données</li><li>Bonne compréhension des objets référentiels PLM et de leurs dépendances</li><li>Connaissance des liens entre les données PLM et les objets du domaine Qualité</li><li>Capacité à analyser les structures de données, détecter les incohérences et anticiper les risques de migration</li><li>Expérience de collaboration avec les équipes métier, les experts fonctionnels et les équipes techniques de migration</li><li>Capacité à contribuer à la planification, à la priorisation et au suivi de l'exécution des migrations</li><li>Expérience dans la validation des données migrées au regard des exigences fonctionnelles et des critères de qualité</li><li>Capacité à s'intégrer rapidement dans un dispositif de migration existant et à devenir opérationnel dans des délais courts</li></ul>"
+        },
+        "benefits": {
+            "en": "Opportunity to join an already validated and ongoing SAP PLM migration program, with a key role in defining migration strategy, securing functional mapping and ensuring consistency between PLM master data and related Quality Management objects. Immediate start and direct contribution to a high-priority client need.",
+            "fr": "Opportunité d'intégrer un dispositif de migration SAP PLM déjà engagé et validé par le client, avec un rôle clé dans la définition de la stratégie de migration, la sécurisation du mapping fonctionnel et la cohérence entre les objets référentiels PLM et les objets Qualité. Démarrage urgent et contribution directe à un besoin prioritaire du client."
+        },
+        "softSkills": {
+            "en": "<ul><li>Strong analytical and problem-solving skills</li><li>Structured and rigorous approach to data mapping and functional specifications</li><li>Ability to understand complex functional dependencies between PLM and Quality domains</li><li>Strong communication and coordination skills across business and technical teams</li><li>Proactive approach to identifying risks, inconsistencies and migration blockers</li><li>High level of autonomy, accountability and ownership</li><li>Ability to prioritize tasks and deliver results under tight deadlines</li><li>Adaptability and rapid onboarding within an existing project environment</li></ul>",
+            "fr": "<ul><li>Fortes capacités d'analyse et de résolution de problèmes</li><li>Rigueur et méthodologie dans les activités de mapping et la rédaction des spécifications fonctionnelles</li><li>Capacité à comprendre les dépendances fonctionnelles entre les domaines PLM et Qualité</li><li>Excellentes capacités de communication et de coordination avec les équipes métier et techniques</li><li>Proactivité dans l'identification des risques, des incohérences et des points bloquants de migration</li><li>Autonomie, sens des responsabilités et engagement sur les résultats</li><li>Capacité à prioriser les activités et à respecter des délais contraints</li><li>Adaptabilité et intégration rapide dans un environnement projet existant</li></ul>"
+        },
+        "nationalityRequired": "No",
+        "lastDateToApply": "",
+        "status": "Urgent"
+    },
+    {
         "jobId": "J14092026-01",
         "title": {
             "en": "Senior SAP PLM Data Migration Expert (AMOA / Project Delivery)",
